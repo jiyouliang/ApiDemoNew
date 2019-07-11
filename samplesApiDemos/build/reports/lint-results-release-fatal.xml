@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint 3.3.2">
+
+    <issue
+        id="ResAuto"
+        severity="Fatal"
+        message="In Gradle projects, always use `http://schemas.android.com/apk/res-auto` for custom attributes"
+        category="Correctness"
+        priority="9"
+        summary="Hardcoded Package in Namespace"
+        explanation="In Gradle projects, the actual package used in the final APK can vary; for example,you can add a `.debug` package suffix in one version and not the other. Therefore, you should **not** hardcode the application package in the resource; instead, use the special namespace `http://schemas.android.com/apk/res-auto` which will cause the tools to figure out the right namespace for the resource regardless of the actual package used during the build."
+        errorLine1="        xmlns:app=&quot;http://schemas.android.com/apk/res/com.example.android.apis&quot;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/custom_layout.xml"
+            line="22"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="ResAuto"
+        severity="Fatal"
+        message="In Gradle projects, always use `http://schemas.android.com/apk/res-auto` for custom attributes"
+        category="Correctness"
+        priority="9"
+        summary="Hardcoded Package in Namespace"
+        explanation="In Gradle projects, the actual package used in the final APK can vary; for example,you can add a `.debug` package suffix in one version and not the other. Therefore, you should **not** hardcode the application package in the resource; instead, use the special namespace `http://schemas.android.com/apk/res-auto` which will cause the tools to figure out the right namespace for the resource regardless of the actual package used during the build."
+        errorLine1="        xmlns:app=&quot;http://schemas.android.com/apk/res/com.example.android.apis&quot;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/custom_view_1.xml"
+            line="20"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="ResAuto"
+        severity="Fatal"
+        message="In Gradle projects, always use `http://schemas.android.com/apk/res-auto` for custom attributes"
+        category="Correctness"
+        priority="9"
+        summary="Hardcoded Package in Namespace"
+        explanation="In Gradle projects, the actual package used in the final APK can vary; for example,you can add a `.debug` package suffix in one version and not the other. Therefore, you should **not** hardcode the application package in the resource; instead, use the special namespace `http://schemas.android.com/apk/res-auto` which will cause the tools to figure out the right namespace for the resource regardless of the actual package used during the build."
+        errorLine1="    xmlns:dot=&quot;http://schemas.android.com/apk/res/com.example.android.apis&quot;"
+        errorLine2="               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/drag_layout.xml"
+            line="20"
+            column="16"/>
+    </issue>
+
+    <issue
+        id="ResourceCycle"
+        severity="Fatal"
+        message="Style `Theme.Wallpaper` should not extend itself"
+        category="Correctness"
+        priority="8"
+        summary="Cycle in resource definitions"
+        explanation="There should be no cycles in resource definitions as this can lead to runtime exceptions."
+        errorLine1="    &lt;style name=&quot;Theme.Wallpaper&quot; parent=&quot;android:style/Theme.Wallpaper&quot;>"
+        errorLine2="                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/values/styles.xml"
+            line="75"
+            column="35"/>
+    </issue>
+
+    <issue
+        id="ResourceCycle"
+        severity="Fatal"
+        message="Style `Theme.Translucent` should not extend itself"
+        category="Correctness"
+        priority="8"
+        summary="Cycle in resource definitions"
+        explanation="There should be no cycles in resource definitions as this can lead to runtime exceptions."
+        errorLine1="    &lt;style name=&quot;Theme.Translucent&quot; parent=&quot;android:style/Theme.Translucent&quot;>"
+        errorLine2="                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/values/styles.xml"
+            line="82"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/d`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                    &lt;item android:id=&quot;@+id/d&quot;"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/menu/submenu.xml"
+            line="40"
+            column="27"/>
+        <location
+            file="/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/menu/submenu.xml"
+            line="38"
+            column="27"/>
+    </issue>
+
+</issues>

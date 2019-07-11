@@ -1,0 +1,23 @@
+#Internal package file, do not edit.
+#Mon Apr 29 16:32:04 CST 2019
+2.base=/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/merged_assets/release/mergeReleaseAssets/out
+0.path=classes.dex
+2.baseType=DIRECTORY
+3.base=/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/merged_assets/release/mergeReleaseAssets/out
+2.set=ASSET
+1.path=HelloActivity.apk
+4.base=/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/merged_assets/release/mergeReleaseAssets/out
+count=5
+2.path=read_asset.txt
+4.set=ASSET
+3.path=fonts/samplefont.ttx
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=fonts/samplefont.ttf
+1.baseType=DIRECTORY
+0.base=/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/dex/release/mergeDexRelease/out
+0.baseType=DIRECTORY
+3.set=ASSET
+1.base=/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/merged_assets/release/mergeReleaseAssets/out
+4.baseType=DIRECTORY
+0.set=DEX

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88FF0000"
+    tools:context=".mydemo.animation.PropertyAnimActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="为了更加贴近真实开发场景，控件中存在多层嵌套、边距"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:layout_marginTop="80dp">
+
+        <Button
+            android:id="@+id/btn_trans"
+            style="@style/BtnNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="移动到Button上面"
+            android:textAllCaps="false" />
+
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp"
+            android:text="计算边距用的占位控件" />
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_above="@id/tv"
+            android:layout_marginBottom="20dp"
+            android:background="#FF0000" />
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/values-v11/styles.xml",
+                    "from": {
+                        "startLines": "20,23,29,26",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "781,933,1278,1096",
+                        "endColumns": "62,75,68,92",
+                        "endOffsets": "839,1004,1342,1184"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "101,163,238,306",
+                        "endColumns": "61,74,67,91",
+                        "endOffsets": "158,233,301,393"
+                    }
+                },
+                {
+                    "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/values-v11/bools.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "742",
+                        "endColumns": "45",
+                        "endOffsets": "783"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    }
+                }
+            ]
+        }
+    ]
+}
