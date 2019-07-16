@@ -54,6 +54,8 @@ animator fragment_slide_left_enter
 animator fragment_slide_left_exit
 animator fragment_slide_right_enter
 animator fragment_slide_right_exit
+animator search_bar_animator
+animator search_line_animator
 animator square_animator
 array cheese_responses
 array clip_data_types
@@ -963,6 +965,8 @@ drawable screen_background_black
 drawable scrollbar_state2
 drawable scrollbar_vertical_thumb
 drawable scrollbar_vertical_track
+drawable search_bar_animated_vector
+drawable search_vector
 drawable shape_1
 drawable shape_2
 drawable shape_3
