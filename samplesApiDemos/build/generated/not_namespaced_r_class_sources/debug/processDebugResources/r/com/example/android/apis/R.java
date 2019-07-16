@@ -69,6 +69,7 @@ public final class R {
     public static final int search_bar_animator=0x7f020007;
     public static final int search_line_animator=0x7f020008;
     public static final int square_animator=0x7f020009;
+    public static final int star_animator=0x7f02000a;
   }
   public static final class array {
     public static final int cheese_responses=0x7f030000;
@@ -3871,20 +3872,22 @@ public final class R {
     public static final int smlnpatch240dpi=0x7f0800e0;
     public static final int square_animated_vector=0x7f0800e1;
     public static final int square_vector=0x7f0800e2;
-    public static final int star_big_on=0x7f0800e3;
-    public static final int stat_happy=0x7f0800e4;
-    public static final int stat_neutral=0x7f0800e5;
-    public static final int stat_sad=0x7f0800e6;
-    public static final int stat_sample=0x7f0800e7;
-    public static final int stylogo120dpi=0x7f0800e8;
-    public static final int stylogo160dpi=0x7f0800e9;
-    public static final int stylogo240dpi=0x7f0800ea;
-    public static final int tooltip_frame_dark=0x7f0800eb;
-    public static final int tooltip_frame_light=0x7f0800ec;
-    public static final int translucent_background=0x7f0800ed;
-    public static final int transparent_background=0x7f0800ee;
-    public static final int woot=0x7f0800ef;
-    public static final int yellow=0x7f0800f0;
+    public static final int star_animated_vector=0x7f0800e3;
+    public static final int star_big_on=0x7f0800e4;
+    public static final int star_vector=0x7f0800e5;
+    public static final int stat_happy=0x7f0800e6;
+    public static final int stat_neutral=0x7f0800e7;
+    public static final int stat_sad=0x7f0800e8;
+    public static final int stat_sample=0x7f0800e9;
+    public static final int stylogo120dpi=0x7f0800ea;
+    public static final int stylogo160dpi=0x7f0800eb;
+    public static final int stylogo240dpi=0x7f0800ec;
+    public static final int tooltip_frame_dark=0x7f0800ed;
+    public static final int tooltip_frame_light=0x7f0800ee;
+    public static final int translucent_background=0x7f0800ef;
+    public static final int transparent_background=0x7f0800f0;
+    public static final int woot=0x7f0800f1;
+    public static final int yellow=0x7f0800f2;
   }
   public static final class id {
     public static final int ALT=0x7f090000;

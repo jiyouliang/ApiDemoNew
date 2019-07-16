@@ -57,6 +57,7 @@ animator fragment_slide_right_exit
 animator search_bar_animator
 animator search_line_animator
 animator square_animator
+animator star_animator
 array cheese_responses
 array clip_data_types
 array colors
@@ -978,7 +979,9 @@ drawable smlnpatch160dpi
 drawable smlnpatch240dpi
 drawable square_animated_vector
 drawable square_vector
+drawable star_animated_vector
 drawable star_big_on
+drawable star_vector
 drawable stat_happy
 drawable stat_neutral
 drawable stat_sad

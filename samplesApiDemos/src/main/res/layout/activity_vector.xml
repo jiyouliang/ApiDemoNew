@@ -17,16 +17,16 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
             android:layout_gravity="center_vertical"
             android:gravity="center_vertical"
-            android:text="左右移动" />
+            android:text="左右移动"
+            android:textSize="18sp" />
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_marginLeft="10dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/arrow_animated_vector"
             android:onClick="anim" />
     </LinearLayout>
@@ -40,17 +40,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
             android:layout_gravity="center_vertical"
             android:gravity="center_vertical"
-            android:text="颜色改变" />
+            android:text="颜色改变"
+            android:textSize="18sp" />
 
         <ImageView
 
             android:layout_width="wrap_content"
-            android:layout_marginLeft="10dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/square_animated_vector"
             android:onClick="anim" />
     </LinearLayout>
@@ -58,17 +58,17 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
         android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
             android:layout_gravity="center_vertical"
             android:gravity="center_vertical"
-            android:text="轨迹动画" />
+            android:text="轨迹动画"
+            android:textSize="18sp" />
 
         <ImageView
 
@@ -77,6 +77,29 @@
             android:layout_gravity="center_vertical"
             android:background="@drawable/search_bar_animated_vector"
             android:onClick="anim" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="路径变换"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:onClick="anim2"
+            app:background="@drawable/star_vector" />
     </LinearLayout>
 
 </LinearLayout>
