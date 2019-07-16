@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-3928:12
-INJECTED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-3928:12
+ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-3955:12
+INJECTED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-3955:12
 MERGED from [com.android.support:design:27.1.1] /home/jiyouliang/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/550a2e0d3998eb0d13de72a9600081dc/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.1.1] /home/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/5df63e166a39fc4995ab3b12298b2c1c/AndroidManifest.xml:17:1-22:12
@@ -19,7 +19,7 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/jiyouliang/.gradle/cach
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/jiyouliang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/62d37ef86fbc3e547d2ae5185f189a0c/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/jiyouliang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/613f6f4dc5a4e03900a10e2ebdabdd0e/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /home/jiyouliang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d57d2b8f3f79a245bb59b02d16bbf7c4/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-3928:12
+INJECTED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-3955:12
 	package
 		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml
@@ -139,7 +139,7 @@ ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main
 	android:name
 		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:41:9-55
 application
-ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:45:5-3926:19
+ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:45:5-3953:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jiyouliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ce094e49fc8f5fe5c8442cbc910640a2/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jiyouliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ce094e49fc8f5fe5c8442cbc910640a2/AndroidManifest.xml:9:5-20
 	android:supportsRtl
@@ -3206,6 +3206,24 @@ ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main
 		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:3919:13-39
 	android:name
 		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:3918:13-61
+activity#com.example.android.apis.mydemo.http.OkHttpAsyncActivity
+ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:3926:9-3934:20
+	android:label
+		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:3928:13-46
+	android:name
+		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:3927:13-60
+activity#com.example.android.apis.mydemo.app.KeystoreSignInfoActivity
+ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:3935:9-3943:20
+	android:label
+		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:3937:13-50
+	android:name
+		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:3936:13-64
+activity#com.example.android.apis.mydemo.vector.VectorActivity
+ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:3944:9-3952:20
+	android:label
+		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:3946:13-58
+	android:name
+		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:3945:13-57
 uses-sdk
 INJECTED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml

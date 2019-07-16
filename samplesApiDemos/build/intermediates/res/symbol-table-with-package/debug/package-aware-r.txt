@@ -47,11 +47,14 @@ anim value_animator_pvh_kf
 anim wave_scale
 anim zoom_enter
 anim zoom_exit
+animator arrow_left_animator
+animator arrow_right_animator
 animator design_appbar_state_list_animator
 animator fragment_slide_left_enter
 animator fragment_slide_left_exit
 animator fragment_slide_right_enter
 animator fragment_slide_right_exit
+animator square_animator
 array cheese_responses
 array clip_data_types
 array colors
@@ -839,8 +842,10 @@ drawable alert_dialog_icon
 drawable animated_gif
 drawable apidemo_androidlogo
 drawable app_sample_code
+drawable arrow_animated_vector
 drawable arrow_down_float
 drawable arrow_up_float
+drawable arrow_vector
 drawable avd_hide_password
 drawable avd_show_password
 drawable ball
@@ -886,6 +891,7 @@ drawable green
 drawable hover_background
 drawable hover_background_active
 drawable hover_background_inactive
+drawable ic_compare_arrows_black_24dp
 drawable ic_contact_picture
 drawable ic_launcher_settings
 drawable ic_launcher_test
@@ -966,6 +972,8 @@ drawable smile
 drawable smlnpatch120dpi
 drawable smlnpatch160dpi
 drawable smlnpatch240dpi
+drawable square_animated_vector
+drawable square_vector
 drawable star_big_on
 drawable stat_happy
 drawable stat_neutral
@@ -1769,6 +1777,7 @@ id transition_transform
 id translationX
 id translationY
 id tv
+id tv_content
 id tv_more
 id tv_title
 id two_buttons
@@ -1876,12 +1885,15 @@ layout activity_animation
 layout activity_bottom_sheet
 layout activity_device_id
 layout activity_finish_affinity
+layout activity_keystore_sign_info
 layout activity_location_provider
 layout activity_navigation_bar
+layout activity_ok_http_async
 layout activity_ok_http_post
 layout activity_property_anim
 layout activity_recreate
 layout activity_thread_pool
+layout activity_vector
 layout alarm_controller
 layout alarm_service
 layout alert_dialog
