@@ -1023,12 +1023,15 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_red
+id action_reset
 id action_search
 id action_share
 id action_sort
 id action_sort_alpha
 id action_sort_size
 id action_text
+id action_yellow
 id actions
 id activity_chooser_view_content
 id add
@@ -1474,6 +1477,7 @@ id one_shot
 id one_shot_while_idle
 id orientation
 id packed
+id paintView
 id parallax
 id parent
 id parentPanel
@@ -1900,6 +1904,8 @@ layout activity_location_provider
 layout activity_navigation_bar
 layout activity_ok_http_async
 layout activity_ok_http_post
+layout activity_path_paint_board
+layout activity_path_tranform_bezier
 layout activity_property_anim
 layout activity_recreate
 layout activity_thread_pool
@@ -2228,6 +2234,7 @@ menu display_options_actions
 menu groups
 menu list_select_menu
 menu order
+menu paint_board_activity_menu
 menu popup
 menu presentation_with_media_router_menu
 menu print_custom_content

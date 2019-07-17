@@ -3967,6 +3967,24 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.vector.PathTranformBezierActivity"
+            android:label="MyDemo/贝塞尔曲线实现路径变换" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.vector.PathPaintBoardActivity"
+            android:label="MyDemo/贝塞尔曲线实现绘画板(平滑路径)" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
 
         <provider
             android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"

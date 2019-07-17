@@ -17,7 +17,7 @@ import android.view.View;
  */
 public class ThindBezierView extends View {
 
-    private static final String TAG = "SecondBezierView";
+    private static final String TAG = "ThindBezierView";
     private static final boolean DEBUG = true;
 
     //贝塞尔起点和终点坐标
