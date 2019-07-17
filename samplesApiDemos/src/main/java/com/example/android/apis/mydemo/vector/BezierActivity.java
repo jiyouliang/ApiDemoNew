@@ -60,7 +60,14 @@ public class BezierActivity extends Activity {
         mContainer.addView(bezierView);
     }
 
+    /**
+     * 三阶贝塞尔曲线
+     */
     private void showThirdBezier() {
-
+        mContainer.removeAllViews();
+        ThindBezierView bezierView = new ThindBezierView(this);
+        ViewGroup.LayoutParams lp = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+        bezierView.setLayoutParams(lp);
+        mContainer.addView(bezierView);
     }
 }

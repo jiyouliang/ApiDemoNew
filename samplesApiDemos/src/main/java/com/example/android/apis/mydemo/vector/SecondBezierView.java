@@ -2,12 +2,14 @@ package com.example.android.apis.mydemo.vector;
 
 import android.content.Context;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.FocusFinder;
+import android.view.MotionEvent;
 import android.view.View;
 
 /**
@@ -31,6 +33,11 @@ public class SecondBezierView extends View {
 
     private Path mPath;
     private Paint mPaintBezier;
+    //绘制文字
+    private Paint mPaintText;
+
+    private Paint mPaintPoint;
+    private Paint mPaintFlag;
 
 
     public SecondBezierView(Context context) {
@@ -48,6 +55,23 @@ public class SecondBezierView extends View {
 //        mPaintBezier.setStrokeCap(Paint.Cap.ROUND);
         mPaintBezier.setStrokeWidth(8);
         mPaintBezier.setStyle(Paint.Style.STROKE); //实线
+
+        mPaintText = new Paint(Paint.ANTI_ALIAS_FLAG);
+        mPaintText.setStrokeWidth(2);
+        //文字大小
+        mPaintText.setTextSize(26);
+        mPaintText.setStyle(Paint.Style.STROKE);
+
+        //圆点
+        mPaintPoint = new Paint(Paint.ANTI_ALIAS_FLAG);
+        mPaintPoint.setStrokeWidth(12);
+        mPaintPoint.setStyle(Paint.Style.STROKE);
+        mPaintPoint.setColor(Color.RED);
+
+
+        mPaintFlag = new Paint(Paint.ANTI_ALIAS_FLAG);
+        mPaintFlag.setStrokeWidth(2);
+        mPaintFlag.setStyle(Paint.Style.STROKE);
     }
 
     @Override
@@ -82,7 +106,35 @@ public class SecondBezierView extends View {
         //参数：控制点、终点
         mPath.quadTo(mFlagPointX, mFlagPointY, mEndPointX, mEndPointY);
 
+        //绘制圆点
+        canvas.drawPoint(mStartPointX, mStartPointY, mPaintPoint);
+        canvas.drawPoint(mFlagPointX, mFlagPointY, mPaintPoint);
+        canvas.drawPoint(mEndPointX, mEndPointY, mPaintPoint);
+
+        //绘制文字
+        canvas.drawText("起点", mStartPointX-60, mStartPointY, mPaintText);
+        canvas.drawText("控制点", mFlagPointX, mFlagPointY, mPaintText);
+        canvas.drawText("终点", mEndPointX+30, mEndPointY, mPaintText);
+
+        //绘制辅助线
+        canvas.drawLine(mStartPointX, mStartPointY, mFlagPointX, mFlagPointY, mPaintFlag);
+        canvas.drawLine(mFlagPointX, mFlagPointY, mEndPointX, mEndPointY, mPaintFlag);
+
         canvas.drawPath(mPath, mPaintBezier);
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        switch (event.getAction()){
+            case MotionEvent.ACTION_MOVE:
+                //控制台跟随手指移动
+                mFlagPointX = event.getX();
+                mFlagPointY = event.getY();
+                //刷新重绘，会重新调用onDraw方法
+                invalidate();
+                break;
+        }
+        return true;
     }
 
     private void log(String msg) {
