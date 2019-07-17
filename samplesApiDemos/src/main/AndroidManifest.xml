@@ -3943,7 +3943,16 @@
         </activity>
         <activity
             android:name=".mydemo.vector.VectorActivity"
-            android:label="Animation/VectorDrawable矢量图动画">
+            android:label="MyDemo/VectorDrawable矢量图动画">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mydemo.vector.BezierActivity"
+            android:label="MyDemo/贝塞尔曲线">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

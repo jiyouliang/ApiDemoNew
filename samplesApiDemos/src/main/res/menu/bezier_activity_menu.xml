@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/second_bezier"
+        android:title="二阶贝塞尔曲线"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/third_bezier"
+        android:title="三阶贝塞尔曲线"
+        app:showAsAction="never" />
+</menu>

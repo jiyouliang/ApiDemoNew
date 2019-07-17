@@ -33,4 +33,5 @@ dependencies {
     implementation 'com.android.support:design:27.1.1'
     implementation("com.squareup.okhttp3:okhttp:4.0.0")
     implementation 'com.alibaba:fastjson:1.1.71.android'
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
 }

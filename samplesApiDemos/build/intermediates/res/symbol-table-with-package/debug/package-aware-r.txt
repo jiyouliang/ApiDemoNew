@@ -1054,6 +1054,7 @@ id badge
 id ball
 id barrier
 id beginning
+id bezier
 id bind
 id bind1
 id bind2
@@ -1619,6 +1620,7 @@ id search_plate
 id search_src_text
 id search_view
 id search_voice_btn
+id second_bezier
 id second_item
 id secure_view_builtin_secure_button
 id secure_view_custom_secure_button
@@ -1750,6 +1752,7 @@ id text_selectable
 id text_small
 id textinput_counter
 id textinput_error
+id third_bezier
 id third_item
 id thumbnail
 id tilt_check
@@ -1934,6 +1937,8 @@ layout baseline_7
 layout baseline_nested_1
 layout baseline_nested_2
 layout baseline_nested_3
+layout bezier_activity
+layout bezier_fragment
 layout bouncing_balls
 layout buttons_1
 layout chronometer
@@ -2213,6 +2218,7 @@ layout window_focus_observer
 menu action_bar_settings_action_provider
 menu action_bar_share_action_provider
 menu actions
+menu bezier_activity_menu
 menu camera_menu
 menu category_order
 menu checkable
