@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingTop="20dp"
-    tools:context=".mydemo.vector.VectorActivity">
+    tools:context=".mydemo.vectordrawable.VectorActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"

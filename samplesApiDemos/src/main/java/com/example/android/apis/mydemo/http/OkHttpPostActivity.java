@@ -86,7 +86,7 @@ public class OkHttpPostActivity extends Activity implements View.OnClickListener
                         RequestBody requestBody = RequestBody.create(MediaType.parse("application/json; charset=utf-8")
                                 , json.toJSONString());
                         Request request = new Request.Builder()
-                                .url("http://10.0.3.2:8000/fmap/sms/sendSms")//请求的url,10.0.3.2为genymotion访问本地服务器ip
+                                .url("http://47.106.182.74:8000/fmap/sms/sendSms")//请求的url,10.0.3.2为genymotion访问本地服务器ip
                                 .post(requestBody)
                                 .build();
 

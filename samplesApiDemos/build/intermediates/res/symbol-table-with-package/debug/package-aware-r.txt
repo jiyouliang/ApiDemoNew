@@ -1834,6 +1834,7 @@ id violet
 id vis
 id visible
 id visible_item
+id wave_view
 id web_view
 id windowActionMode
 id windowFullscreen
@@ -1896,6 +1897,7 @@ layout action_bar_settings_action_provider
 layout action_bar_tab_content
 layout action_bar_tabs
 layout activity_animation
+layout activity_bezier_wave
 layout activity_bottom_sheet
 layout activity_device_id
 layout activity_finish_affinity
@@ -2887,6 +2889,20 @@ string monkey_wipe_data
 string msg_launcher_shortcuts
 string msg_search
 string msg_search_results
+string mydemo_bezier
+string mydemo_bezier_paint_board
+string mydemo_bezier_path_transform
+string mydemo_bezier_wave
+string mydemo_bottom_sheet
+string mydemo_device_id
+string mydemo_keystore_signature
+string mydemo_loation_provider
+string mydemo_navigation_bar
+string mydemo_okhttp_async
+string mydemo_okhttp_post
+string mydemo_property_animation
+string mydemo_thread_pool
+string mydemo_vector_drawable
 string new_fragment
 string new_text
 string no_saves_state

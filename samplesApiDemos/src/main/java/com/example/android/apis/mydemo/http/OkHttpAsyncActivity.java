@@ -37,7 +37,7 @@ public class OkHttpAsyncActivity extends Activity implements View.OnClickListene
     private MyHandler mHandler;
     private ProgressDialog mDialog;
     private static final String TAG = "OkHttpAsyncActivity";
-    private static final String url = "http://192.168.0.109:8000/fmap/test/testInterface";
+    private static final String url = "http://47.106.182.74:8000/fmap/test/testInterface";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

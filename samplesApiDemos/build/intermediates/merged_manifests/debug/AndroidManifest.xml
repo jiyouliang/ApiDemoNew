@@ -3869,7 +3869,7 @@
         <!-- service sample -->
         <activity
             android:name="com.example.android.apis.mydemo.service.LocationProviderActivity"
-            android:label="Service/LocationProvider(判定当前定位服务类型:网络、GSP)" >
+            android:label="@string/mydemo_loation_provider" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -3878,7 +3878,7 @@
         </activity>
         <activity
             android:name="com.example.android.apis.mydemo.views.BottomSheetActivity"
-            android:label="Views/BottomSheet(底部操作控件)" >
+            android:label="@string/mydemo_bottom_sheet" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -3887,7 +3887,7 @@
         </activity>
         <activity
             android:name="com.example.android.apis.mydemo.app.NavigationBarActivity"
-            android:label="App/虚拟键盘(适用全面屏-非全面屏)" >
+            android:label="@string/mydemo_navigation_bar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -3896,7 +3896,7 @@
         </activity>
         <activity
             android:name="com.example.android.apis.mydemo.animation.PropertyAnimActivity"
-            android:label="Animation/属性动画(位移)" >
+            android:label="@string/mydemo_property_animation" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -3905,7 +3905,7 @@
         </activity>
         <activity
             android:name="com.example.android.apis.mydemo.http.OkHttpPostActivity"
-            android:label="MyDemo/OkHttp post提交json数据" >
+            android:label="@string/mydemo_okhttp_post" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -3914,7 +3914,7 @@
         </activity>
         <activity
             android:name="com.example.android.apis.mydemo.app.DeviceIdActivity"
-            android:label="App/获取设备id：DeviceId" >
+            android:label="@string/mydemo_device_id" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -3923,7 +3923,7 @@
         </activity>
         <activity
             android:name="com.example.android.apis.mydemo.thread.ThreadPoolActivity"
-            android:label="MyDemo/线程池" >
+            android:label="@string/mydemo_thread_pool" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -3932,7 +3932,7 @@
         </activity>
         <activity
             android:name="com.example.android.apis.mydemo.http.OkHttpAsyncActivity"
-            android:label="MyDemo/OkHttp异步请求" >
+            android:label="@string/mydemo_okhttp_async" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -3941,7 +3941,7 @@
         </activity>
         <activity
             android:name="com.example.android.apis.mydemo.app.KeystoreSignInfoActivity"
-            android:label="MyDemo/获取keystore签名信息" >
+            android:label="@string/mydemo_keystore_signature" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -3949,8 +3949,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android.apis.mydemo.vector.VectorActivity"
-            android:label="MyDemo/VectorDrawable矢量图动画" >
+            android:name="com.example.android.apis.mydemo.vectordrawable.VectorActivity"
+            android:label="@string/mydemo_vector_drawable" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -3958,8 +3958,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android.apis.mydemo.vector.BezierActivity"
-            android:label="MyDemo/贝塞尔曲线" >
+            android:name="com.example.android.apis.mydemo.vectordrawable.BezierActivity"
+            android:label="@string/mydemo_bezier" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -3967,8 +3967,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android.apis.mydemo.vector.PathTranformBezierActivity"
-            android:label="MyDemo/贝塞尔曲线实现路径变换" >
+            android:name="com.example.android.apis.mydemo.vectordrawable.PathTranformBezierActivity"
+            android:label="@string/mydemo_bezier_path_transform" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -3976,8 +3976,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android.apis.mydemo.vector.PathPaintBoardActivity"
-            android:label="MyDemo/贝塞尔曲线实现绘画板(平滑路径)" >
+            android:name="com.example.android.apis.mydemo.vectordrawable.PathPaintBoardActivity"
+            android:label="@string/mydemo_bezier_paint_board" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.vectordrawable.BezierWaveActivity"
+            android:label="@string/mydemo_bezier_wave" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

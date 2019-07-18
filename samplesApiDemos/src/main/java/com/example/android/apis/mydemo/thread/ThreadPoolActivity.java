@@ -42,7 +42,7 @@ public class ThreadPoolActivity extends Activity implements View.OnClickListener
             .readTimeout(20, TimeUnit.SECONDS).build();
 
     private static final Request request = new Request.Builder()
-            .url("http://10.0.3.2:8000/fmap/test/testInterface")//请求的url,10.0.3.2为genymotion访问本地服务器ip
+            .url("http://47.106.182.74:8000/fmap/test/testInterface")//请求的url,10.0.3.2为genymotion访问本地服务器ip
             .get()
             .build();
 

@@ -1683,4 +1683,20 @@
     <string name="process_text_no_text_process_intent_received">Try selecting some text in another app and find this app\'s name in the list of options for its selection menu.</string>
     <string name="process_text_send_title">Select text to process</string>
     <string name="process_text_send_description">Select a piece of text from this box to trigger the text selection action mode. In there, you will find \"ApiDemos\". That is because this app declares it can handle text processing intents. Try selecting that action to send the selected text to that activity and retrieve processed text back.</string>
+
+    <!--MyDemo-->
+    <string name="mydemo_loation_provider">Service/LocationProvider(判定当前定位服务类型:网络、GSP)</string>
+    <string name="mydemo_bottom_sheet">Views/BottomSheet(底部操作控件)</string>
+    <string name="mydemo_navigation_bar">App/虚拟键盘(适用全面屏-非全面屏)</string>
+    <string name="mydemo_property_animation">Animation/属性动画(位移)</string>
+    <string name="mydemo_okhttp_post">MyDemo/OkHttp post提交json数据</string>
+    <string name="mydemo_device_id">App/获取设备id：DeviceId</string>
+    <string name="mydemo_thread_pool">MyDemo/线程池</string>
+    <string name="mydemo_okhttp_async">MyDemo/OkHttp异步请求</string>
+    <string name="mydemo_keystore_signature">MyDemo/获取keystore签名信息</string>
+    <string name="mydemo_vector_drawable">MyDemo/1.VectorDrawable矢量图动画</string>
+    <string name="mydemo_bezier">MyDemo/2.贝塞尔曲线(二阶、三阶)</string>
+    <string name="mydemo_bezier_path_transform">MyDemo/3.贝塞尔曲线实现路径变换</string>
+    <string name="mydemo_bezier_paint_board">MyDemo/4.贝塞尔曲线实现绘画板(平滑路径)</string>
+    <string name="mydemo_bezier_wave">MyDemo/5.贝塞尔曲线实现波浪效果</string>
 </resources>
