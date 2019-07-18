@@ -3977,8 +3977,18 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-        <activity android:name=".mydemo.vectordrawable.BezierWaveActivity"
+        <activity
+            android:name=".mydemo.vectordrawable.BezierWaveActivity"
             android:label="@string/mydemo_bezier_wave">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mydemo.vectordrawable.BezierAddCartActivity"
+            android:label="@string/mydemo_bezier_add_cart">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

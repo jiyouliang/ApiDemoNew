@@ -1699,4 +1699,5 @@
     <string name="mydemo_bezier_path_transform">MyDemo/3.贝塞尔曲线实现路径变换</string>
     <string name="mydemo_bezier_paint_board">MyDemo/4.贝塞尔曲线实现绘画板(平滑路径)</string>
     <string name="mydemo_bezier_wave">MyDemo/5.贝塞尔曲线实现波浪效果</string>
+    <string name="mydemo_bezier_add_cart">MyDemo/6.贝塞尔曲线实现添加购物车效果</string>
 </resources>
