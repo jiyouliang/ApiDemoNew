@@ -75,48 +75,42 @@ public class BezierWaveView extends View {
         mPath.moveTo(mStartX, mStartY);
         //绘制完整波浪线
         for (int i = 0; i < mWaveCount; i++) {
+            mFlagX = mStartX + mWaveLength / 2 + mWaveLength * 2 * i;
+            mFlagY = mStartY + mFlagHeight;
+            mEndX = mWaveLength + mWaveLength * 2 * i;
+            mPath.quadTo(mFlagX, mFlagY, mEndX, mEndY);
 
+            mFlagX = mStartX + mWaveLength / 2 + mWaveLength + mWaveLength * 2 * i;
+            mFlagY = mStartY - mFlagHeight;
+            mEndX = mWaveLength + mWaveLength + mWaveLength * 2 * i;
+            mPath.quadTo(mFlagX, mFlagY, mEndX, mEndY);
         }
 
-        // i = 0
-        mFlagX = mStartX + mWaveLength / 2;
-        mFlagY = mStartY + mFlagHeight;
-        mEndX = mWaveLength;
-        mPath.quadTo(mFlagX, mFlagY, mEndX, mEndY);
-
-        mFlagX = mStartX + mWaveLength / 2 + mWaveLength;
-        mFlagY = mStartY - mFlagHeight;
-        mEndX = mWaveLength + mWaveLength;
-        mPath.quadTo(mFlagX, mFlagY, mEndX, mEndY);
-
-        //----------------------
-        // i = 1
-        mFlagX = mStartX + mWaveLength / 2 + mWaveLength * 2;
-        mFlagY = mStartY + mFlagHeight;
-        mEndX = mWaveLength + mWaveLength * 2;
-        mPath.quadTo(mFlagX, mFlagY, mEndX, mEndY);
-
-        mFlagX = mStartX + mWaveLength / 2 + mWaveLength + mWaveLength * 2;
-        mFlagY = mStartY - mFlagHeight;
-        mEndX = mWaveLength + mWaveLength + mWaveLength * 2;
-        mPath.quadTo(mFlagX, mFlagY, mEndX, mEndY);
-
-        // i = 2
-        mFlagX = mStartX + mWaveLength / 2 + mWaveLength * 4;
-        mFlagY = mStartY + mFlagHeight;
-        mEndX = mWaveLength + mWaveLength * 2 + mWaveLength * 2;
-        mPath.quadTo(mFlagX, mFlagY, mEndX, mEndY);
-
-
-        mFlagX = mStartX + mWaveLength / 2 + mWaveLength + mWaveLength * 2 + mWaveLength * 2;
-        mFlagY = mStartY - mFlagHeight;
-        mEndX = mWaveLength + mWaveLength + mWaveLength * 2 + mWaveLength * 2;
-        mPath.quadTo(mFlagX, mFlagY, mEndX, mEndY);
 
 
 
-
-
+//        // i = 1
+//        mFlagX = mStartX + mWaveLength / 2 + mWaveLength * 2;
+//        mFlagY = mStartY + mFlagHeight;
+//        mEndX = mWaveLength + mWaveLength * 2;
+//        mPath.quadTo(mFlagX, mFlagY, mEndX, mEndY);
+//
+//        mFlagX = mStartX + mWaveLength / 2 + mWaveLength + mWaveLength * 2;
+//        mFlagY = mStartY - mFlagHeight;
+//        mEndX = mWaveLength + mWaveLength + mWaveLength * 2;
+//        mPath.quadTo(mFlagX, mFlagY, mEndX, mEndY);
+//
+//        // i = 2
+//        mFlagX = mStartX + mWaveLength / 2 + mWaveLength * 4;
+//        mFlagY = mStartY + mFlagHeight;
+//        mEndX = mWaveLength + mWaveLength * 2 + mWaveLength * 2;
+//        mPath.quadTo(mFlagX, mFlagY, mEndX, mEndY);
+//
+//
+//        mFlagX = mStartX + mWaveLength / 2 + mWaveLength + mWaveLength * 2 + mWaveLength * 2;
+//        mFlagY = mStartY - mFlagHeight;
+//        mEndX = mWaveLength + mWaveLength + mWaveLength * 2 + mWaveLength * 2;
+//        mPath.quadTo(mFlagX, mFlagY, mEndX, mEndY);
 
 
         canvas.drawPath(mPath, mPaint);
