@@ -19,6 +19,9 @@ public class BezierWaveView extends View {
     //起点
     private float mStartX;
     private float mStartY;
+    //终点
+    private float mEndX;
+    private float mEndY;
     //控制点
     private float mFlagX;
     private float mFlagY;
@@ -54,6 +57,7 @@ public class BezierWaveView extends View {
         //起点y轴在屏幕中线
         mStartX = 0;
         mStartY = h / 2;
+        mEndY = mStartY;
 
         mWaveLength = 100;
         //四舍五入
@@ -69,8 +73,51 @@ public class BezierWaveView extends View {
         //绘制波浪线
         mPath.reset();
         mPath.moveTo(mStartX, mStartY);
-        mPath.quadTo(mStartX + mFlagHeight, mStartY + mFlagHeight, mWaveLength, mStartY);
-        mPath.quadTo((float) (mStartX + mWaveLength * 1.5), mStartY - mFlagHeight, 2 * mWaveLength, mStartY);
+        //绘制完整波浪线
+        for (int i = 0; i < mWaveCount; i++) {
+
+        }
+
+        // i = 0
+        mFlagX = mStartX + mWaveLength / 2;
+        mFlagY = mStartY + mFlagHeight;
+        mEndX = mWaveLength;
+        mPath.quadTo(mFlagX, mFlagY, mEndX, mEndY);
+
+        mFlagX = mStartX + mWaveLength / 2 + mWaveLength;
+        mFlagY = mStartY - mFlagHeight;
+        mEndX = mWaveLength + mWaveLength;
+        mPath.quadTo(mFlagX, mFlagY, mEndX, mEndY);
+
+        //----------------------
+        // i = 1
+        mFlagX = mStartX + mWaveLength / 2 + mWaveLength * 2;
+        mFlagY = mStartY + mFlagHeight;
+        mEndX = mWaveLength + mWaveLength * 2;
+        mPath.quadTo(mFlagX, mFlagY, mEndX, mEndY);
+
+        mFlagX = mStartX + mWaveLength / 2 + mWaveLength + mWaveLength * 2;
+        mFlagY = mStartY - mFlagHeight;
+        mEndX = mWaveLength + mWaveLength + mWaveLength * 2;
+        mPath.quadTo(mFlagX, mFlagY, mEndX, mEndY);
+
+        // i = 2
+        mFlagX = mStartX + mWaveLength / 2 + mWaveLength * 4;
+        mFlagY = mStartY + mFlagHeight;
+        mEndX = mWaveLength + mWaveLength * 2 + mWaveLength * 2;
+        mPath.quadTo(mFlagX, mFlagY, mEndX, mEndY);
+
+
+        mFlagX = mStartX + mWaveLength / 2 + mWaveLength + mWaveLength * 2 + mWaveLength * 2;
+        mFlagY = mStartY - mFlagHeight;
+        mEndX = mWaveLength + mWaveLength + mWaveLength * 2 + mWaveLength * 2;
+        mPath.quadTo(mFlagX, mFlagY, mEndX, mEndY);
+
+
+
+
+
+
 
         canvas.drawPath(mPath, mPaint);
 
