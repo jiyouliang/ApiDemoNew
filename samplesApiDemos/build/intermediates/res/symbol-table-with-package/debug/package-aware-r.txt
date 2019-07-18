@@ -1898,6 +1898,7 @@ layout action_bar_tab_content
 layout action_bar_tabs
 layout activity_animation
 layout activity_bezier_add_cart
+layout activity_bezier_loading
 layout activity_bezier_wave
 layout activity_bottom_sheet
 layout activity_device_id
@@ -2892,6 +2893,7 @@ string msg_search
 string msg_search_results
 string mydemo_bezier
 string mydemo_bezier_add_cart
+string mydemo_bezier_loading
 string mydemo_bezier_paint_board
 string mydemo_bezier_path_transform
 string mydemo_bezier_wave
