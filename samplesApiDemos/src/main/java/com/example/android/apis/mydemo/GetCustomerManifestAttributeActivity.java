@@ -22,7 +22,7 @@ public class GetCustomerManifestAttributeActivity extends Activity implements Vi
     private Button mBtn2;
     private TextView mTvTitle;
     private TextView mTvContent;
-    private PackageManager mPkgMgr;
+    private PackageManager pm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +40,7 @@ public class GetCustomerManifestAttributeActivity extends Activity implements Vi
         mBtn1.setOnClickListener(this);
         mBtn2.setOnClickListener(this);
 
-        mPkgMgr = getPackageManager();
+        pm = getPackageManager();
 
     }
 
@@ -51,16 +51,29 @@ public class GetCustomerManifestAttributeActivity extends Activity implements Vi
                 getApplicationAttribute();
                 break;
             case R.id.btn2:
-
+                getActivityAttribute();
                 break;
+        }
+    }
+
+    private void getActivityAttribute() {
+        mTvContent.setText("");
+        ComponentName cn = new ComponentName(this, GetCustomerManifestAttributeActivity.class);
+        try {
+            ActivityInfo info = pm.getActivityInfo(cn, PackageManager.GET_META_DATA);
+            if (info != null && info.metaData != null) {
+                String metaData = info.metaData.getString("mydemo_activity_mate_info");
+                mTvContent.setText("获取成功mydemo_activity_mate_info=" + metaData);
+            }
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
         }
     }
 
     private void getApplicationAttribute() {
         mTvContent.setText("");
         try {
-            ComponentName cn = new ComponentName(this, GetCustomerManifestAttributeActivity.class);
-            ApplicationInfo appInfo = mPkgMgr.getApplicationInfo(getPackageName(), PackageManager.GET_META_DATA);
+            ApplicationInfo appInfo = pm.getApplicationInfo(getPackageName(), PackageManager.GET_META_DATA);
             if (appInfo != null && appInfo.metaData != null) {
                 String mylabel = appInfo.metaData.getString("myapplication_mate_info");
                 mTvContent.setText("获取成功mate myapplication_mate_info=" + mylabel);

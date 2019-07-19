@@ -23,7 +23,7 @@
             android:id="@+id/btn2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="OkHttp结合线程池"
+            android:text="获取Activity节点自定义属性"
             android:textAllCaps="false"
             android:textSize="12sp" />
 
@@ -50,7 +50,7 @@
                 android:padding="10dp"
                 android:text="获取AndroidManifest自定义属性值"
                 android:textColor="#FF0000"
-                android:textSize="18sp"
+                android:textSize="15sp"
                 android:textStyle="bold" />
 
             <TextView

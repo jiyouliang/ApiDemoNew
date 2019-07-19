@@ -3284,20 +3284,18 @@ ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main
 		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4021:13-65
 	android:name
 		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4020:13-77
-activity#com.example.android.apis.mydemo.MyDemoListActivity
-ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4028:9-4036:20
-	android:label
-		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4030:13-57
-	android:name
-		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4029:13-54
 activity#com.example.android.apis.mydemo.GetCustomerManifestAttributeActivity
 ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4037:9-4046:20
 	android:label
-		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4039:13-51
-	app:mydemo_activity_label
-		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4040:13-57
+		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4039:13-66
 	android:name
 		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4038:13-72
+meta-data#mydemo_activity_mate_info
+ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4045:13-106
+	android:value
+		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4045:65-104
+	android:name
+		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4045:24-64
 uses-sdk
 INJECTED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml

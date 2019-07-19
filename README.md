@@ -2,14 +2,26 @@
 
 **ApiDemosNews是在android ApiDemos基础上，新增扩展Demo**
 
-### 截图
+### 一、截图(部分)
 
-![](/screenshot/1.png)
-![](/screenshot/2.png)
-![](/screenshot/3.png)
+![](/screenshot/1.gif)
+
+![](/screenshot/2.gif)
+
+![](/screenshot/3.gif)
+
+![](/screenshot/4.gif)
 
 
-### 新增Demo纪录
+### 二、新增Demo纪录
+
+
+2019/07/19
+
+* 1.PathEffect实现轨迹动画
+* 2.PathMeasure.getPostTan绘制切线
+* 3.获取AndroidManifest自定义meta-data
+* 4.重构Demo展示方式
 
 2019/07/18
 

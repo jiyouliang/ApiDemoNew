@@ -15,6 +15,5 @@ public class BezierLoadingActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bezier_loading);
-        Toast.makeText(this, "点击显示添加购物车效果", Toast.LENGTH_SHORT).show();
     }
 }

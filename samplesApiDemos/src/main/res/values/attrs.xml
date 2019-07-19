@@ -61,5 +61,5 @@
 
     <!--自定义属性-->
     <attr name="myapplication_mate_info" format="string"/>
-    <attr name="mydemo_activity_label" format="string"/>
+    <attr name="mydemo_activity_mate_info" format="string"/>
 </resources>

@@ -1685,23 +1685,33 @@
     <string name="process_text_send_description">Select a piece of text from this box to trigger the text selection action mode. In there, you will find \"ApiDemos\". That is because this app declares it can handle text processing intents. Try selecting that action to send the selected text to that activity and retrieve processed text back.</string>
 
     <!--MyDemo-->
-    <string name="mydemo_bottom_sheet">MyDemo/1.BottomSheet(底部操作控件)</string>
-    <string name="mydemo_keystore_signature">MyDemo/2.获取keystore签名信息</string>
-    <string name="mydemo_thread_pool">MyDemo/3.线程池</string>
-    <string name="mydemo_device_id">MyDemo/4.获取设备id：DeviceId</string>
-    <string name="mydemo_navigation_bar">MyDemo/5.虚拟键盘(适用全面屏-非全面屏)</string>
-    <string name="mydemo_loation_provider">MyDemo/6.LocationProvider(判定当前定位服务类型:网络、GSP)</string>
-    <string name="mydemo_okhttp_post">MyDemo/7.OkHttp post提交json数据</string>
-    <string name="mydemo_okhttp_async">MyDemo/8.OkHttp异步请求</string>
-    <string name="mydemo_vector_drawable">MyDemo/9.VectorDrawable矢量图动画</string>
-    <string name="mydemo_bezier">MyDemo/10.贝塞尔曲线(二阶、三阶)</string>
-    <string name="mydemo_bezier_path_transform">MyDemo/11.贝塞尔曲线实现路径变换</string>
-    <string name="mydemo_bezier_paint_board">MyDemo/12.贝塞尔曲线实现绘画板(平滑路径)</string>
-    <string name="mydemo_bezier_wave">MyDemo/13.贝塞尔曲线实现波浪效果</string>
-    <string name="mydemo_bezier_add_cart">MyDemo/14.贝塞尔曲线实现添加购物车效果</string>
-    <string name="mydemo_bezier_loading">MyDemo/15.Path实现加载loading效果</string>
-    <string name="mydemo_path_effect">MyDemo/16.PathEffect实现轨迹动画</string>
-    <string name="mydemo_path_measure_post_tan">MyDemo/17.PathMeasure.getPostTan绘制切线</string>
-    <string name="mydemo_property_animation">MyDemo/18.属性动画(位移)</string>
+    <!--Views-->
+    <string name="mydemo_bottom_sheet">新增Demo/Views/01.BottomSheet(底部操作控件)</string>
+
+    <string name="mydemo_vector_drawable">新增Demo/Views/贝塞尔虚线/01.VectorDrawable矢量图动画</string>
+    <string name="mydemo_bezier">新增Demo/Views/贝塞尔虚线/02.贝塞尔曲线(二阶、三阶)</string>
+    <string name="mydemo_bezier_path_transform">新增Demo/Views/贝塞尔虚线/03.贝塞尔曲线实现路径变换</string>
+    <string name="mydemo_bezier_paint_board">新增Demo/Views/贝塞尔虚线/04.贝塞尔曲线实现绘画板(平滑路径)</string>
+    <string name="mydemo_bezier_wave">新增Demo/Views/贝塞尔虚线/05.贝塞尔曲线实现波浪效果</string>
+    <string name="mydemo_bezier_add_cart">新增Demo/Views/贝塞尔虚线/06.贝塞尔曲线实现添加购物车效果</string>
+
+    <string name="mydemo_bezier_loading">新增Demo/Views/Path绘制/01.Path实现加载loading效果</string>
+    <string name="mydemo_path_effect">新增Demo/Views/Path绘制/02.PathEffect实现轨迹动画</string>
+    <string name="mydemo_path_measure_post_tan">新增Demo/Views/Path绘制/03.PathMeasure.getPostTan绘制切线</string>
+
+    <!--App-->
+    <string name="mydemo_device_id">新增Demo/App/01.获取设备id：DeviceId</string>
+    <string name="mydemo_customer_manifest_attr">新增Demo/App/02.获取MainFest自定义属性</string>
+    <string name="mydemo_loation_provider">新增Demo/App/03.LocationProvider(判定当前定位服务类型:网络、GSP)</string>
+    <string name="mydemo_navigation_bar">新增Demo/App/04.虚拟键盘(适用全面屏-非全面屏)</string>
+    <!--Security-->
+    <string name="mydemo_keystore_signature">新增Demo/Security/01.获取keystore签名信息</string>
+    <!--Thread-->
+    <string name="mydemo_thread_pool">新增Demo/Thread/01.线程池</string>
+    <string name="mydemo_okhttp_post">新增Demo/Thread/02.OkHttp post提交json数据</string>
+    <string name="mydemo_okhttp_async">新增Demo/Thread/03.OkHttp异步请求</string>
+
+    <!--Animation-->
+    <string name="mydemo_property_animation">新增Demo/Animation/01.属性动画(位移)</string>
     <string name="mydemo_list_activity">MyDemo1</string>
 </resources>

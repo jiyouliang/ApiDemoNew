@@ -347,7 +347,7 @@ attr measureWithLargestChild
 attr menu
 attr multiChoiceItemLayout
 attr myapplication_mate_info
-attr mydemo_activity_label
+attr mydemo_activity_mate_info
 attr navigationContentDescription
 attr navigationIcon
 attr navigationMode
@@ -2904,6 +2904,7 @@ string mydemo_bezier_paint_board
 string mydemo_bezier_path_transform
 string mydemo_bezier_wave
 string mydemo_bottom_sheet
+string mydemo_customer_manifest_attr
 string mydemo_device_id
 string mydemo_keystore_signature
 string mydemo_list_activity

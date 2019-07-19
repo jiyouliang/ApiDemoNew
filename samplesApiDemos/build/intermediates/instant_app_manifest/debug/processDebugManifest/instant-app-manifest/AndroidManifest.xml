@@ -4034,24 +4034,29 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        <!--
         <activity
-            android:name="com.example.android.apis.mydemo.MyDemoListActivity"
-            android:label="@string/mydemo_list_activity" >
+            android:name=".mydemo.MyDemoListActivity"
+            android:label="@string/mydemo_list_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        -->
         <activity
             android:name="com.example.android.apis.mydemo.GetCustomerManifestAttributeActivity"
-            android:label="MyDemo/获取MainFest自定义属性"
-            app:mydemo_activity_label="这是自定义Activity属性值" >
+            android:label="@string/mydemo_customer_manifest_attr" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
+
+            <meta-data
+                android:name="mydemo_activity_mate_info"
+                android:value="自定义Activity mata-data信息" />
         </activity>
 
         <provider
