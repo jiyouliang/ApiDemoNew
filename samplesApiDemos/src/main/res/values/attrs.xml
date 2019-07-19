@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2007 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -20,8 +19,8 @@
     <declare-styleable name="TogglePrefAttrs">
         <attr name="android:preferenceLayoutChild" />
     </declare-styleable>
-    
-     <declare-styleable name="LabelView">
+
+    <declare-styleable name="LabelView">
         <attr name="text" format="string" />
         <attr name="textColor" format="color" />
         <attr name="textSize" format="dimension" />
@@ -29,7 +28,7 @@
 
     <!-- These are the attributes that we want to retrieve for
          view/CustomLayout.java -->
-<!-- BEGIN_INCLUDE(CustomLayout) -->
+    <!-- BEGIN_INCLUDE(CustomLayout) -->
     <declare-styleable name="CustomLayoutLP">
         <attr name="android:layout_gravity" />
         <attr name="layout_position">
@@ -38,7 +37,7 @@
             <enum name="right" value="2" />
         </attr>
     </declare-styleable>
-<!-- END_INCLUDE(CustomLayout) -->
+    <!-- END_INCLUDE(CustomLayout) -->
 
     <!-- These are attributes used with 'DraggableDot' drawables in
          view/DragAndDropActivity.java and view/DraggableDot.java -->
@@ -54,9 +53,13 @@
 
     <!-- These are the attributes that we want to retrieve for
          app/FragmentArguments.java -->
-<!-- BEGIN_INCLUDE(fragment_arguments) -->
+    <!-- BEGIN_INCLUDE(fragment_arguments) -->
     <declare-styleable name="FragmentArguments">
         <attr name="android:label" />
     </declare-styleable>
-<!-- END_INCLUDE(fragment_arguments) -->
+    <!-- END_INCLUDE(fragment_arguments) -->
+
+    <!--自定义属性-->
+    <attr name="myapplication_mate_info" format="string"/>
+    <attr name="mydemo_activity_label" format="string"/>
 </resources>

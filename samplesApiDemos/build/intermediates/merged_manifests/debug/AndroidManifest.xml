@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     package="com.example.android.apis"
     android:installLocation="auto" >
 
@@ -55,6 +56,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@android:style/Theme.Material.Light.DarkActionBar" >
+        <meta-data
+            android:name="myapplication_mate_info"
+            android:value="自定义Application mate信息" />
 
         <!--
          This is how we can request a library but still allow the app
@@ -4014,6 +4018,34 @@
         <activity
             android:name="com.example.android.apis.mydemo.vectordrawable.PathEffectActivity"
             android:label="@string/mydemo_path_effect" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.vectordrawable.PathMeasurePostTanActivity"
+            android:label="@string/mydemo_path_measure_post_tan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.MyDemoListActivity"
+            android:label="@string/mydemo_list_activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.GetCustomerManifestAttributeActivity"
+            android:label="MyDemo/获取MainFest自定义属性"
+            app:mydemo_activity_label="这是自定义Activity属性值" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
