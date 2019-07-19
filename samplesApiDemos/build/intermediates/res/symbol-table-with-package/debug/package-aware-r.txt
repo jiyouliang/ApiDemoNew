@@ -1908,6 +1908,7 @@ layout activity_location_provider
 layout activity_navigation_bar
 layout activity_ok_http_async
 layout activity_ok_http_post
+layout activity_path_effect
 layout activity_path_paint_board
 layout activity_path_tranform_bezier
 layout activity_property_anim
@@ -2904,6 +2905,7 @@ string mydemo_loation_provider
 string mydemo_navigation_bar
 string mydemo_okhttp_async
 string mydemo_okhttp_post
+string mydemo_path_effect
 string mydemo_property_animation
 string mydemo_thread_pool
 string mydemo_vector_drawable

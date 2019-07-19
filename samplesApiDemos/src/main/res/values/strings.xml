@@ -1700,5 +1700,6 @@
     <string name="mydemo_bezier_paint_board">MyDemo/4.贝塞尔曲线实现绘画板(平滑路径)</string>
     <string name="mydemo_bezier_wave">MyDemo/5.贝塞尔曲线实现波浪效果</string>
     <string name="mydemo_bezier_add_cart">MyDemo/6.贝塞尔曲线实现添加购物车效果</string>
-    <string name="mydemo_bezier_loading">MyDemo/7.贝塞尔曲线实现加载loading效果</string>
+    <string name="mydemo_bezier_loading">MyDemo/7.Path实现加载loading效果</string>
+    <string name="mydemo_path_effect">MyDemo/8.PathEffect实现轨迹动画</string>
 </resources>
