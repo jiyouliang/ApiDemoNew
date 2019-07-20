@@ -1,4 +1,4 @@
-package com.example.android.apis.mydemo;
+package com.example.android.apis.mydemo.app;
 
 import android.app.Activity;
 import android.content.ComponentName;

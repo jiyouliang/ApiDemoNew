@@ -59,7 +59,6 @@
         <meta-data
             android:name="myapplication_mate_info"
             android:value="自定义Application mate信息" />
-
         <!--
          This is how we can request a library but still allow the app
              to be installed if it doesn't exist.
@@ -4034,7 +4033,7 @@
             </intent-filter>
         </activity>
         <!--
-        <activity
+<activity
             android:name=".mydemo.MyDemoListActivity"
             android:label="@string/mydemo_list_activity">
             <intent-filter>
@@ -4045,7 +4044,7 @@
         </activity>
         -->
         <activity
-            android:name="com.example.android.apis.mydemo.GetCustomerManifestAttributeActivity"
+            android:name="com.example.android.apis.mydemo.app.GetCustomerManifestAttributeActivity"
             android:label="@string/mydemo_customer_manifest_attr" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -4056,6 +4055,15 @@
             <meta-data
                 android:name="mydemo_activity_mate_info"
                 android:value="自定义Activity mata-data信息" />
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.views.PathTrsnsformEditTextActivity"
+            android:label="@string/mydemo_path_transform_edit" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
         </activity>
 
         <provider

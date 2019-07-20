@@ -872,6 +872,7 @@ drawable btn_selector
 drawable button
 drawable card_background
 drawable circular_progress
+drawable commute_tips_close2
 drawable custom_pointer_icon
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
@@ -1038,6 +1039,7 @@ id actions
 id activity_chooser_view_content
 id add
 id addNewButton
+id adjust_edit
 id again_button
 id alertTitle
 id all
@@ -1916,6 +1918,7 @@ layout activity_path_effect
 layout activity_path_measure_post_tan
 layout activity_path_paint_board
 layout activity_path_tranform_bezier
+layout activity_path_trsnsform_edit_text
 layout activity_property_anim
 layout activity_recreate
 layout activity_thread_pool
@@ -2914,6 +2917,7 @@ string mydemo_okhttp_async
 string mydemo_okhttp_post
 string mydemo_path_effect
 string mydemo_path_measure_post_tan
+string mydemo_path_transform_edit
 string mydemo_property_animation
 string mydemo_thread_pool
 string mydemo_vector_drawable

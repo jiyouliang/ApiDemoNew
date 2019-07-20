@@ -1698,6 +1698,7 @@
     <string name="mydemo_bezier_loading">新增Demo/Views/Path绘制/01.Path实现加载loading效果</string>
     <string name="mydemo_path_effect">新增Demo/Views/Path绘制/02.PathEffect实现轨迹动画</string>
     <string name="mydemo_path_measure_post_tan">新增Demo/Views/Path绘制/03.PathMeasure.getPostTan绘制切线</string>
+    <string name="mydemo_path_transform_edit">新增Demo/Views/Path绘制/04.仿高德地图EditText下划线渐变效果</string>
 
     <!--App-->
     <string name="mydemo_device_id">新增Demo/App/01.获取设备id：DeviceId</string>
