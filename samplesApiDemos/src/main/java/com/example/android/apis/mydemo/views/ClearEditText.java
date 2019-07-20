@@ -98,7 +98,7 @@ public class ClearEditText extends EditText implements View.OnClickListener {
 
 
         animator = ValueAnimator.ofFloat(0, 1);
-        animator.setDuration(800);
+        animator.setDuration(600);
         animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
@@ -147,7 +147,7 @@ public class ClearEditText extends EditText implements View.OnClickListener {
         animator.start();
     }
 
-    
+
 
     private float dp2px(float dpValue){
         return  TypedValue.applyDimension(
