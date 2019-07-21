@@ -4,7 +4,7 @@
             "outputFile": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/values-v23/values-v23.xml",
+                    "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/00bb6e33dc5314929ca6ade4f3792608/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

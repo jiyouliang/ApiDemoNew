@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     package="com.example.android.apis"
     android:installLocation="auto" >
 
@@ -53,7 +54,9 @@
         android:label="@string/activity_sample_code"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Material.Light.DarkActionBar" >
-
+        <meta-data
+            android:name="myapplication_mate_info"
+            android:value="自定义Application mate信息" />
         <!--
          This is how we can request a library but still allow the app
              to be installed if it doesn't exist.
@@ -3863,13 +3866,11 @@
 
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
-        </activity>
-
-        <!-- my customer demo -->
+        </activity> <!-- my customer demo -->
         <!-- service sample -->
         <activity
             android:name="com.example.android.apis.mydemo.service.LocationProviderActivity"
-            android:label="Service/LocationProvider(判定当前定位服务类型:网络、GSP)" >
+            android:label="@string/mydemo_loation_provider" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -3878,14 +3879,205 @@
         </activity>
         <activity
             android:name="com.example.android.apis.mydemo.views.BottomSheetActivity"
-            android:label="Views/BottomSheet(底部操作控件)" >
+            android:label="@string/mydemo_bottom_sheet" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-        <!-- my customer demo end -->
+        <activity
+            android:name="com.example.android.apis.mydemo.app.NavigationBarActivity"
+            android:label="@string/mydemo_navigation_bar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.animation.PropertyAnimActivity"
+            android:label="@string/mydemo_property_animation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.http.OkHttpPostActivity"
+            android:label="@string/mydemo_okhttp_post" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.app.DeviceIdActivity"
+            android:label="@string/mydemo_device_id" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.thread.ThreadPoolActivity"
+            android:label="@string/mydemo_thread_pool" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.http.OkHttpAsyncActivity"
+            android:label="@string/mydemo_okhttp_async" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.app.KeystoreSignInfoActivity"
+            android:label="@string/mydemo_keystore_signature" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.vectordrawable.VectorActivity"
+            android:label="@string/mydemo_vector_drawable" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.vectordrawable.BezierActivity"
+            android:label="@string/mydemo_bezier" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.vectordrawable.PathTranformBezierActivity"
+            android:label="@string/mydemo_bezier_path_transform" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.vectordrawable.PathPaintBoardActivity"
+            android:label="@string/mydemo_bezier_paint_board" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.vectordrawable.BezierWaveActivity"
+            android:label="@string/mydemo_bezier_wave" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.vectordrawable.BezierAddCartActivity"
+            android:label="@string/mydemo_bezier_add_cart" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.vectordrawable.BezierLoadingActivity"
+            android:label="@string/mydemo_bezier_loading" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.vectordrawable.PathEffectActivity"
+            android:label="@string/mydemo_path_effect" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.vectordrawable.PathMeasurePostTanActivity"
+            android:label="@string/mydemo_path_measure_post_tan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <!--
+<activity
+            android:name=".mydemo.MyDemoListActivity"
+            android:label="@string/mydemo_list_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        -->
+        <activity
+            android:name="com.example.android.apis.mydemo.app.GetCustomerManifestAttributeActivity"
+            android:label="@string/mydemo_customer_manifest_attr" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="mydemo_activity_mate_info"
+                android:value="自定义Activity mata-data信息" />
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.views.PathTrsnsformEditTextActivity"
+            android:label="@string/mydemo_path_transform_edit" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.views.PathDotsLoadingActivity"
+            android:label="@string/mydemo_path_dots_loading" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.android.apis.lifecycle-trojan"
+            android:exported="false"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

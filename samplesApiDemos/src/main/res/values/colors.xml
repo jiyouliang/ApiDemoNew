@@ -35,4 +35,10 @@
          background color. -->
     <color name="custom_theme_color">#b0b0ff</color>
 
+    <color name="blue_color">#4287FF</color>
+    <!--Button color-->
+    <color name="btn_disable_normal">#B3CFFF</color>
+    <color name="btn_enable_normal">@color/blue_color</color>
+    <color name="btn_enable_pressed">#3D53FF</color>
+
 </resources>

@@ -533,12 +533,16 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color blue_color
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
 color bright_foreground_inverse_material_light
 color bright_foreground_material_dark
 color bright_foreground_material_light
+color btn_disable_normal
+color btn_enable_normal
+color btn_enable_pressed
 color button_material_dark
 color button_material_light
 color custom_theme_color
@@ -727,6 +731,7 @@ dimen disabled_alpha_material_light
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
+dimen height_btn_large
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -734,6 +739,7 @@ dimen hint_alpha_material_dark
 dimen hint_alpha_material_light
 dimen hint_pressed_alpha_material_dark
 dimen hint_pressed_alpha_material_light
+dimen input_height
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
@@ -752,6 +758,7 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen radius_btn_large
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -862,6 +869,10 @@ drawable block
 drawable blue
 drawable box
 drawable box_white
+drawable btn_blue_large_disable
+drawable btn_blue_large_enable_normal
+drawable btn_blue_large_enable_pressed
+drawable btn_blue_large_selector
 drawable btn_check_off
 drawable btn_check_on
 drawable btn_circle_normal
@@ -1388,6 +1399,7 @@ id list_en
 id list_fr
 id list_item
 id list_view
+id loading_view
 id localaudio
 id localvideo
 id login
@@ -1914,6 +1926,7 @@ layout activity_my_demo_list
 layout activity_navigation_bar
 layout activity_ok_http_async
 layout activity_ok_http_post
+layout activity_path_dots_loading
 layout activity_path_effect
 layout activity_path_measure_post_tan
 layout activity_path_paint_board
@@ -2915,6 +2928,7 @@ string mydemo_loation_provider
 string mydemo_navigation_bar
 string mydemo_okhttp_async
 string mydemo_okhttp_post
+string mydemo_path_dots_loading
 string mydemo_path_effect
 string mydemo_path_measure_post_tan
 string mydemo_path_transform_edit

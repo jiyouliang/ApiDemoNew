@@ -4060,6 +4060,16 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".mydemo.views.PathDotsLoadingActivity"
+            android:label="@string/mydemo_path_dots_loading">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+
+        </activity>
     </application>
 
 </manifest>

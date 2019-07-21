@@ -8,6 +8,10 @@
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_activity_bezier_wave.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_bezier_wave.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png"
     },
@@ -16,12 +20,12 @@
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi_logo240dpi.png.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable-hdpi/logo240dpi.png"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -30,6 +34,10 @@
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/raw_sound_ringer_silent.ogg.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/raw/sound_ringer_silent.ogg"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_arrow_vector.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/arrow_vector.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/xml_file_paths.xml.flat",
@@ -50,6 +58,10 @@
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_remote_binding_options.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/remote_binding_options.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-xhdpi_ic_launcher_test.png.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable-xhdpi/ic_launcher_test.png"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_sample_7.jpg.flat",
@@ -136,32 +148,36 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/scrollbar_vertical_thumb.xml"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_webview_1.xml.flat",
-        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/webview_1.xml"
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_baseline_nested_2.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/baseline_nested_2.xml"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_webview_1.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/webview_1.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_arrow_animated_vector.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/arrow_animated_vector.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/color-v23_design_tint_password_toggle.xml.flat",
-        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/550a2e0d3998eb0d13de72a9600081dc/res/color-v23/design_tint_password_toggle.xml"
-    },
-    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_sample_thumb_6.jpg.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/sample_thumb_6.jpg"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/color-v23_design_tint_password_toggle.xml.flat",
+        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/550a2e0d3998eb0d13de72a9600081dc/res/color-v23/design_tint_password_toggle.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_layout_animations.xml.flat",
@@ -172,20 +188,20 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/anim/shake.xml"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png"
-    },
-    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_abc_ic_voice_search_api_material.xml.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_shadow_card_drag.xml.flat",
-        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/shadow_card_drag.xml"
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_tasklist_row.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/tasklist_row.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_shadow_card_drag.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/shadow_card_drag.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_text_to_speech.xml.flat",
@@ -196,12 +212,16 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/print_html_off_screen.xml"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/menu_groups.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/menu/groups.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout-land_grid_layout_2.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout-land/grid_layout_2.xml"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/menu_groups.xml.flat",
-        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/menu/groups.xml"
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_star_vector.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/star_vector.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
@@ -236,6 +256,10 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/raw/android_logo.png"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_activity_bezier_loading.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_bezier_loading.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_drag_layout.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/drag_layout.xml"
     },
@@ -244,32 +268,32 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/linear_layout_9.xml"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/color_abc_background_cache_hint_selector_material_light.xml.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/color/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_fragment_tabs_fragment.xml.flat",
-        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/fragment_tabs_fragment.xml"
-    },
-    {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
-        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_light.png"
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_design_layout_tab_text.xml.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/550a2e0d3998eb0d13de72a9600081dc/res/layout/design_layout_tab_text.xml"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png"
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_fragment_tabs_fragment.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/fragment_tabs_fragment.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_alert_dialog_text_entry.xml.flat",
@@ -292,16 +316,20 @@
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_btn_pressed.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/btn_pressed.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_picture_frame.png.flat",
@@ -324,12 +352,12 @@
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/menu_list_select_menu.xml.flat",
-        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/menu/list_select_menu.xml"
-    },
-    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/menu_list_select_menu.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/menu/list_select_menu.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/xml_device_admin_general.xml.flat",
@@ -368,12 +396,12 @@
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/xml_advanced_preferences.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/xml/advanced_preferences.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_notification_template_big_media.xml.flat",
@@ -388,12 +416,12 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/menu/order.xml"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
-        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_table_layout_11.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/table_layout_11.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_animation_multi_property.xml.flat",
@@ -430,6 +458,10 @@
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_square_vector.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/square_vector.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_progressbar_2.xml.flat",
@@ -474,6 +506,10 @@
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_design_snackbar_background.xml.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/550a2e0d3998eb0d13de72a9600081dc/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_activity_navigation_bar.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_navigation_bar.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-mdpi_stat_happy.png.flat",
@@ -712,6 +748,10 @@
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/9e3efb8d150eb6747ed0a13885a08870/res/layout/notification_template_big_media_custom.xml"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_search_bar_animated_vector.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/search_bar_animated_vector.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-v21_notification_action_background.xml.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/317b613fae5b2a55b436dc9f90d093fd/res/drawable-v21/notification_action_background.xml"
     },
@@ -728,12 +768,12 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/gallery_photo_3.jpg"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
-        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
-    },
-    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_job_work_service_activity.xml.flat",
@@ -804,6 +844,10 @@
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_activity_path_trsnsform_edit_text.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_path_trsnsform_edit_text.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_game_controller_input.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/game_controller_input.xml"
     },
@@ -812,12 +856,12 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/focus_5.xml"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_controls_material.xml.flat",
-        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/controls_material.xml"
-    },
-    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_notification_template_part_chronometer.xml.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/317b613fae5b2a55b436dc9f90d093fd/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_controls_material.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/controls_material.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout-sw720dp_resources_smallest_width_inner.xml.flat",
@@ -840,12 +884,12 @@
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
-        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_action_bar_navigation_target.xml.flat",
@@ -868,12 +912,12 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable-mdpi/app_sample_code.png"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_transition_scene1.xml.flat",
-        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/transition_scene1.xml"
-    },
-    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_transition_scene1.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/transition_scene1.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_activity_location_provider.xml.flat",
@@ -900,12 +944,12 @@
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_animation_1.xml.flat",
-        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/animation_1.xml"
-    },
-    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_scrollbar_vertical_track.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/scrollbar_vertical_track.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_animation_1.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/animation_1.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_incoming_message_info.xml.flat",
@@ -924,12 +968,12 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/presentation_content.xml"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_fragment_arguments.xml.flat",
-        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/fragment_arguments.xml"
-    },
-    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_autocomplete_2.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/autocomplete_2.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_fragment_arguments.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/fragment_arguments.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_surface_view_overlay.xml.flat",
@@ -1028,12 +1072,12 @@
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-hdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
-        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_light.png"
-    },
-    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/transition_changebounds_fadein_together.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/transition/changebounds_fadein_together.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_light.png"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/anim_layout_grid_inverse_fade.xml.flat",
@@ -1076,12 +1120,12 @@
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/color-v23/abc_tint_edittext.xml"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout-h670dp_resources_height.xml.flat",
-        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout-h670dp/resources_height.xml"
-    },
-    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_abc_screen_content_include.xml.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout-h670dp_resources_height.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout-h670dp/resources_height.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -1128,12 +1172,12 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/shape_1.xml"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi_progress_circular_background.png.flat",
-        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable-hdpi/progress_circular_background.png"
-    },
-    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/raw_test_cbr.mp3.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/raw/test_cbr.mp3"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi_progress_circular_background.png.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable-hdpi/progress_circular_background.png"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_gallery_photo_1.jpg.flat",
@@ -1206,6 +1250,10 @@
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_secure_dialog_activity.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/secure_dialog_activity.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_activity_ok_http_post.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_ok_http_post.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -1312,6 +1360,10 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/xml/filter_nfc.xml"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_activity_get_customer_manifest_attribute.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_get_customer_manifest_attribute.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
@@ -1328,6 +1380,10 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/anim/object_animator.xml"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_activity_path_paint_board.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_path_paint_board.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_notification_template_big_media_narrow.xml.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/9e3efb8d150eb6747ed0a13885a08870/res/layout/notification_template_big_media_narrow.xml"
     },
@@ -1340,12 +1396,20 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/resources_height.xml"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/menu_bezier_activity_menu.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/menu/bezier_activity_menu.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi-v4_design_ic_visibility.png.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/550a2e0d3998eb0d13de72a9600081dc/res/drawable-hdpi-v4/design_ic_visibility.png"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_shape_5.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/shape_5.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-xhdpi_commute_tips_close2.png.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable-xhdpi/commute_tips_close2.png"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi_scrollbar_state2.png.flat",
@@ -1392,6 +1456,10 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/scrollbar1.xml"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_activity_path_measure_post_tan.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_path_measure_post_tan.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_relative_layout_2.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/relative_layout_2.xml"
     },
@@ -1434,6 +1502,10 @@
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_trigger_sensors.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/trigger_sensors.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_activity_property_anim.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_property_anim.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_animation_custom_evaluator.xml.flat",
@@ -1660,6 +1732,10 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/google_login.xml"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_activity_vector.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_vector.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_redirect_enter.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/redirect_enter.xml"
     },
@@ -1784,6 +1860,10 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/raw/androids.pkm"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_bezier_activity.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/bezier_activity.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
@@ -1814,6 +1894,10 @@
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_abc_textfield_search_material.xml.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/animator_square_animator.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/animator/square_animator.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-v21_design_bottom_navigation_item_background.xml.flat",
@@ -1900,8 +1984,16 @@
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_bezier_fragment.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/bezier_fragment.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_abc_list_selector_holo_dark.xml.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_activity_thread_pool.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_thread_pool.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/raw_sound_ringer_vibrate.ogg.flat",
@@ -1910,6 +2002,10 @@
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_activity_bezier_add_cart.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_bezier_add_cart.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/anim_layout_grid_fade.xml.flat",
@@ -1944,6 +2040,10 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/share_content.xml"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/animator_search_line_animator.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/animator/search_line_animator.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_abc_cab_background_top_material.xml.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable/abc_cab_background_top_material.xml"
     },
@@ -1952,8 +2052,20 @@
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_star_animated_vector.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/star_animated_vector.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_activity_path_dots_loading.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_path_dots_loading.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_animated_gif.gif.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/animated_gif.gif"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/animator_search_bar_animator.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/animator/search_bar_animator.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_process_text_main.xml.flat",
@@ -2240,6 +2352,10 @@
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/animator_arrow_right_animator.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/animator/arrow_right_animator.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_grid_1.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/grid_1.xml"
     },
@@ -2306,6 +2422,14 @@
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_layout_animation_4.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/layout_animation_4.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_square_animated_vector.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/square_animated_vector.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/animator_star_animator.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/animator/star_animator.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/color_switch_thumb_material_light.xml.flat",
@@ -2450,6 +2574,10 @@
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/menu_display_options_actions.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/menu/display_options_actions.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/animator_arrow_left_animator.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/animator/arrow_left_animator.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-mdpi_ic_launcher_settings.png.flat",
@@ -2688,6 +2816,10 @@
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_activity_my_demo_list.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_my_demo_list.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -2710,6 +2842,10 @@
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_remote_service_binding.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/remote_service_binding.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_search_vector.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/search_vector.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_abc_list_menu_item_icon.xml.flat",
@@ -2760,6 +2896,10 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/image_block.xml"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_activity_ok_http_async.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_ok_http_async.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -2774,6 +2914,10 @@
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_activity_path_tranform_bezier.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_path_tranform_bezier.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/color_abc_search_url_text.xml.flat",
@@ -2920,6 +3064,10 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/menu/checkable.xml"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_ic_compare_arrows_black_24dp.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/ic_compare_arrows_black_24dp.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/raw_sound_view_focused_or_selected.ogg.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/raw/sound_view_focused_or_selected.ogg"
     },
@@ -3064,6 +3212,10 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/search_view.xml"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_btn_normal.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/btn_normal.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout-v21_notification_action.xml.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/317b613fae5b2a55b436dc9f90d093fd/res/layout-v21/notification_action.xml"
     },
@@ -3158,6 +3310,10 @@
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_reslogo160dpi.png.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/reslogo160dpi.png"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_activity_path_effect.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_path_effect.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/xml_preferences.xml.flat",
@@ -3344,6 +3500,10 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/quick_contacts.xml"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_activity_device_id.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_device_id.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-nodpi_mug.jpg.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable-nodpi/mug.jpg"
     },
@@ -3462,6 +3622,14 @@
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_photo5.jpg.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/photo5.jpg"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_activity_keystore_sign_info.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_keystore_sign_info.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_rectangle_bg.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/rectangle_bg.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/layout_fragment_retain_instance.xml.flat",
@@ -3804,6 +3972,10 @@
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_btn_selector.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/btn_selector.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable_stylogo160dpi.png.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/stylogo160dpi.png"
     },
@@ -3826,5 +3998,9 @@
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1e7f1c63aef4108d208c0ebbde9e86d9/res/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/release/menu_paint_board_activity_menu.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/menu/paint_board_activity_menu.xml"
     }
 ]

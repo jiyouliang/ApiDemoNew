@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="input_height">46dp</dimen>
+    <dimen name="height_btn_large">@dimen/input_height</dimen>
+    <dimen name="radius_btn_large">23dp</dimen>
+</resources>
