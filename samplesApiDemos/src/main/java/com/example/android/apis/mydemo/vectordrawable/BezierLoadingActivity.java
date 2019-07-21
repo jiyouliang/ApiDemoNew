@@ -16,4 +16,5 @@ public class BezierLoadingActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bezier_loading);
     }
+
 }
