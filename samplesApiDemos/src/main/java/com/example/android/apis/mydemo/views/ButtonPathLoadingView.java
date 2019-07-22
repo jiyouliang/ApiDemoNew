@@ -1,8 +1,8 @@
 package com.example.android.apis.mydemo.views;
 
-import android.animation.Animator;
 import android.animation.AnimatorSet;
 import android.animation.ValueAnimator;
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -13,7 +13,7 @@ import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.animation.DecelerateInterpolator;
-import android.view.animation.LinearInterpolator;
+import android.widget.Button;
 
 import java.util.ArrayList;
 
@@ -22,7 +22,8 @@ import java.util.ArrayList;
  * @author YouLiang.Ji
  * 仿高德地图 Button加载效果
  */
-public class ButtonPathLoadingView extends android.support.v7.widget.AppCompatButton {
+@SuppressLint("AppCompatCustomView")
+public class ButtonPathLoadingView extends Button {
     //    private Path mPath;
 //    private Paint mPaint;
     private int mWidth;
@@ -40,7 +41,7 @@ public class ButtonPathLoadingView extends android.support.v7.widget.AppCompatBu
     private static final int START_COLOR = 0xFFFFFFFF;
     private int[] mAnimValues = new int[CIRCLE_COUNT];
     private AnimatorSet mAnimatorSet;
-    private static final int DURATION = 600;
+    private static final int DURATION = 400;
     private static final int DELAY = 130;
     private String mText;
     private boolean mLoadingState;

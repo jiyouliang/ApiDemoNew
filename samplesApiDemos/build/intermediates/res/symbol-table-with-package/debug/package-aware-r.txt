@@ -915,6 +915,7 @@ drawable ic_launcher_test
 drawable ic_popup_reminder
 drawable ic_settings_applications
 drawable ic_settings_display
+drawable ic_universe
 drawable icon48x48_1
 drawable icon48x48_2
 drawable jellies
@@ -1487,6 +1488,7 @@ id notifyStart
 id notifyStop
 id notify_app
 id notify_interstitial
+id num_keyboard_view
 id number_picker
 id ok
 id one_shot
@@ -1917,6 +1919,7 @@ layout activity_bezier_add_cart
 layout activity_bezier_loading
 layout activity_bezier_wave
 layout activity_bottom_sheet
+layout activity_customer_drawable
 layout activity_device_id
 layout activity_finish_affinity
 layout activity_get_customer_manifest_attribute
@@ -1924,6 +1927,7 @@ layout activity_keystore_sign_info
 layout activity_location_provider
 layout activity_my_demo_list
 layout activity_navigation_bar
+layout activity_number_keyboard
 layout activity_ok_http_async
 layout activity_ok_http_post
 layout activity_path_dots_loading
@@ -2920,12 +2924,14 @@ string mydemo_bezier_paint_board
 string mydemo_bezier_path_transform
 string mydemo_bezier_wave
 string mydemo_bottom_sheet
+string mydemo_customer_drawable
 string mydemo_customer_manifest_attr
 string mydemo_device_id
 string mydemo_keystore_signature
 string mydemo_list_activity
 string mydemo_loation_provider
 string mydemo_navigation_bar
+string mydemo_number_keyboard
 string mydemo_okhttp_async
 string mydemo_okhttp_post
 string mydemo_path_dots_loading
