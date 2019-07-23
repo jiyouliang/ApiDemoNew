@@ -1701,6 +1701,7 @@
     <string name="mydemo_path_transform_edit">新增Demo/Views/Path绘制/04.仿高德地图EditText下划线渐变效果</string>
     <string name="mydemo_path_dots_loading">新增Demo/Views/Path绘制/05.仿高德地图Button加载动画</string>
     <string name="mydemo_number_keyboard">新增Demo/Views/02.自定义数字键盘</string>
+    <string name="mydemo_customer_view_group">新增Demo/Views/03.自定义控件继承ViewGroup</string>
 
     <!--drawable-->
     <string name="mydemo_customer_drawable">新增Demo/drawable/01.自定义drawable</string>
@@ -1720,4 +1721,5 @@
     <!--Animation-->
     <string name="mydemo_property_animation">新增Demo/Animation/01.属性动画(位移)</string>
     <string name="mydemo_list_activity">MyDemo1</string>
+
 </resources>

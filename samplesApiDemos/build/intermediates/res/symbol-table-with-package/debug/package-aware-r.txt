@@ -910,6 +910,7 @@ drawable hover_background_active
 drawable hover_background_inactive
 drawable ic_compare_arrows_black_24dp
 drawable ic_contact_picture
+drawable ic_keyboard_delete
 drawable ic_launcher_settings
 drawable ic_launcher_test
 drawable ic_popup_reminder
@@ -1921,6 +1922,7 @@ layout activity_bezier_loading
 layout activity_bezier_wave
 layout activity_bottom_sheet
 layout activity_customer_drawable
+layout activity_customer_view_group
 layout activity_device_id
 layout activity_finish_affinity
 layout activity_get_customer_manifest_attribute
@@ -2927,6 +2929,7 @@ string mydemo_bezier_wave
 string mydemo_bottom_sheet
 string mydemo_customer_drawable
 string mydemo_customer_manifest_attr
+string mydemo_customer_view_group
 string mydemo_device_id
 string mydemo_keystore_signature
 string mydemo_list_activity

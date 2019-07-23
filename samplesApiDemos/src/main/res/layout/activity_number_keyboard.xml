@@ -8,7 +8,9 @@
 
     <com.example.android.apis.mydemo.views.NumberKeyboardView
         android:id="@+id/num_keyboard_view"
+        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
 
 </RelativeLayout>

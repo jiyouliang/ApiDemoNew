@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#DBDEE9"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".mydemo.views.CustomerViewGroupActivity">
+
+    <com.example.android.apis.mydemo.views.MyViewGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
