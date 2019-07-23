@@ -885,6 +885,7 @@ drawable card_background
 drawable circular_progress
 drawable commute_tips_close2
 drawable custom_pointer_icon
+drawable delete_keyboard
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -910,7 +911,6 @@ drawable hover_background_active
 drawable hover_background_inactive
 drawable ic_compare_arrows_black_24dp
 drawable ic_contact_picture
-drawable ic_keyboard_delete
 drawable ic_launcher_settings
 drawable ic_launcher_test
 drawable ic_popup_reminder

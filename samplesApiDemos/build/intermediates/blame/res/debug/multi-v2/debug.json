@@ -129,38 +129,6 @@
             ]
         },
         {
-            "outputFile": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/values-ru_values-ru.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e22b30b9509b88f024e34c56a6ff4e0a/res/values-ru/values-ru.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1973",
-                        "endColumns": "100",
-                        "endOffsets": "2069"
-                    }
-                },
-                {
-                    "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/00bb6e33dc5314929ca6ade4f3792608/res/values-ru/values-ru.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,220,322,434,520,625,745,824,902,982,1088,1196,1294,1403,1509,1617,1792,1892",
-                        "endColumns": "114,101,111,85,104,119,78,77,79,105,107,97,108,105,107,174,99,80",
-                        "endOffsets": "215,317,429,515,620,740,819,897,977,1083,1191,1289,1398,1504,1612,1787,1887,1968"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/values-v16_values-v16.arsc.flat",
             "map": [
                 {
@@ -214,6 +182,38 @@
                         "endLines": "7",
                         "endColumns": "12",
                         "endOffsets": "335"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/values-ru_values-ru.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e22b30b9509b88f024e34c56a6ff4e0a/res/values-ru/values-ru.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1973",
+                        "endColumns": "100",
+                        "endOffsets": "2069"
+                    }
+                },
+                {
+                    "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/00bb6e33dc5314929ca6ade4f3792608/res/values-ru/values-ru.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,220,322,434,520,625,745,824,902,982,1088,1196,1294,1403,1509,1617,1792,1892",
+                        "endColumns": "114,101,111,85,104,119,78,77,79,105,107,97,108,105,107,174,99,80",
+                        "endOffsets": "215,317,429,515,620,740,819,897,977,1083,1191,1289,1398,1504,1612,1787,1887,1968"
                     }
                 }
             ]
@@ -347,38 +347,6 @@
             ]
         },
         {
-            "outputFile": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/values-am_values-am.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/00bb6e33dc5314929ca6ade4f3792608/res/values-am/values-am.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,207,306,412,498,601,714,792,870,949,1049,1149,1245,1348,1447,1554,1707,1803",
-                        "endColumns": "101,98,105,85,102,112,77,77,78,99,99,95,102,98,106,152,95,78",
-                        "endOffsets": "202,301,407,493,596,709,787,865,944,1044,1144,1240,1343,1442,1549,1702,1798,1877"
-                    }
-                },
-                {
-                    "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e22b30b9509b88f024e34c56a6ff4e0a/res/values-am/values-am.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1882",
-                        "endColumns": "100",
-                        "endOffsets": "1978"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/values-lo_values-lo.arsc.flat",
             "map": [
                 {
@@ -406,6 +374,38 @@
                         "startOffsets": "1897",
                         "endColumns": "100",
                         "endOffsets": "1993"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/values-am_values-am.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/00bb6e33dc5314929ca6ade4f3792608/res/values-am/values-am.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,207,306,412,498,601,714,792,870,949,1049,1149,1245,1348,1447,1554,1707,1803",
+                        "endColumns": "101,98,105,85,102,112,77,77,78,99,99,95,102,98,106,152,95,78",
+                        "endOffsets": "202,301,407,493,596,709,787,865,944,1044,1144,1240,1343,1442,1549,1702,1798,1877"
+                    }
+                },
+                {
+                    "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e22b30b9509b88f024e34c56a6ff4e0a/res/values-am/values-am.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1882",
+                        "endColumns": "100",
+                        "endOffsets": "1978"
                     }
                 }
             ]
@@ -622,28 +622,6 @@
             ]
         },
         {
-            "outputFile": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/values-ldpi-v4_values-ldpi-v4.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/values-ldpi/strings.xml",
-                    "from": {
-                        "startLines": "17",
-                        "startColumns": "4",
-                        "startOffsets": "691",
-                        "endColumns": "54",
-                        "endOffsets": "741"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "54",
-                        "endOffsets": "105"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/values-pl_values-pl.arsc.flat",
             "map": [
                 {
@@ -671,6 +649,28 @@
                         "startOffsets": "105,221,323,431,517,626,745,823,900,982,1091,1200,1299,1408,1519,1627,1790,1886",
                         "endColumns": "115,101,107,85,108,118,77,76,81,108,108,98,108,110,107,162,95,81",
                         "endOffsets": "216,318,426,512,621,740,818,895,977,1086,1195,1294,1403,1514,1622,1785,1881,1963"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/values-ldpi-v4_values-ldpi-v4.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/values-ldpi/strings.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "691",
+                        "endColumns": "54",
+                        "endOffsets": "741"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
                     }
                 }
             ]
@@ -1353,38 +1353,6 @@
             ]
         },
         {
-            "outputFile": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/values-be_values-be.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e22b30b9509b88f024e34c56a6ff4e0a/res/values-be/values-be.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "108",
-                        "endOffsets": "159"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1974",
-                        "endColumns": "108",
-                        "endOffsets": "2078"
-                    }
-                },
-                {
-                    "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/00bb6e33dc5314929ca6ade4f3792608/res/values-be/values-be.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,225,328,444,530,638,756,835,913,996,1102,1208,1306,1414,1519,1624,1793,1893",
-                        "endColumns": "119,102,115,85,107,117,78,77,82,105,105,97,107,104,104,168,99,80",
-                        "endOffsets": "220,323,439,525,633,751,830,908,991,1097,1203,1301,1409,1514,1619,1788,1888,1969"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/values-ms_values-ms.arsc.flat",
             "map": [
                 {
@@ -1412,6 +1380,38 @@
                         "startOffsets": "105,216,321,429,516,620,731,809,888,968,1080,1189,1286,1395,1498,1605,1764,1865",
                         "endColumns": "110,104,107,86,103,110,77,78,79,111,108,96,108,102,106,158,100,79",
                         "endOffsets": "211,316,424,511,615,726,804,883,963,1075,1184,1281,1390,1493,1600,1759,1860,1940"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/values-be_values-be.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e22b30b9509b88f024e34c56a6ff4e0a/res/values-be/values-be.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "108",
+                        "endOffsets": "159"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1974",
+                        "endColumns": "108",
+                        "endOffsets": "2078"
+                    }
+                },
+                {
+                    "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/00bb6e33dc5314929ca6ade4f3792608/res/values-be/values-be.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,225,328,444,530,638,756,835,913,996,1102,1208,1306,1414,1519,1624,1793,1893",
+                        "endColumns": "119,102,115,85,107,117,78,77,82,105,105,97,107,104,104,168,99,80",
+                        "endOffsets": "220,323,439,525,633,751,830,908,991,1097,1203,1301,1409,1514,1619,1788,1888,1969"
                     }
                 }
             ]

@@ -72,8 +72,11 @@ public class NumberKeyboardView extends BaseViewGroup implements View.OnClickLis
         ImageView imageView = new ImageView(getContext());
        /* ViewGroup.LayoutParams lp = new ViewGroup.LayoutParams((int) dp2px(mItemHeight), (int) dp2px(mItemHeight));
         imageView.setLayoutParams(lp);*/
-        mBitmapDelete = BitmapFactory.decodeResource(getResources(), R.drawable.ic_keyboard_delete);
-        imageView.setImageBitmap(bitMapScale(mBitmapDelete, 4));
+        mBitmapDelete = BitmapFactory.decodeResource(getResources(), R.drawable.delete_keyboard);
+        imageView.setAdjustViewBounds(true);
+        imageView.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
+//        imageView.setImageBitmap(mBitmapDelete);
+        imageView.setImageResource(R.drawable.delete_keyboard);
         addView(imageView);
 
 
