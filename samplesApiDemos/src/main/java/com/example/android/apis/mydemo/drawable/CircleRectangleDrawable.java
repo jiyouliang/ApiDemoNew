@@ -2,6 +2,7 @@ package com.example.android.apis.mydemo.drawable;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.ColorFilter;
 import android.graphics.Paint;
 import android.graphics.PixelFormat;
@@ -20,9 +21,15 @@ public class CircleRectangleDrawable extends Drawable {
     private final int w;
     private final int h;
     private Paint mPaint;
+    private static final int STROKE_WIDTH = 6;
+    //x轴和y轴圆角半径
+    private static final int RADIUS_X = 30;
+    private static final int RADIUS_Y = 30;
+
 
     /**
      * 调用者传入大小
+     *
      * @param w
      * @param h
      */
@@ -32,33 +39,34 @@ public class CircleRectangleDrawable extends Drawable {
         this.mPaint = new Paint();
         this.mPaint.setAntiAlias(true);
         mPaint.setStyle(Paint.Style.STROKE);
-        mPaint.setStrokeWidth(8);
+        mPaint.setStrokeWidth(6);
         mPaint.setColor(0xFFDBDEE9);
     }
 
     /**
      * 绘制
+     *
      * @param canvas
      */
     @Override
     public void draw(@NonNull Canvas canvas) {
         //绘制矩形
-        RectF rectF = new RectF(0, 0, w, h);
-//        canvas.drawRect(rect, mPaint);
+//        RectF rectF = new RectF(0, 0, w, h);
 
-        final float halfBorderWidth = mPaint.getStrokeWidth() / 2f;
-
-        // We need to inset the oval bounds by half the border width. This is because stroke draws
-        // the center of the border on the dimension. Whereas we want the stroke on the inside.
-        /*rectF.left += halfBorderWidth;
-        rectF.top += halfBorderWidth;
-        rectF.right -= halfBorderWidth;
-        rectF.bottom -= halfBorderWidth;*/
-        canvas.save();
-        canvas.rotate(90, rectF.centerX(), rectF.centerY());
+       /* canvas.rotate(90, rectF.centerX(), rectF.centerY());
         // Draw the oval
         canvas.drawRoundRect(rectF, 10, 10, mPaint);
-        canvas.restore();
+
+        int width = getWidth();
+        int height = getHeight();*/
+
+        mPaint.setColor(Color.BLUE);
+        mPaint.setStyle(Paint.Style.STROKE);
+        mPaint.setStrokeWidth(STROKE_WIDTH);
+        //起点从strokeWidth一半开始,否则出现线条变粗问题
+        canvas.drawRoundRect(STROKE_WIDTH / 2F, STROKE_WIDTH / 2F, w - STROKE_WIDTH / 2F, h - STROKE_WIDTH / 2F,
+                RADIUS_X, RADIUS_Y, mPaint);
+
 
     }
 
@@ -78,8 +86,10 @@ public class CircleRectangleDrawable extends Drawable {
 
     }
 
+
     /**
      * 不透明度
+     *
      * @return
      */
     @Override
