@@ -5,7 +5,7 @@
 ### 一、截图(部分)
 
 
-![](/screenshot/5.png)
+![](/screenshot/5.gif)
 
 ![](/screenshot/1.gif)
 
