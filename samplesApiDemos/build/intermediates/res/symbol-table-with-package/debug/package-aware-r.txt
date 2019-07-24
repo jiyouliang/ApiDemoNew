@@ -759,6 +759,7 @@ dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
 dimen radius_btn_large
+dimen text_size_large
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -1370,7 +1371,10 @@ id iv
 id jellies
 id jump
 id jumpcut
+id key_container_view
 id key_ops_header
+id keyboard_input
+id keyboard_input_view
 id kill
 id label
 id language_preference
@@ -1926,11 +1930,13 @@ layout activity_customer_view_group
 layout activity_device_id
 layout activity_finish_affinity
 layout activity_get_customer_manifest_attribute
+layout activity_keyboard_input
 layout activity_keystore_sign_info
 layout activity_location_provider
 layout activity_my_demo_list
 layout activity_navigation_bar
 layout activity_number_keyboard
+layout activity_number_keyboard_view_container
 layout activity_ok_http_async
 layout activity_ok_http_post
 layout activity_path_dots_loading
@@ -2928,9 +2934,11 @@ string mydemo_bezier_path_transform
 string mydemo_bezier_wave
 string mydemo_bottom_sheet
 string mydemo_customer_drawable
+string mydemo_customer_keyboard_input
 string mydemo_customer_manifest_attr
 string mydemo_customer_view_group
 string mydemo_device_id
+string mydemo_keyboard_view_container
 string mydemo_keystore_signature
 string mydemo_list_activity
 string mydemo_loation_provider

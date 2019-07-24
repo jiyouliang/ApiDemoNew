@@ -2,17 +2,13 @@ package com.example.android.apis.mydemo.views;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
-import android.graphics.Matrix;
 import android.graphics.drawable.StateListDrawable;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -35,7 +31,6 @@ public class NumberKeyboardView extends BaseViewGroup implements View.OnClickLis
     private int mItemMargin;
     private int mItemHeight;
     private int w;
-    private Bitmap mBitmapDelete;
     private OnKeyboardClickListener mListener;
 
     public NumberKeyboardView(Context context) {
@@ -70,51 +65,12 @@ public class NumberKeyboardView extends BaseViewGroup implements View.OnClickLis
         }
         //图片控件
         ImageView imageView = new ImageView(getContext());
-       /* ViewGroup.LayoutParams lp = new ViewGroup.LayoutParams((int) dp2px(mItemHeight), (int) dp2px(mItemHeight));
-        imageView.setLayoutParams(lp);*/
-        mBitmapDelete = BitmapFactory.decodeResource(getResources(), R.drawable.delete_keyboard);
         imageView.setAdjustViewBounds(true);
         imageView.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
-//        imageView.setImageBitmap(mBitmapDelete);
         imageView.setImageResource(R.drawable.delete_keyboard);
         addView(imageView);
 
 
-    }
-
-    /**
-     * 使用matrix缩放图片
-     * @param bitmap
-     * @param scale
-     * @return
-     */
-    private Bitmap bitMapScale(Bitmap bitmap,float scale) {
-        Matrix matrix = new Matrix();
-        matrix.postScale(scale, scale); //长和宽放大缩小的比例
-        Bitmap resizeBmp = Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), matrix, true);
-        return resizeBmp;
-    }
-
-    /**
-     * 计算图片采样率,用于压缩Bitmap
-     * @param options
-     * @param reqWidth
-     * @param reqHeight
-     * @return
-     */
-    public static int calculateInSampleSize(BitmapFactory.Options options,int reqWidth, int reqHeight) {
-        final int height = options.outHeight;
-        final int width = options.outWidth;
-        int inSampleSize = 1;
-        if (height > reqHeight || width > reqWidth) {
-            if (width > height) {
-                inSampleSize = Math.round((float) height / (float) reqHeight);
-            } else {
-                inSampleSize = Math.round((float) width / (float) reqWidth);
-            }
-            return inSampleSize;
-        }
-        return inSampleSize;
     }
 
     /**
@@ -235,9 +191,11 @@ public class NumberKeyboardView extends BaseViewGroup implements View.OnClickLis
         if (mListener == null) {
             return;
         }
+        //点击数字
         if (v instanceof ItemTextView) {
             mListener.onNumberKeyClick(((ItemTextView) v).getText().toString());
         } else if (v instanceof ImageView) {
+            //点击删除icon
             mListener.onDeleteClick();
         }
     }
@@ -277,17 +235,6 @@ public class NumberKeyboardView extends BaseViewGroup implements View.OnClickLis
             setBackground(drawableList);
         }
 
-
-        /**
-         * 点击键盘回调
-         */
-
-
-       /* private float sp2px(float spValue) {
-            return TypedValue.applyDimension(
-                    TypedValue.COMPLEX_UNIT_PX, spValue, getResources()
-                            .getDisplayMetrics());
-        }*/
     }
 
     public interface OnKeyboardClickListener {
@@ -304,6 +251,5 @@ public class NumberKeyboardView extends BaseViewGroup implements View.OnClickLis
          */
         void onDeleteClick();
     }
-
 
 }

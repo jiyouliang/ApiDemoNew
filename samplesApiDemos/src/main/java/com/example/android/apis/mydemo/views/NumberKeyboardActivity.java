@@ -2,13 +2,19 @@ package com.example.android.apis.mydemo.views;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.Toast;
+import android.text.TextUtils;
+import android.widget.TextView;
 
 import com.example.android.apis.R;
 
 public class NumberKeyboardActivity extends Activity implements NumberKeyboardView.OnKeyboardClickListener {
 
+    private static final String TAG = "NumberKeyboardActivity";
+
     private NumberKeyboardView mNumKeyboardView;
+    private KeyboardInputView mKeyboardInputView;
+    private StringBuilder sb;
+    private TextView mTvTitle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,15 +27,45 @@ public class NumberKeyboardActivity extends Activity implements NumberKeyboardVi
         mNumKeyboardView = (NumberKeyboardView) findViewById(R.id.num_keyboard_view);
 
         mNumKeyboardView.setOnKeyboardClickListener(this);
+        mKeyboardInputView = (KeyboardInputView) findViewById(R.id.keyboard_input_view);
+
+
+        mKeyboardInputView.setInputMaxSize(4);
+        mTvTitle = (TextView) findViewById(R.id.tv_title);
+
+        mKeyboardInputView.setOnTextChangedListener(new KeyboardInputView.OnTextChangedListener() {
+            @Override
+            public void beforeTextChanged(String text) {
+
+            }
+
+            @Override
+            public void afterTextChanged(String text) {
+
+            }
+        });
     }
 
     @Override
     public void onNumberKeyClick(String num) {
-        Toast.makeText(this, ""+num, Toast.LENGTH_SHORT).show();
+        if (TextUtils.isEmpty(num)) {
+            return;
+        }
+        boolean result = mKeyboardInputView.setText(num);
+       /* if (!result) {
+            mStringBuilder.deleteCharAt(mStringBuilder.length() - 1);
+        }*/
+
+        mTvTitle.setText(mKeyboardInputView.getText());
     }
 
     @Override
     public void onDeleteClick() {
-        Toast.makeText(this, "点击删除", Toast.LENGTH_SHORT).show();
+        mKeyboardInputView.deleteText();
+        /*if (mStringBuilder.length() > 0) {
+            //删除文字
+            mStringBuilder.deleteCharAt(mStringBuilder.length() - 1);
+        }*/
+        mTvTitle.setText(mKeyboardInputView.getText());
     }
 }

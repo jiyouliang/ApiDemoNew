@@ -128,12 +128,12 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/xml/default_values.xml"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/transition_changebounds.xml.flat",
-        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/transition/changebounds.xml"
-    },
-    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_quick_contacts.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/quick_contacts.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/transition_changebounds.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/transition/changebounds.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-anydpi-v21_design_ic_visibility_off.xml.flat",
@@ -1174,6 +1174,10 @@
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable_npatch160dpi.9.png.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/npatch160dpi.9.png"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_activity_keyboard_input.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_keyboard_input.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_forwarding.xml.flat",
@@ -3038,6 +3042,10 @@
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/raw_test_cbr.mp3.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/raw/test_cbr.mp3"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_activity_number_keyboard_view_container.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_number_keyboard_view_container.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_abc_alert_dialog_title_material.xml.flat",
