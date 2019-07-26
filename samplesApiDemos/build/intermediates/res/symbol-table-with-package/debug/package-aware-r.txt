@@ -606,6 +606,7 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color text_color_countdown
 color tooltip_background_dark
 color tooltip_background_light
 dimen abc_action_bar_content_inset_material
@@ -1105,8 +1106,10 @@ id btn_loc_provider
 id btn_remove_all_tabs
 id btn_remove_tab
 id btn_speak
+id btn_start
 id btn_start_search
 id btn_toggle_tabs
+id btn_top
 id btn_trans
 id button
 id button1
@@ -1816,6 +1819,7 @@ id translationY
 id tv
 id tv2
 id tv_content
+id tv_countdown
 id tv_more
 id tv_title
 id two_buttons
@@ -1925,6 +1929,7 @@ layout activity_bezier_add_cart
 layout activity_bezier_loading
 layout activity_bezier_wave
 layout activity_bottom_sheet
+layout activity_count_down
 layout activity_customer_drawable
 layout activity_customer_view_group
 layout activity_device_id
@@ -2933,6 +2938,7 @@ string mydemo_bezier_paint_board
 string mydemo_bezier_path_transform
 string mydemo_bezier_wave
 string mydemo_bottom_sheet
+string mydemo_count_down
 string mydemo_customer_drawable
 string mydemo_customer_keyboard_input
 string mydemo_customer_manifest_attr

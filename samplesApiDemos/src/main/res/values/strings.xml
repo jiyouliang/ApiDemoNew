@@ -1704,6 +1704,7 @@
     <string name="mydemo_customer_keyboard_input">新增Demo/Views/03.数字键盘输入框View部分</string>
     <string name="mydemo_number_keyboard">新增Demo/Views/04.自定义数字键盘</string>
     <string name="mydemo_keyboard_view_container">新增Demo/Views/05.自定义数字键盘容器(开发中使用)</string>
+    <string name="mydemo_count_down">新增Demo/Views/06.自定义倒计时效果</string>
 
     <!--drawable-->
     <string name="mydemo_customer_drawable">新增Demo/drawable/01.自定义drawable</string>
