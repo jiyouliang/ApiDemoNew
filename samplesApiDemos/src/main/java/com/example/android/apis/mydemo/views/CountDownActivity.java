@@ -55,13 +55,13 @@ public class CountDownActivity extends Activity implements View.OnClickListener 
 
     private CountDownThreadTimer mTimer = new CountDownThreadTimer(60 * 1000, 1000) {
         @Override
-        void onTick(long mills) {
+        public void onTick(long mills) {
             Log.d("CountDownThreadTimer", String.valueOf(mills /1000));
             mTv.setText(String.format("倒计时%s秒", mills / 1000));
         }
 
         @Override
-        void onFinish() {
+        public void onFinish() {
             mTv.setText("倒计时结束");
         }
     };

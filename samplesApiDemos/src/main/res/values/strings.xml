@@ -1725,5 +1725,9 @@
     <string name="mydemo_property_animation">新增Demo/Animation/01.属性动画(位移)</string>
     <string name="mydemo_list_activity">MyDemo1</string>
 
+    <!--Glide-->
+    <string name="mydemo_glid_load_gif">新增Demo/Glide图片加载框架/0.1加载gif图片</string>
+    <string name="mydemo_dialog_loading">新增Demo/Dialog/仿高德地图LoadingDialog</string>
+
 
 </resources>

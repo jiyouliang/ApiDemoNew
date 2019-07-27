@@ -853,6 +853,7 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable alert_dialog_icon
+drawable amap_loading
 drawable animated_gif
 drawable apidemo_androidlogo
 drawable app_sample_code
@@ -884,6 +885,7 @@ drawable btn_pressed
 drawable btn_selector
 drawable button
 drawable card_background
+drawable circle_rect_white_bg
 drawable circular_progress
 drawable commute_tips_close2
 drawable custom_pointer_icon
@@ -1007,6 +1009,7 @@ drawable stat_sample
 drawable stylogo120dpi
 drawable stylogo160dpi
 drawable stylogo240dpi
+drawable title_bar_close
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable translucent_background
@@ -1102,9 +1105,11 @@ id btn3
 id btn4
 id btn5
 id btn_add_tab
+id btn_hide
 id btn_loc_provider
 id btn_remove_all_tabs
 id btn_remove_tab
+id btn_show
 id btn_speak
 id btn_start
 id btn_start_search
@@ -1314,6 +1319,7 @@ id get_image
 id get_music
 id get_stream
 id ghost_view
+id glide_custom_view_target_tag
 id glsurfaceview
 id go
 id gone
@@ -1371,6 +1377,9 @@ id invisible_item
 id italic
 id item_touch_helper_previous_elevation
 id iv
+id iv_close
+id iv_gif
+id iv_loading
 id jellies
 id jump
 id jumpcut
@@ -1935,8 +1944,10 @@ layout activity_customer_view_group
 layout activity_device_id
 layout activity_finish_affinity
 layout activity_get_customer_manifest_attribute
+layout activity_glide_load_gif
 layout activity_keyboard_input
 layout activity_keystore_sign_info
+layout activity_loading_dialog
 layout activity_location_provider
 layout activity_my_demo_list
 layout activity_navigation_bar
@@ -2024,6 +2035,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout dialog_activity
+layout dlg_loading_layout
 layout drag_layout
 layout edit_text_demo
 layout external_storage
@@ -2944,6 +2956,8 @@ string mydemo_customer_keyboard_input
 string mydemo_customer_manifest_attr
 string mydemo_customer_view_group
 string mydemo_device_id
+string mydemo_dialog_loading
+string mydemo_glid_load_gif
 string mydemo_keyboard_view_container
 string mydemo_keystore_signature
 string mydemo_list_activity
@@ -3678,6 +3692,7 @@ style CustomTheme
 style ImageView120dpi
 style ImageView160dpi
 style ImageView240dpi
+style MyDialogTheme
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_ThemeOverlay_AppCompat

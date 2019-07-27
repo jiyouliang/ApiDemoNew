@@ -96,12 +96,12 @@ public abstract class CountDownThreadTimer {
      *
      * @param mills 倒计时剩余毫秒值
      */
-    abstract void onTick(long mills);
+    abstract public void onTick(long mills);
 
     /**
      * 结束倒计时,该回调在主线程中调用
      */
-    abstract void onFinish();
+    abstract public void onFinish();
 
     /**
      * 开始任务消息
