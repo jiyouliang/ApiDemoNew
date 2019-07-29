@@ -1014,6 +1014,9 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable translucent_background
 drawable transparent_background
+drawable user_detail_header_bg
+drawable user_detail_veritical_line_bg
+drawable user_login_header_bg
 drawable woot
 drawable yellow
 id ALT
@@ -1962,6 +1965,7 @@ layout activity_path_paint_board
 layout activity_path_tranform_bezier
 layout activity_path_trsnsform_edit_text
 layout activity_property_anim
+layout activity_rebound_view
 layout activity_recreate
 layout activity_thread_pool
 layout activity_vector
@@ -2973,6 +2977,7 @@ string mydemo_path_transform_edit
 string mydemo_property_animation
 string mydemo_thread_pool
 string mydemo_vector_drawable
+string mydemo_view_rebound
 string new_fragment
 string new_text
 string no_saves_state

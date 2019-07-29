@@ -96,6 +96,10 @@
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/00bb6e33dc5314929ca6ade4f3792608/res/anim/abc_slide_out_bottom.xml"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-xhdpi_user_detail_header_bg.png.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable-xhdpi/user_detail_header_bg.png"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable_abc_cab_background_top_material.xml.flat",
         "source": "/home/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/00bb6e33dc5314929ca6ade4f3792608/res/drawable/abc_cab_background_top_material.xml"
     },
@@ -128,12 +132,12 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/xml/default_values.xml"
     },
     {
-        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/transition_changebounds.xml.flat",
-        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/transition/changebounds.xml"
-    },
-    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_quick_contacts.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/quick_contacts.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/transition_changebounds.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/transition/changebounds.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-anydpi-v21_design_ic_visibility_off.xml.flat",
@@ -2356,6 +2360,10 @@
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/layout_animations_hideshow.xml"
     },
     {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable_user_login_header_bg.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/user_login_header_bg.xml"
+    },
+    {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-hdpi_apidemo_androidlogo.png.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable-hdpi/apidemo_androidlogo.png"
     },
@@ -2762,6 +2770,10 @@
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable_hover_background_active.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable/hover_background_active.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_activity_rebound_view.xml.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/activity_rebound_view.xml"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable_btn_pressed.xml.flat",
@@ -3262,6 +3274,10 @@
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_linear_layout_1.xml.flat",
         "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/layout/linear_layout_1.xml"
+    },
+    {
+        "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-xhdpi_user_detail_veritical_line_bg.png.flat",
+        "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/drawable-xhdpi/user_detail_veritical_line_bg.png"
     },
     {
         "merged": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-watch-v20_abc_dialog_material_background.xml.flat",

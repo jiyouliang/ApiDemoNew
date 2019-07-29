@@ -1,8 +1,13 @@
 package com.example.android.apis.mydemo.dialog;
 
 import android.app.Activity;
+import android.app.Service;
+import android.content.BroadcastReceiver;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.content.LocalBroadcastManager;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.Button;
 
 import com.example.android.apis.R;
@@ -19,7 +24,6 @@ public class LoadingDialogActivity extends Activity implements View.OnClickListe
         setContentView(R.layout.activity_loading_dialog);
         initView();
     }
-
 
     private void initView() {
         mBtnShow = (Button) findViewById(R.id.btn_show);

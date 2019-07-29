@@ -1537,6 +1537,7 @@
     <string name="mydemo_property_animation">新增Demo/Animation/01.属性动画(位移)</string>
     <string name="mydemo_thread_pool">新增Demo/Thread/01.线程池</string>
     <string name="mydemo_vector_drawable">新增Demo/Views/贝塞尔虚线/01.VectorDrawable矢量图动画</string>
+    <string name="mydemo_view_rebound">新增Demo/Views/07.阻尼回弹效果</string>
     <string name="new_fragment">Push</string>
     <string name="new_text">New Text</string>
     <string name="no_saves_state">This text field does not save its state:</string>
