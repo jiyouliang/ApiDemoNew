@@ -16,6 +16,9 @@ import android.widget.FrameLayout;
 public class ReboundView extends FrameLayout {
     //    private View inner;
     private float mDownY;
+    /**
+     * 存储阻尼view初始四个(左上右下)点坐标
+     */
     private Rect mRect = new Rect();
     /**
      * 阻力,也可以说是摩擦力,阻力越大拖动距离越小
@@ -40,28 +43,24 @@ public class ReboundView extends FrameLayout {
         switch (action) {
             case MotionEvent.ACTION_DOWN:
                 mDownY = ev.getY();
+                // 当滚动到最上或者最下时就不会再滚动，这时移动布局
+                if (mRect.isEmpty()) {
+                    // 保存正常的布局位置
+                    mRect.set(getLeft(), getTop(),
+                            getRight(), getBottom());
+                }
                 return true;
             case MotionEvent.ACTION_UP:
                 if (isNeedAnimation()) {
                     animation();
                 }
                 return true;
-//                break;
             case MotionEvent.ACTION_MOVE:
                 float moveY = ev.getY();
                 int deltaY = (int) ((mDownY - moveY) / SIZE);
                 mDownY = moveY;
-                // 当滚动到最上或者最下时就不会再滚动，这时移动布局
-                if (isNeedMove()) {
-                    if (mRect.isEmpty()) {
-                        // 保存正常的布局位置
-                        mRect.set(getLeft(), getTop(),
-                                getRight(), getBottom());
-                    }
-                    //这里移动布局
-                    layout(getLeft(), getTop() - deltaY, getRight(),
-                            getBottom() - deltaY);
-                }
+                //这里移动布局
+                layout(getLeft(), getTop() - deltaY, getRight(), getBottom() - deltaY);
                 return true;
             default:
                 break;
@@ -73,7 +72,7 @@ public class ReboundView extends FrameLayout {
     // 开启动画移动
     public void animation() {
         // 开启移动动画
-        TranslateAnimation ta = new TranslateAnimation(0, 0, getTop() - mRect.top, 0);
+        TranslateAnimation ta = new TranslateAnimation(0, 0, getTop(), mRect.top);
         ta.setDuration(200);
         startAnimation(ta);
         // 设置回到正常的布局位置

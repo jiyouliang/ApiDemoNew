@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/user_detail_veritical_line_bg"
+    tools:context=".mydemo.views.ReboundViewActivity">
+
+    <LinearLayout
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/user_detail_header_bg"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="这是一个全新时代的开始，是“新思维 ”淘汰“旧思维”的时代，网店革了实体店的命，滴滴革了出租车的命，自媒体革了报纸的命，直播革了电视的命，微信革了移动的命，支付宝革了银行的命，那么我们要迎来和投入到的是消费革命的大潮中，要敢于弄潮敢为天下先。
+
+快手在3年间成为中国第一大直播平台，网约车从创业到成长为超级巨无霸用了2年时间，共享单车从创业到成长为超级巨无霸用了1年，无数网红从默默无闻到无人不知常常是一夜之间，也在预示她将颠覆取代固有的明星效应，瓜子二手车在一年之间年突然闯入大众视野，今日头条开始全面挑战百度地位！
+
+抖音一夜上线粉丝3个亿，直接威逼大佬们的江湖地位！平台化正在代替公司化
+
+科技革命、互联网浪潮、经济危机、地区冲突等等不断加剧，它们争先恐后的给世界洗牌。柯达、诺基亚可以一夜间倒下去,索尼、松下可以瞬间在市场上消失；家乐福、沃尔玛可以说走就走,就连阿里、百度、腾讯，京东、随时可能沦为传统企业,无论你是一家什么样的企业总有一款危机适合你。
+
+无论你多么牛，总有一种革新对你。
+
+机器人要取代蓝领人工智能要取代白领,这是从未有过的革命浪潮，我们身处新旧世界交替冷暖交替的夹缝里，每一个人都在夹缝里求生。未来必将是由有知识，懂创新、会创造，读懂时代、迎接变革，携带正能量，愿意改变世界的人！进一步来说；互联网释放了我们的个性，催生了大量自由职业者，无数平台的崛起，使你有机会参与创造和价值输出。你越有能力、越有特点、越有特长，就越不需要依附某个公司。
+
+今后每一个人都是独立的经济体，个人的创造力得到了极大的释放。相反，那些资质平平的泛泛之辈，或者始终找不到定位的人，可能只能依附于组织的安排、别人的指使才能生存，所以工薪阶层必将沦为社会的最底层。"
+            android:textColor="#646060"
+            android:textSize="16sp" />
+
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
