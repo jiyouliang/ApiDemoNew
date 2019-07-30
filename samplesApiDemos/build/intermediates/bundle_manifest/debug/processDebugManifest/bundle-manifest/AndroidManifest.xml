@@ -4155,6 +4155,24 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.views.ReboundViewActivity2"
+            android:label="@string/mydemo_view_rebound2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.views.RecyclerViewReboundActivity"
+            android:label="@string/mydemo_view_rebound3" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
 
         <provider
             android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"

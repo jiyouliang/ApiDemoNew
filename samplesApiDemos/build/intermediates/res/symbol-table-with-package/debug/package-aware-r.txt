@@ -887,6 +887,7 @@ drawable button
 drawable card_background
 drawable circle_rect_white_bg
 drawable circular_progress
+drawable common_line
 drawable commute_tips_close2
 drawable custom_pointer_icon
 drawable delete_keyboard
@@ -1296,6 +1297,7 @@ id first_item
 id first_least_item
 id first_most_item
 id fixed
+id fl_container
 id flag_activity_clear_task
 id flag_activity_clear_task_pi
 id flipper
@@ -1383,6 +1385,7 @@ id iv
 id iv_close
 id iv_gif
 id iv_loading
+id iv_rebound
 id jellies
 id jump
 id jumpcut
@@ -1427,6 +1430,7 @@ id login
 id long_notify
 id long_press
 id lunch
+id lv
 id main
 id masked
 id media_actions
@@ -1588,6 +1592,7 @@ id ratingbar1
 id ratingbar2
 id realtabcontent
 id recreate
+id recycle_view
 id refresh
 id remove
 id reorder_launch_four
@@ -1833,6 +1838,7 @@ id tv2
 id tv_content
 id tv_countdown
 id tv_more
+id tv_rebound
 id tv_title
 id two_buttons
 id two_buttons2
@@ -1966,7 +1972,9 @@ layout activity_path_tranform_bezier
 layout activity_path_trsnsform_edit_text
 layout activity_property_anim
 layout activity_rebound_view
+layout activity_rebound_view2
 layout activity_recreate
+layout activity_recycler_view_rebound
 layout activity_thread_pool
 layout activity_vector
 layout alarm_controller
@@ -2178,6 +2186,8 @@ layout quick_contacts
 layout radio_group_1
 layout ratingbar_1
 layout read_asset
+layout rebound_recycle_item_image
+layout rebound_recycle_item_tv
 layout receive_result
 layout redirect_enter
 layout redirect_getter
@@ -2978,6 +2988,8 @@ string mydemo_property_animation
 string mydemo_thread_pool
 string mydemo_vector_drawable
 string mydemo_view_rebound
+string mydemo_view_rebound2
+string mydemo_view_rebound3
 string new_fragment
 string new_text
 string no_saves_state
