@@ -4159,10 +4159,18 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".mydemo.views.RecyclerViewReboundActivity"
             android:label="@string/mydemo_view_rebound3">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mydemo.nestedscrolling.NestedScrollingActivity"
+            android:label="@string/mydemo_view_nested_scrolling">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -54,5 +54,4 @@
 * 9.LocationProvider:判断定位服务（网络、GPS）
 * 10.属性动画
 
-test merge
 
