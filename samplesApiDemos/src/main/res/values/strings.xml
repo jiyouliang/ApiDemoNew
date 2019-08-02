@@ -1709,6 +1709,9 @@
     <string name="mydemo_view_rebound2">新增Demo/Views/阻尼回弹效果/02.ViewHelper实现阻尼回弹效果</string>
     <string name="mydemo_view_rebound3">新增Demo/Views/阻尼回弹效果/03.RecyclerView实现阻尼回弹效果</string>
     <string name="mydemo_view_nested_scrolling">新增Demo/Views/NestedScrolling(嵌套滑动机制)/01.简单Demo</string>
+    <string name="mydemo_view_nested_scrolling2">新增Demo/Views/NestedScrolling(嵌套滑动机制)/02.简单Demo</string>
+    <string name="mydemo_view_nested_scrolling3">新增Demo/Views/NestedScrolling(嵌套滑动机制)/03.NestedScrolling+RecycleView实现阻尼效果</string>
+    <string name="mydemo_view_nested_scrolling4">新增Demo/Views/NestedScrolling(嵌套滑动机制)/04.NestedScrolling+RecycleView实现阻尼效果</string>
 
     <!--drawable-->
     <string name="mydemo_customer_drawable">新增Demo/drawable/01.自定义drawable</string>

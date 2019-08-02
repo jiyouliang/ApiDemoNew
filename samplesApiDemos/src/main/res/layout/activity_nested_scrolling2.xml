@@ -1,0 +1,42 @@
+<com.example.android.apis.mydemo.nestedscrolling.MyNestScrollingParentView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadingEdge="none"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_top_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4400ff00"
+        android:fadingEdge="none">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:gravity="center"
+            android:text="软件介绍"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#D3D2D2"
+        android:fadingEdge="none"
+        android:gravity="center"
+        android:text="标题"
+        android:textColor="#FF000000"
+        android:textSize="20sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#44ff0000"
+        android:fadingEdge="none"
+        android:scrollbars="none" />
+
+</com.example.android.apis.mydemo.nestedscrolling.MyNestScrollingParentView>

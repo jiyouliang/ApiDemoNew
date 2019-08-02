@@ -3,6 +3,7 @@ package com.example.android.apis.mydemo.nestedscrolling;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.support.v4.view.NestedScrollingParent;
+import android.support.v4.view.NestedScrollingParentHelper;
 import android.support.v4.view.ViewCompat;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
@@ -20,6 +21,7 @@ import com.example.android.apis.R;
 public class StickyNavLayout extends LinearLayout implements NestedScrollingParent {
     private static final String TAG = "StickyNavLayout";
     private final int mScreenWidth;
+    private final NestedScrollingParentHelper mParentHelper;
 
     private View mRlTopView;
     private View mTextView;
@@ -45,17 +47,20 @@ public class StickyNavLayout extends LinearLayout implements NestedScrollingPare
     @Override
     public boolean onStartNestedScroll(View child, View target, int nestedScrollAxes) {
         Log.e(TAG, "onStartNestedScroll");
-        return true;
+        // return  true;
+        return (nestedScrollAxes & ViewCompat.SCROLL_AXIS_VERTICAL) != 0;
     }
 
     @Override
     public void onNestedScrollAccepted(View child, View target, int nestedScrollAxes) {
         Log.e(TAG, "onNestedScrollAccepted");
+        mParentHelper.onNestedScrollAccepted(child, target, nestedScrollAxes);
     }
 
     @Override
     public void onStopNestedScroll(View target) {
         Log.e(TAG, "onStopNestedScroll");
+        mParentHelper.onStopNestedScroll(target);
     }
 
     @Override
@@ -65,7 +70,7 @@ public class StickyNavLayout extends LinearLayout implements NestedScrollingPare
 
     @Override
     public void onNestedPreScroll(View target, int dx, int dy, int[] consumed) {
-        Log.e(TAG, "onNestedPreScroll");
+        Log.e(TAG, String.format("onNestedPreScroll, dx=%s, dy=%s, consumed=[%s, %s]", dx, dy, consumed[0], consumed[1]));
         boolean hiddenTop = dy > 0 && getScrollY() < mTopViewHeight;
         boolean showTop = dy < 0 && getScrollY() >= 0 && !ViewCompat.canScrollVertically(target, -1);
 
@@ -79,6 +84,8 @@ public class StickyNavLayout extends LinearLayout implements NestedScrollingPare
 
     @Override
     public boolean onNestedFling(View target, float velocityX, float velocityY, boolean consumed) {
+        Log.e(TAG, String.format("onNestedFling, velocityX=%s, velocityY=%s", velocityX, velocityY));
+        Log.e(TAG, String.format("consumed=%s", consumed));
         //如果是recyclerView 根据判断第一个元素是哪个位置可以判断是否消耗
         //这里判断如果第一个元素的位置是大于TOP_CHILD_FLING_THRESHOLD的
         //认为已经被消耗，在animateScroll里不会对velocityY<0时做处理
@@ -171,6 +178,7 @@ public class StickyNavLayout extends LinearLayout implements NestedScrollingPare
 
     public StickyNavLayout(Context context, AttributeSet attrs) {
         super(context, attrs);
+        mParentHelper = new NestedScrollingParentHelper(this);
         setOrientation(LinearLayout.VERTICAL);
 
         mScroller = new OverScroller(context);

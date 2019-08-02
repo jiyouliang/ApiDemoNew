@@ -1235,6 +1235,7 @@ id disappearingCB
 id display_id
 id display_list
 id dive
+id dl_view
 id drag_dot_1
 id drag_dot_2
 id drag_dot_3
@@ -1966,7 +1967,10 @@ layout activity_loading_dialog
 layout activity_location_provider
 layout activity_my_demo_list
 layout activity_navigation_bar
+layout activity_nested_scroll_with_recycle_rebound
+layout activity_nested_scroll_with_recycle_rebound2
 layout activity_nested_scrolling
+layout activity_nested_scrolling2
 layout activity_number_keyboard
 layout activity_number_keyboard_view_container
 layout activity_ok_http_async
@@ -2998,6 +3002,9 @@ string mydemo_property_animation
 string mydemo_thread_pool
 string mydemo_vector_drawable
 string mydemo_view_nested_scrolling
+string mydemo_view_nested_scrolling2
+string mydemo_view_nested_scrolling3
+string mydemo_view_nested_scrolling4
 string mydemo_view_rebound
 string mydemo_view_rebound2
 string mydemo_view_rebound3

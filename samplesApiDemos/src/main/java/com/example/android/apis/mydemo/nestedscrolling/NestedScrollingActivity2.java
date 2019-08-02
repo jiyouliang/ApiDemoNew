@@ -17,7 +17,7 @@ import com.example.android.apis.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class NestedScrollingActivity extends Activity {
+public class NestedScrollingActivity2 extends Activity {
 
     private TextView mTextView;
     private RecyclerView mRecycleView;
@@ -26,7 +26,7 @@ public class NestedScrollingActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nested_scrolling);
+        setContentView(R.layout.activity_nested_scrolling2);
 
         initViews();
         initDatas();
@@ -75,7 +75,7 @@ public class NestedScrollingActivity extends Activity {
             CommonViewHolder holder = null;
             if (context != null) {
                 LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-                if(inflater != null){
+                if (inflater != null) {
                     View view = inflater.inflate(R.layout.ns_item_text, parent, false);
                     holder = new CommonViewHolder(view);
                 }
@@ -99,11 +99,10 @@ public class NestedScrollingActivity extends Activity {
 
     private static class CommonViewHolder extends RecyclerView.ViewHolder {
         TextView tvInfo;
+
         public CommonViewHolder(View itemView) {
             super(itemView);
             tvInfo = itemView.findViewById(R.id.id_info);
         }
     }
-
-
 }

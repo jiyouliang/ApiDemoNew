@@ -82,6 +82,7 @@ public class ReboundRecyclerView extends RecyclerView {
                     mRect.set(getLeft(), getTop(),
                             getRight(), getBottom());
                 }
+
                 break;
             case MotionEvent.ACTION_UP:
                 if (isNeedAnimation()) {

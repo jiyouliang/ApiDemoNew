@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jul 21 23:09:53 CST 2019
+#Fri Aug 02 23:33:55 CST 2019
 2.base=/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/dex/debug/mergeExtDexDebug/out
 5.set=ASSET
 0.path=read_asset.txt
