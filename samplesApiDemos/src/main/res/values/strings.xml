@@ -1694,6 +1694,7 @@
     <string name="mydemo_bezier_paint_board">新增Demo/Views/贝塞尔虚线/04.贝塞尔曲线实现绘画板(平滑路径)</string>
     <string name="mydemo_bezier_wave">新增Demo/Views/贝塞尔虚线/05.贝塞尔曲线实现波浪效果</string>
     <string name="mydemo_bezier_add_cart">新增Demo/Views/贝塞尔虚线/06.贝塞尔曲线实现添加购物车效果</string>
+    <string name="mydemo_viewgroup_round_corner">新增Demo/Views/07.ViewGroup绘制圆角矩形</string>
 
     <string name="mydemo_bezier_loading">新增Demo/Views/Path绘制/01.Path实现加载loading效果</string>
     <string name="mydemo_path_effect">新增Demo/Views/Path绘制/02.PathEffect实现轨迹动画</string>
@@ -1721,6 +1722,7 @@
     <string name="mydemo_customer_manifest_attr">新增Demo/App/02.获取MainFest自定义属性</string>
     <string name="mydemo_loation_provider">新增Demo/App/03.LocationProvider(判定当前定位服务类型:网络、GSP)</string>
     <string name="mydemo_navigation_bar">新增Demo/App/04.虚拟键盘(适用全面屏-非全面屏)</string>
+    <string name="mydemo_app_runtime_permission">新增Demo/App/05.运行时权限</string>
     <!--Security-->
     <string name="mydemo_keystore_signature">新增Demo/Security/01.获取keystore签名信息</string>
     <!--Thread-->
@@ -1735,6 +1737,9 @@
     <!--Glide-->
     <string name="mydemo_glid_load_gif">新增Demo/Glide图片加载框架/0.1加载gif图片</string>
     <string name="mydemo_dialog_loading">新增Demo/Dialog/仿高德地图LoadingDialog</string>
+
+    <!--test-->
+
 
 
 </resources>

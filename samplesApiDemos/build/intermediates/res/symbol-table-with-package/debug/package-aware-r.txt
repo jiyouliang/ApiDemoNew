@@ -1986,6 +1986,8 @@ layout activity_rebound_view
 layout activity_rebound_view2
 layout activity_recreate
 layout activity_recycler_view_rebound
+layout activity_runtime_permission
+layout activity_test_round_corner
 layout activity_thread_pool
 layout activity_vector
 layout alarm_controller
@@ -2971,6 +2973,7 @@ string monkey_wipe_data
 string msg_launcher_shortcuts
 string msg_search
 string msg_search_results
+string mydemo_app_runtime_permission
 string mydemo_bezier
 string mydemo_bezier_add_cart
 string mydemo_bezier_loading
@@ -2999,6 +3002,7 @@ string mydemo_path_effect
 string mydemo_path_measure_post_tan
 string mydemo_path_transform_edit
 string mydemo_property_animation
+string mydemo_test_round_corner
 string mydemo_thread_pool
 string mydemo_vector_drawable
 string mydemo_view_nested_scrolling

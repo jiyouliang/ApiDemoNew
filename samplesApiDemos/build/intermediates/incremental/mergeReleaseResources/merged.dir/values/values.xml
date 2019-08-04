@@ -474,12 +474,16 @@
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
+    <color name="blue_color">#4287FF</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
     <color name="bright_foreground_material_dark">@android:color/white</color>
     <color name="bright_foreground_material_light">@android:color/black</color>
+    <color name="btn_disable_normal">#B3CFFF</color>
+    <color name="btn_enable_normal">#DD4C6BFF</color>
+    <color name="btn_enable_pressed">#DD3D53FF</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="custom_theme_color">#b0b0ff</color>
@@ -663,6 +667,7 @@
     <dimen name="fastscroll_default_thickness">8dp</dimen>
     <dimen name="fastscroll_margin">0dp</dimen>
     <dimen name="fastscroll_minimum_range">50dp</dimen>
+    <dimen name="height_btn_large">@dimen/input_height</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
@@ -670,6 +675,7 @@
     <item format="float" name="hint_alpha_material_light" type="dimen">0.38</item>
     <item format="float" name="hint_pressed_alpha_material_dark" type="dimen">0.70</item>
     <item format="float" name="hint_pressed_alpha_material_light" type="dimen">0.54</item>
+    <dimen name="input_height">46dp</dimen>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
@@ -688,6 +694,8 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="radius_btn_large">23dp</dimen>
+    <dimen name="text_size_large">36sp</dimen>
     <dimen name="tooltip_corner_radius">2dp</dimen>
     <dimen name="tooltip_horizontal_padding">16dp</dimen>
     <dimen name="tooltip_margin">8dp</dimen>
@@ -709,11 +717,15 @@
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
+    <item name="dataBinding" type="id"/>
     <item name="ghost_view" type="id"/>
+    <item name="glide_custom_view_target_tag" type="id"/>
     <item name="home" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="line1" type="id"/>
     <item name="line3" type="id"/>
+    <item name="onAttachStateChangeListener" type="id"/>
+    <item name="onDateChanged" type="id"/>
     <item name="parent_matrix" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
@@ -725,6 +737,7 @@
     <item name="tag_transition_group" type="id"/>
     <item name="text" type="id"/>
     <item name="text2" type="id"/>
+    <item name="textWatcher" type="id"/>
     <item name="textinput_counter" type="id"/>
     <item name="textinput_error" type="id"/>
     <item name="title" type="id"/>
@@ -1498,6 +1511,7 @@
     <string name="msg_launcher_shortcuts">This activity creates shortcuts for the launcher (home screen), and receives intents from those shortcuts.  To try it, return to the launcher and long-press to create a shortcut.</string>
     <string name="msg_search">This activity shows a few different ways to invoke search, and inserts context-specific data for use by the search activity.</string>
     <string name="msg_search_results">This activity accepts query strings via the ACTION_SEARCH intent.  In a full implementation, you would use the query string to select results from your data source, and present a list of those results to the user.</string>
+    <string name="mydemo_app_runtime_permission">新增Demo/App/05.运行时权限</string>
     <string name="mydemo_bezier">新增Demo/Views/贝塞尔虚线/02.贝塞尔曲线(二阶、三阶)</string>
     <string name="mydemo_bezier_add_cart">新增Demo/Views/贝塞尔虚线/06.贝塞尔曲线实现添加购物车效果</string>
     <string name="mydemo_bezier_loading">新增Demo/Views/Path绘制/01.Path实现加载loading效果</string>
@@ -1505,12 +1519,20 @@
     <string name="mydemo_bezier_path_transform">新增Demo/Views/贝塞尔虚线/03.贝塞尔曲线实现路径变换</string>
     <string name="mydemo_bezier_wave">新增Demo/Views/贝塞尔虚线/05.贝塞尔曲线实现波浪效果</string>
     <string name="mydemo_bottom_sheet">新增Demo/Views/01.BottomSheet(底部操作控件)</string>
+    <string name="mydemo_count_down">新增Demo/Views/06.自定义倒计时效果</string>
+    <string name="mydemo_customer_drawable">新增Demo/drawable/01.自定义drawable</string>
+    <string name="mydemo_customer_keyboard_input">新增Demo/Views/03.数字键盘输入框View部分</string>
     <string name="mydemo_customer_manifest_attr">新增Demo/App/02.获取MainFest自定义属性</string>
+    <string name="mydemo_customer_view_group">新增Demo/Views/02.自定义控件继承ViewGroup</string>
     <string name="mydemo_device_id">新增Demo/App/01.获取设备id：DeviceId</string>
+    <string name="mydemo_dialog_loading">新增Demo/Dialog/仿高德地图LoadingDialog</string>
+    <string name="mydemo_glid_load_gif">新增Demo/Glide图片加载框架/0.1加载gif图片</string>
+    <string name="mydemo_keyboard_view_container">新增Demo/Views/05.自定义数字键盘容器(开发中使用)</string>
     <string name="mydemo_keystore_signature">新增Demo/Security/01.获取keystore签名信息</string>
     <string name="mydemo_list_activity">MyDemo1</string>
     <string name="mydemo_loation_provider">新增Demo/App/03.LocationProvider(判定当前定位服务类型:网络、GSP)</string>
     <string name="mydemo_navigation_bar">新增Demo/App/04.虚拟键盘(适用全面屏-非全面屏)</string>
+    <string name="mydemo_number_keyboard">新增Demo/Views/04.自定义数字键盘</string>
     <string name="mydemo_okhttp_async">新增Demo/Thread/03.OkHttp异步请求</string>
     <string name="mydemo_okhttp_post">新增Demo/Thread/02.OkHttp post提交json数据</string>
     <string name="mydemo_path_dots_loading">新增Demo/Views/Path绘制/05.仿高德地图Button加载动画</string>
@@ -1520,6 +1542,14 @@
     <string name="mydemo_property_animation">新增Demo/Animation/01.属性动画(位移)</string>
     <string name="mydemo_thread_pool">新增Demo/Thread/01.线程池</string>
     <string name="mydemo_vector_drawable">新增Demo/Views/贝塞尔虚线/01.VectorDrawable矢量图动画</string>
+    <string name="mydemo_view_nested_scrolling">新增Demo/Views/NestedScrolling(嵌套滑动机制)/01.简单Demo</string>
+    <string name="mydemo_view_nested_scrolling2">新增Demo/Views/NestedScrolling(嵌套滑动机制)/02.简单Demo</string>
+    <string name="mydemo_view_nested_scrolling3">新增Demo/Views/NestedScrolling(嵌套滑动机制)/03.NestedScrolling+RecycleView实现阻尼效果</string>
+    <string name="mydemo_view_nested_scrolling4">新增Demo/Views/NestedScrolling(嵌套滑动机制)/04.NestedScrolling+RecycleView实现阻尼效果</string>
+    <string name="mydemo_view_rebound">新增Demo/Views/阻尼回弹效果/01.View.onTouchEvent失效阻尼回弹</string>
+    <string name="mydemo_view_rebound2">新增Demo/Views/阻尼回弹效果/02.ViewHelper实现阻尼回弹效果</string>
+    <string name="mydemo_view_rebound3">新增Demo/Views/阻尼回弹效果/03.RecyclerView实现阻尼回弹效果</string>
+    <string name="mydemo_viewgroup_round_corner">新增Demo/Views/07.ViewGroup绘制圆角矩形</string>
     <string name="new_fragment">Push</string>
     <string name="new_text">New Text</string>
     <string name="no_saves_state">This text field does not save its state:</string>
@@ -3281,6 +3311,12 @@
         <item name="android:src">@drawable/stylogo240dpi</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MyDialogTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/transparent_background</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:backgroundDimEnabled">true</item>
     </style>
     <style name="Platform.AppCompat" parent="android:Theme.Holo">
         <item name="android:windowNoTitle">true</item>

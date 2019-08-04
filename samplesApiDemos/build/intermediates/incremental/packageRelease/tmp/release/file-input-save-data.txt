@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jul 21 13:41:13 CST 2019
+#Sun Aug 04 21:28:48 CST 2019
 2.base=/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/merged_assets/release/mergeReleaseAssets/out
 0.path=classes.dex
 2.baseType=DIRECTORY
