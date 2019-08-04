@@ -21,8 +21,9 @@
 
 2019/08/04
 
-* 1.ViewGroup绘制圆角矩形
-* 2.运行时权限
+* 1.NestedScrolling+RecyclerView实现阻尼回弹效果
+* 2.ViewGroup绘制圆角矩形
+* 3.运行时权限
 
 
 2019/07/31

@@ -40,6 +40,8 @@ public class NestedScrollWithRecycleReboundActivity2 extends Activity {
         DividerItemDecoration decor =
                 new DividerItemDecoration(this, mLayoutManager.getOrientation());
         decor.setDrawable(getResources().getDrawable(R.drawable.common_line));
+
+        mRecycleView.addItemDecoration(decor);
     }
 
 

@@ -1987,9 +1987,9 @@ layout activity_rebound_view2
 layout activity_recreate
 layout activity_recycler_view_rebound
 layout activity_runtime_permission
-layout activity_test_round_corner
 layout activity_thread_pool
 layout activity_vector
+layout activity_viewgroup_round_corner
 layout alarm_controller
 layout alarm_service
 layout alert_dialog
@@ -3002,7 +3002,6 @@ string mydemo_path_effect
 string mydemo_path_measure_post_tan
 string mydemo_path_transform_edit
 string mydemo_property_animation
-string mydemo_test_round_corner
 string mydemo_thread_pool
 string mydemo_vector_drawable
 string mydemo_view_nested_scrolling
@@ -3012,6 +3011,7 @@ string mydemo_view_nested_scrolling4
 string mydemo_view_rebound
 string mydemo_view_rebound2
 string mydemo_view_rebound3
+string mydemo_viewgroup_round_corner
 string new_fragment
 string new_text
 string no_saves_state

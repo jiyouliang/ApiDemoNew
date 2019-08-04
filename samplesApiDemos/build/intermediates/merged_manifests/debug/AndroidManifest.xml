@@ -4219,8 +4219,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android.apis.mydemo.test.TestRoundCornerActivity"
-            android:label="@string/mydemo_test_round_corner" >
+            android:name="com.example.android.apis.mydemo.test.ViewGroupRoundCornerActivity"
+            android:label="@string/mydemo_viewgroup_round_corner" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
