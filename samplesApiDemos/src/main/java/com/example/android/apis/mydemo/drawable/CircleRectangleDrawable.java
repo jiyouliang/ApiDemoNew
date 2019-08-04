@@ -50,15 +50,6 @@ public class CircleRectangleDrawable extends Drawable {
      */
     @Override
     public void draw(@NonNull Canvas canvas) {
-        //绘制矩形
-//        RectF rectF = new RectF(0, 0, w, h);
-
-       /* canvas.rotate(90, rectF.centerX(), rectF.centerY());
-        // Draw the oval
-        canvas.drawRoundRect(rectF, 10, 10, mPaint);
-
-        int width = getWidth();
-        int height = getHeight();*/
 
         mPaint.setColor(Color.BLUE);
         mPaint.setStyle(Paint.Style.STROKE);
