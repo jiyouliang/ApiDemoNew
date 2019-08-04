@@ -2,16 +2,15 @@
 
 **ApiDemosNews是在android ApiDemos基础上，新增扩展Demo**
 
+
+
 ### 一、截图(部分)
 
 
-![](/screenshot/5.gif)
+![](/screenshot/1.gif)  ![](/screenshot/5.gif)
 
-![](/screenshot/1.gif)
 
-![](/screenshot/2.gif)
-
-![](/screenshot/3.gif)
+![](/screenshot/2.gif)  ![](/screenshot/3.gif)
 
 ![](/screenshot/4.gif)
 
