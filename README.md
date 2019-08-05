@@ -12,7 +12,7 @@
 
 ![](/screenshot/2.gif)  ![](/screenshot/3.gif)
 
-![](/screenshot/4.gif)
+![](/screenshot/4.gif)  ![](/screenshot/6.gif)
 
 
 
