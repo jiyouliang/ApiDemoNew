@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn1"
+            android:text="ThreadPoolExecutor创建线程池"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:text="Executors.newFixedThreadPool创建线程池"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:text="Executors.newCachedThreadPool创建线程池"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:text="Executors.newSingleThreadPool创建线程池"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:text="Executors.newScheduledThreadPool创建线程池"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_weight="6"
+        android:background="#ee000000"
+        android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:id="@+id/tv_title"
+               android:layout_width="match_parent"
+               android:padding="10dp"
+               android:textSize="18sp"
+               android:textColor="#FF0000"
+               android:textStyle="bold"
+               android:text="任务数量"
+               android:layout_height="wrap_content" />
+
+           <TextView
+               android:id="@+id/tv"
+               android:layout_width="match_parent"
+               android:padding="10dp"
+               android:textSize="10sp"
+               android:text="thread name"
+               android:textColor="#F0D1D1"
+               android:layout_height="match_parent" />
+
+       </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

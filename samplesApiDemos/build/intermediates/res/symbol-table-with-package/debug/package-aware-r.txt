@@ -859,6 +859,8 @@ drawable apidemo_androidlogo
 drawable app_sample_code
 drawable arrow_animated_vector
 drawable arrow_down_float
+drawable arrow_left_black
+drawable arrow_left_light
 drawable arrow_up_float
 drawable arrow_vector
 drawable avd_hide_password
@@ -989,6 +991,8 @@ drawable scrollbar_vertical_thumb
 drawable scrollbar_vertical_track
 drawable search_bar_animated_vector
 drawable search_vector
+drawable setting_black
+drawable setting_light
 drawable shape_1
 drawable shape_2
 drawable shape_3
@@ -1038,6 +1042,8 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
+id action_color_blue
+id action_color_red
 id action_container
 id action_context_bar
 id action_divider
@@ -1385,10 +1391,12 @@ id invisible_item
 id italic
 id item_touch_helper_previous_elevation
 id iv
+id iv_arrow_left
 id iv_close
 id iv_gif
 id iv_loading
 id iv_rebound
+id iv_setting
 id jellies
 id jump
 id jumpcut
@@ -1426,6 +1434,7 @@ id list_en
 id list_fr
 id list_item
 id list_view
+id ll_container
 id loading_view
 id localaudio
 id localvideo
@@ -1621,6 +1630,7 @@ id right_side
 id right_text
 id right_text_button
 id right_text_edit
+id rl_title_container
 id rl_top_view
 id rotate
 id rotatingButton
@@ -1987,6 +1997,8 @@ layout activity_rebound_view2
 layout activity_recreate
 layout activity_recycler_view_rebound
 layout activity_runtime_permission
+layout activity_status_bar_translucent
+layout activity_status_bar_translucent2
 layout activity_thread_pool
 layout activity_vector
 layout activity_viewgroup_round_corner
@@ -2326,6 +2338,7 @@ menu presentation_with_media_router_menu
 menu print_custom_content
 menu searchview_in_menu
 menu shortcuts
+menu status_bar_activity2_menu
 menu submenu
 menu title_icon
 menu title_only
@@ -3002,6 +3015,8 @@ string mydemo_path_effect
 string mydemo_path_measure_post_tan
 string mydemo_path_transform_edit
 string mydemo_property_animation
+string mydemo_statusbar_translucent1
+string mydemo_statusbar_translucent2
 string mydemo_thread_pool
 string mydemo_vector_drawable
 string mydemo_view_nested_scrolling
@@ -3319,6 +3334,7 @@ string start_service_foreground_2
 string start_service_foreground_2_alarm
 string start_service_foreground_wakelock
 string startfail_service
+string status_bar_below50
 string status_bar_notification_info_overflow
 string status_bar_notification_title
 string status_bar_notifications_clear
@@ -3732,6 +3748,7 @@ style ImageView120dpi
 style ImageView160dpi
 style ImageView240dpi
 style MyDialogTheme
+style MyTranslucentTheme
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_ThemeOverlay_AppCompat

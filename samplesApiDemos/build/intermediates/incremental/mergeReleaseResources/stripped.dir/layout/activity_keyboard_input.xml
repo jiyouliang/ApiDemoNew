@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DBDEE9"
+    android:padding="10dp"
+    android:gravity="center_horizontal"
+    tools:context=".mydemo.views.KeyboardInputActivity">
+
+    <com.example.android.apis.mydemo.views.KeyboardInputView
+        android:id="@+id/keyboard_input"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:background="#FFFFFF" />
+
+</LinearLayout>

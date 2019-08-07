@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.android.apis"
     android:installLocation="auto">
 
@@ -49,7 +50,8 @@
         android:icon="@drawable/app_sample_code"
         android:label="@string/activity_sample_code"
         android:supportsRtl="true"
-        android:theme="@android:style/Theme.Material.Light.DarkActionBar">
+        android:theme="@android:style/Theme.Material.Light.DarkActionBar"
+        tools:targetApi="lollipop">
 
 
         <meta-data
@@ -4216,6 +4218,26 @@
         <activity
             android:name=".mydemo.test.ViewGroupRoundCornerActivity"
             android:label="@string/mydemo_viewgroup_round_corner">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mydemo.app.statusbar.StatusBarTranslucentActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:label="@string/mydemo_statusbar_translucent1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mydemo.app.statusbar.StatusBarTranslucentActivity2"
+            android:theme="@style/MyTranslucentTheme"
+            android:label="@string/mydemo_statusbar_translucent2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

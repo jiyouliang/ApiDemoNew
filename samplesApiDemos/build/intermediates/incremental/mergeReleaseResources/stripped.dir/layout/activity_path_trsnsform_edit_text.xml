@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical">
+
+    <com.example.android.apis.mydemo.views.ClearEditText
+        android:id="@+id/adjust_edit"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_height="42dp"
+        android:inputType="phone"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="测试" />
+
+</LinearLayout>

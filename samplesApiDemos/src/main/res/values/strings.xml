@@ -1738,8 +1738,11 @@
     <string name="mydemo_glid_load_gif">新增Demo/Glide图片加载框架/0.1加载gif图片</string>
     <string name="mydemo_dialog_loading">新增Demo/Dialog/仿高德地图LoadingDialog</string>
 
+    <!--statusbar-->
+    <string name="mydemo_statusbar_translucent1">新增Demo/statusbar(状态栏)/01.状态栏沉浸(4.4系统实现方案)</string>
+    <string name="mydemo_statusbar_translucent2">新增Demo/statusbar(状态栏)/02.状态栏沉浸(5.0以上系统实现方案)</string>
+    <string name="status_bar_below50"><![CDATA[1、从Android 5.0开始，Google 推出了全新的设计规范 Material Design,并且原生控件就可以实现一些炫酷的UI动效。从这个版本开始，google 加入了一个比较重要的方法setStatusBarColor (对应属性：android:statusBarColor)         \\n 2、必须还要配合一个Flag一起使用，必须设置FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS ,并且不能设置FLAG_TRANSLUCENT_STATUS(Android 4.4才用这个)         \\n 3、解释：设置了FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS,表明会Window负责系统bar的background 绘制，绘制透明背景的系统bar（状态栏和导航栏），然后用getStatusBarColor()和getNavigationBarColor()的颜色填充相应的区域。这就是Android 5.0 以上实现沉浸式导航栏的原理         \\n 4、通过下面两种方式实现状态栏沉浸效果：         \\n 4.1 getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS); //注意要清除 FLAG_TRANSLUCENT_STATUS flag getWindow().clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS); getWindow().setStatusBarColor(getResources().getColor(android.R.color.holo_red_light));  \\n 4.2或者使用theme,在values-21下创建styles.xml,内容如下： <style name=\"MDTheme\" parent=\"Theme.Design.Light.NoActionBar\">         <item name=\"android:windowTranslucentStatus\">false</item>         <item name=\"android:windowDrawsSystemBarBackgrounds\">true</item>         <item name=\"android:statusBarColor\">@android:color/holo_red_light</item>     </style>]]></string>
     <!--test-->
-
 
 
 </resources>

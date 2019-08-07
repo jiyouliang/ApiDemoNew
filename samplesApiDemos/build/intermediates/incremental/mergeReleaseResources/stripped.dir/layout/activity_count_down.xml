@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mydemo.views.CountDownActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_countdown"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="倒计时秒"
+        android:enabled="false"
+        android:textSize="18sp"
+        android:textColor="#DD4C6BFF"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_start"
+        android:text="开始倒计时"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_top"
+        android:text="停止倒计时"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

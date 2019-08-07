@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".mydemo.app.DeviceIdActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:text="TelephonyManager.getDeviceId()获取设备唯一标识"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="获取deviceId"
+        android:id="@+id/btn"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF0000"
+        android:text="当前设备id:"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

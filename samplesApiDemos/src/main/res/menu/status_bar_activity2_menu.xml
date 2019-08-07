@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="never"
+        android:id="@+id/action_color_red"
+        android:title="statusbar红色" />
+
+    <item
+        app:showAsAction="never"
+        android:id="@+id/action_color_blue"
+        android:title="statusbar蓝色" />
+</menu>

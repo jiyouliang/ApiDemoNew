@@ -4,22 +4,14 @@ import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.ValueAnimator;
 import android.content.Context;
-import android.graphics.Rect;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.view.NestedScrollingParent2;
 import android.support.v4.view.NestedScrollingParentHelper;
 import android.support.v4.view.ViewCompat;
-import android.support.v7.widget.LinearSmoothScroller;
-import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.util.Log;
-import android.view.MotionEvent;
 import android.view.View;
-import android.view.animation.AccelerateInterpolator;
-import android.view.animation.DecelerateInterpolator;
-import android.view.animation.TranslateAnimation;
-import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
 /**
@@ -101,7 +93,7 @@ public class ReboundView2 extends LinearLayout implements NestedScrollingParent2
         log("onStopNestedScroll");
         // 不判断scrolls,第一次onNestedScroll前会回调onStopNestedScroll,导致阻尼scroll不顺畅
         mNestedHelper.onStopNestedScroll(target, type);
-        if(scrolls != 0 && !mAnimator.isRunning()){
+        if (scrolls != 0 && !mAnimator.isRunning()) {
             mAnimator.setIntValues(scrolls, 0);
             mAnimator.start();
         }
@@ -122,7 +114,7 @@ public class ReboundView2 extends LinearLayout implements NestedScrollingParent2
          * dy <= 0: 只允向下滑动(只显示头部阻尼效果),
          * !mAnimator.isRunning(): 执行动画期间调用scrollTo方法导致onNestedScroll回调,这里需要屏蔽
          */
-        if(type == ViewCompat.TYPE_TOUCH && dy <= 0 && !mAnimator.isRunning()){
+        if (type == ViewCompat.TYPE_TOUCH && dy <= 0 && !mAnimator.isRunning()) {
             log("onNestedScroll");
             scrolls += dyUnconsumed / FORCE;
             scrollTo(0, scrolls);

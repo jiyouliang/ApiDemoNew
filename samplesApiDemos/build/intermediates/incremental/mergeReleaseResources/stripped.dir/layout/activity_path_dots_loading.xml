@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".mydemo.views.PathDotsLoadingActivity">
+
+    <com.example.android.apis.mydemo.views.ButtonPathLoadingView
+        android:layout_width="300dp"
+        android:id="@+id/loading_view"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="46dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:text="发送验证码"
+        android:background="@drawable/btn_blue_large_selector" />
+
+</LinearLayout>
