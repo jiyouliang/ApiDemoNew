@@ -1532,6 +1532,7 @@ id onDateChanged
 id one_shot
 id one_shot_while_idle
 id orientation
+id osv
 id packed
 id paintView
 id parallax
@@ -1999,6 +2000,8 @@ layout activity_recycler_view_rebound
 layout activity_runtime_permission
 layout activity_status_bar_translucent
 layout activity_status_bar_translucent2
+layout activity_status_bar_translucent3
+layout activity_status_bar_translucent4
 layout activity_thread_pool
 layout activity_vector
 layout activity_viewgroup_round_corner
@@ -3017,6 +3020,8 @@ string mydemo_path_transform_edit
 string mydemo_property_animation
 string mydemo_statusbar_translucent1
 string mydemo_statusbar_translucent2
+string mydemo_statusbar_translucent3
+string mydemo_statusbar_translucent4
 string mydemo_thread_pool
 string mydemo_vector_drawable
 string mydemo_view_nested_scrolling
@@ -3334,7 +3339,6 @@ string start_service_foreground_2
 string start_service_foreground_2_alarm
 string start_service_foreground_wakelock
 string startfail_service
-string status_bar_below50
 string status_bar_notification_info_overflow
 string status_bar_notification_title
 string status_bar_notifications_clear

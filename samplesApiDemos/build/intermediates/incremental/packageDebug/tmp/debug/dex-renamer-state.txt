@@ -1,4 +1,4 @@
-#Wed Aug 07 23:46:54 CST 2019
+#Thu Aug 08 16:56:32 CST 2019
 base.0=/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/dex/debug/mergeDexDebug/out
 path.0=classes.dex
 renamed.0=classes.dex

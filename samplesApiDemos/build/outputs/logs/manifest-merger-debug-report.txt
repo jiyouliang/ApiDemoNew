@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4249:12
-INJECTED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4249:12
+ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4269:12
+INJECTED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4269:12
 MERGED from [com.android.databinding:adapters:3.3.2] /home/jiyouliang/.gradle/caches/transforms-1/files-1.1/adapters-3.3.2.aar/2555900afb7d618ce535c58c6beccfaf/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.databinding:library:3.3.2] /home/jiyouliang/.gradle/caches/transforms-1/files-1.1/library-3.3.2.aar/901cb29fd9c30413926812ae3dcf010a/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:design:27.1.1] /home/jiyouliang/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/550a2e0d3998eb0d13de72a9600081dc/AndroidManifest.xml:17:1-22:12
@@ -25,7 +25,7 @@ MERGED from [android.arch.core:runtime:1.1.1] /home/jiyouliang/.gradle/caches/tr
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/jiyouliang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/793b2bab2c7a67e76da20c35c43430f8/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/jiyouliang/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/15c11942633b73634f0e7e7b499650a9/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jiyouliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ce094e49fc8f5fe5c8442cbc910640a2/AndroidManifest.xml:2:1-11:12
-INJECTED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4249:12
+INJECTED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4269:12
 	package
 		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:5:5-39
 		INJECTED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml
@@ -149,7 +149,7 @@ ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main
 	android:name
 		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:43:9-55
 application
-ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:47:5-4247:19
+ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:47:5-4267:19
 MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/e925d700505b1e8d638e9071eb74d032/AndroidManifest.xml:22:5-28:19
 MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/e925d700505b1e8d638e9071eb74d032/AndroidManifest.xml:22:5-28:19
 MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/jiyouliang/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/d4bde993e6f907df8670fd314b19d127/AndroidManifest.xml:10:5-20
@@ -3438,6 +3438,22 @@ ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main
 		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4239:13-54
 	android:name
 		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4238:13-79
+activity#com.example.android.apis.mydemo.app.statusbar.StatusBarTranslucentActivity3
+ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4247:9-4256:20
+	android:label
+		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4250:13-66
+	android:theme
+		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4249:13-54
+	android:name
+		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4248:13-79
+activity#com.example.android.apis.mydemo.app.statusbar.StatusBarTranslucentActivity4
+ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4257:9-4266:20
+	android:label
+		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4259:13-66
+	android:theme
+		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4260:13-54
+	android:name
+		ADDED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml:4258:13-79
 uses-sdk
 INJECTED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/AndroidManifest.xml

@@ -4247,6 +4247,26 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.app.statusbar.StatusBarTranslucentActivity3"
+            android:label="@string/mydemo_statusbar_translucent3"
+            android:theme="@style/MyTranslucentTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.app.statusbar.StatusBarTranslucentActivity4"
+            android:label="@string/mydemo_statusbar_translucent4"
+            android:theme="@style/MyTranslucentTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
 
         <provider
             android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"

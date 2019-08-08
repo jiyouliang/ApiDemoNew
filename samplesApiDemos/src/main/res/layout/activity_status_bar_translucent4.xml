@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/user_detail_veritical_line_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_title_container"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_height="48dp">
+
+        <ImageView
+            android:id="@+id/iv_arrow_left"
+            android:background="@drawable/arrow_left_light"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:id="@+id/tv_title"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:text="标题"
+            android:textColor="#FFFFFFFF"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iv_setting"
+            android:background="@drawable/setting_light"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <com.example.android.apis.mydemo.app.statusbar.ObservableScrollView
+        android:id="@+id/osv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="@drawable/user_detail_header_bg"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="内容"
+                android:gravity="center"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_height="600dp" />
+
+        </LinearLayout>
+
+    </com.example.android.apis.mydemo.app.statusbar.ObservableScrollView>
+
+</LinearLayout>
