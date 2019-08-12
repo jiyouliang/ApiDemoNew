@@ -4268,6 +4268,53 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.app.activity.StartActivitiesForResultActivityA"
+            android:label="@string/mydemo_start_activities_for_result" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.android.apis.mydemo.app.activity.StartActivitiesForResultActivityB" />
+        <activity android:name="com.example.android.apis.mydemo.app.activity.StartActivitiesForResultActivityC" />
+        <activity
+            android:name="com.example.android.apis.mydemo.views.CustomerProgressBarActivity"
+            android:label="@string/mydemo_customer_progress_bar1" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.views.CustomerProgressBarActivity2"
+            android:label="@string/mydemo_customer_progress_bar2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.views.CustomerProgressBarActivity3"
+            android:label="@string/mydemo_customer_progress_bar3" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.views.RefreshViewActivity"
+            android:label="@string/mydemo_refresh_view" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
 
         <provider
             android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"

@@ -1713,6 +1713,11 @@
     <string name="mydemo_view_nested_scrolling2">新增Demo/Views/NestedScrolling(嵌套滑动机制)/02.简单Demo</string>
     <string name="mydemo_view_nested_scrolling3">新增Demo/Views/NestedScrolling(嵌套滑动机制)/03.NestedScrolling+RecycleView实现阻尼效果</string>
     <string name="mydemo_view_nested_scrolling4">新增Demo/Views/NestedScrolling(嵌套滑动机制)/04.NestedScrolling+RecycleView实现阻尼效果</string>
+    <string name="mydemo_customer_progress_bar1">新增Demo/Views/ProgressBar/01.ProgressBar默认样式</string>
+    <string name="mydemo_customer_progress_bar2">新增Demo/Views/ProgressBar/02.自定义ProgressBar背景</string>
+    <string name="mydemo_customer_progress_bar3">新增Demo/Views/ProgressBar/03.淘宝ProgressBar</string>
+
+    <string name="mydemo_refresh_view">新增Demo/Views/下拉刷新/01.NestedScrolling实现下拉刷新</string>
 
     <!--drawable-->
     <string name="mydemo_customer_drawable">新增Demo/drawable/01.自定义drawable</string>
@@ -1723,6 +1728,7 @@
     <string name="mydemo_loation_provider">新增Demo/App/03.LocationProvider(判定当前定位服务类型:网络、GSP)</string>
     <string name="mydemo_navigation_bar">新增Demo/App/04.虚拟键盘(适用全面屏-非全面屏)</string>
     <string name="mydemo_app_runtime_permission">新增Demo/App/05.运行时权限</string>
+    <string name="mydemo_start_activities_for_result">新增Demo/App/startActivityForResult(A->B->C并回传数据到A)</string>
     <!--Security-->
     <string name="mydemo_keystore_signature">新增Demo/Security/01.获取keystore签名信息</string>
     <!--Thread-->
@@ -1742,7 +1748,8 @@
     <string name="mydemo_statusbar_translucent1">新增Demo/statusbar(沉浸式状态栏)/01.状态栏沉浸(4.4系统实现方案)</string>
     <string name="mydemo_statusbar_translucent2">新增Demo/statusbar(沉浸式状态栏)/02.状态栏沉浸(5.0以上系统实现方案)</string>
     <string name="mydemo_statusbar_translucent3">新增Demo/statusbar(沉浸式状态栏)/03.状态栏沉浸(5.0以上解决方案已抽取工具类)</string>
-    <string name="mydemo_statusbar_translucent4">新增Demo/statusbar(沉浸式状态栏)/04.状态栏沉浸+滑动透明度渐变</string>
+    <string name="mydemo_statusbar_translucent4">新增Demo/statusbar(沉浸式状态栏)/04.状态栏沉浸+滑动透明度渐变(ScrollView)</string>
+
     <!--test-->
 
 

@@ -6,7 +6,7 @@
     android:targetSandboxVersion="2" >
 
     <uses-sdk
-        android:minSdkVersion="23"
+        android:minSdkVersion="19"
         android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.READ_CONTACTS" />
@@ -4220,6 +4220,46 @@
         <activity
             android:name="com.example.android.apis.mydemo.test.ViewGroupRoundCornerActivity"
             android:label="@string/mydemo_viewgroup_round_corner" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.app.statusbar.StatusBarTranslucentActivity"
+            android:label="@string/mydemo_statusbar_translucent1"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.app.statusbar.StatusBarTranslucentActivity2"
+            android:label="@string/mydemo_statusbar_translucent2"
+            android:theme="@style/MyTranslucentTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.app.statusbar.StatusBarTranslucentActivity3"
+            android:label="@string/mydemo_statusbar_translucent3"
+            android:theme="@style/MyTranslucentTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.app.statusbar.StatusBarTranslucentActivity4"
+            android:label="@string/mydemo_statusbar_translucent4"
+            android:theme="@style/MyTranslucentTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

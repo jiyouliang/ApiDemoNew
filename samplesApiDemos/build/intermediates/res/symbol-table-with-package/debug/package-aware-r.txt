@@ -936,6 +936,8 @@ drawable logonodpi160
 drawable logonodpi240
 drawable magnifying_glass
 drawable mug
+drawable my_progress_drawable
+drawable my_progress_indeterminate_horizontal
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -962,6 +964,7 @@ drawable photo6
 drawable picture_frame
 drawable progress_circular_background
 drawable progress_particle
+drawable progress_refresh_indeterminate
 drawable rectangle_bg
 drawable red
 drawable reslogo120dpi
@@ -1014,6 +1017,8 @@ drawable stat_sample
 drawable stylogo120dpi
 drawable stylogo160dpi
 drawable stylogo240dpi
+drawable taobao_loading
+drawable taobao_progress_indeterminate
 drawable title_bar_close
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1587,6 +1592,7 @@ id process_text_finish_button
 id process_text_received_text_editable
 id process_text_send_edit
 id progress
+id progressBar
 id progress_button
 id progress_circular
 id progress_horizontal
@@ -1967,6 +1973,9 @@ layout activity_bezier_wave
 layout activity_bottom_sheet
 layout activity_count_down
 layout activity_customer_drawable
+layout activity_customer_progress_bar
+layout activity_customer_progress_bar2
+layout activity_customer_progress_bar3
 layout activity_customer_view_group
 layout activity_device_id
 layout activity_finish_affinity
@@ -1997,7 +2006,11 @@ layout activity_rebound_view
 layout activity_rebound_view2
 layout activity_recreate
 layout activity_recycler_view_rebound
+layout activity_refresh_view
 layout activity_runtime_permission
+layout activity_start_for_result
+layout activity_start_for_result_b
+layout activity_start_for_result_c
 layout activity_status_bar_translucent
 layout activity_status_bar_translucent2
 layout activity_status_bar_translucent3
@@ -2223,6 +2236,7 @@ layout receive_result
 layout redirect_enter
 layout redirect_getter
 layout redirect_main
+layout refresh_header_view
 layout relative_layout_1
 layout relative_layout_2
 layout remote_binding_options
@@ -3001,6 +3015,9 @@ string mydemo_count_down
 string mydemo_customer_drawable
 string mydemo_customer_keyboard_input
 string mydemo_customer_manifest_attr
+string mydemo_customer_progress_bar1
+string mydemo_customer_progress_bar2
+string mydemo_customer_progress_bar3
 string mydemo_customer_view_group
 string mydemo_device_id
 string mydemo_dialog_loading
@@ -3018,6 +3035,8 @@ string mydemo_path_effect
 string mydemo_path_measure_post_tan
 string mydemo_path_transform_edit
 string mydemo_property_animation
+string mydemo_refresh_view
+string mydemo_start_activities_for_result
 string mydemo_statusbar_translucent1
 string mydemo_statusbar_translucent2
 string mydemo_statusbar_translucent3
@@ -3752,6 +3771,7 @@ style ImageView120dpi
 style ImageView160dpi
 style ImageView240dpi
 style MyDialogTheme
+style MyProgressBar
 style MyTranslucentTheme
 style Platform_AppCompat
 style Platform_AppCompat_Light

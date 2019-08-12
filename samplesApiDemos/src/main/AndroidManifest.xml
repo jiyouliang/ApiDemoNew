@@ -4226,8 +4226,8 @@
         </activity>
         <activity
             android:name=".mydemo.app.statusbar.StatusBarTranslucentActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
-            android:label="@string/mydemo_statusbar_translucent1">
+            android:label="@string/mydemo_statusbar_translucent1"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -4236,8 +4236,8 @@
         </activity>
         <activity
             android:name=".mydemo.app.statusbar.StatusBarTranslucentActivity2"
-            android:theme="@style/MyTranslucentTheme"
-            android:label="@string/mydemo_statusbar_translucent2">
+            android:label="@string/mydemo_statusbar_translucent2"
+            android:theme="@style/MyTranslucentTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -4246,8 +4246,8 @@
         </activity>
         <activity
             android:name=".mydemo.app.statusbar.StatusBarTranslucentActivity3"
-            android:theme="@style/MyTranslucentTheme"
-            android:label="@string/mydemo_statusbar_translucent3">
+            android:label="@string/mydemo_statusbar_translucent3"
+            android:theme="@style/MyTranslucentTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -4263,6 +4263,57 @@
 
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".mydemo.app.activity.StartActivitiesForResultActivityA"
+            android:label="@string/mydemo_start_activities_for_result">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mydemo.app.activity.StartActivitiesForResultActivityB" />
+        <activity android:name=".mydemo.app.activity.StartActivitiesForResultActivityC" />
+        <activity
+            android:name=".mydemo.views.CustomerProgressBarActivity"
+            android:label="@string/mydemo_customer_progress_bar1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".mydemo.views.CustomerProgressBarActivity2"
+            android:label="@string/mydemo_customer_progress_bar2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".mydemo.views.CustomerProgressBarActivity3"
+            android:label="@string/mydemo_customer_progress_bar3">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".mydemo.views.RefreshViewActivity"
+            android:label="@string/mydemo_refresh_view">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+
         </activity>
     </application>
 

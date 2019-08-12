@@ -150,4 +150,16 @@
         <item name="android:statusBarColor">@android:color/white</item>
     </style>
 
+    <style name="MyProgressBar">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateDrawable">@drawable/my_progress_indeterminate_horizontal</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">400</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+        <item name="android:mirrorForRtl">false</item>
+    </style>
+
 </resources>

@@ -61,23 +61,7 @@
                 android:text="@string/controls_1_save" />
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal" >
 
-            <EditText
-                android:id="@+id/edit"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <EditText
-                android:id="@+id/edit2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-        </LinearLayout>
 
         <CheckBox
             android:id="@+id/check1"
@@ -135,6 +119,24 @@
             android:entries="@array/planets"
             android:drawSelectorOnTop="true" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/edit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/edit2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -172,6 +174,7 @@
             android:layout_marginTop="400dip"
             android:text="(And all inside of a ScrollView!)"
             android:textAppearance="?android:attr/textAppearanceLarge" />
+
     </LinearLayout>
 
 </ScrollView>

@@ -1540,6 +1540,10 @@
     <string name="mydemo_path_measure_post_tan">新增Demo/Views/Path绘制/03.PathMeasure.getPostTan绘制切线</string>
     <string name="mydemo_path_transform_edit">新增Demo/Views/Path绘制/04.仿高德地图EditText下划线渐变效果</string>
     <string name="mydemo_property_animation">新增Demo/Animation/01.属性动画(位移)</string>
+    <string name="mydemo_statusbar_translucent1">新增Demo/statusbar(沉浸式状态栏)/01.状态栏沉浸(4.4系统实现方案)</string>
+    <string name="mydemo_statusbar_translucent2">新增Demo/statusbar(沉浸式状态栏)/02.状态栏沉浸(5.0以上系统实现方案)</string>
+    <string name="mydemo_statusbar_translucent3">新增Demo/statusbar(沉浸式状态栏)/03.状态栏沉浸(5.0以上解决方案已抽取工具类)</string>
+    <string name="mydemo_statusbar_translucent4">新增Demo/statusbar(沉浸式状态栏)/04.状态栏沉浸+滑动透明度渐变(ScrollView)</string>
     <string name="mydemo_thread_pool">新增Demo/Thread/01.线程池</string>
     <string name="mydemo_vector_drawable">新增Demo/Views/贝塞尔虚线/01.VectorDrawable矢量图动画</string>
     <string name="mydemo_view_nested_scrolling">新增Demo/Views/NestedScrolling(嵌套滑动机制)/01.简单Demo</string>
@@ -3319,6 +3323,12 @@
         <item name="android:windowBackground">@drawable/transparent_background</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="MyTranslucentTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <!-- 设置statusBarColor 为透明-->
+        <item name="android:statusBarColor">@android:color/white</item>
     </style>
     <style name="Platform.AppCompat" parent="android:Theme.Holo">
         <item name="android:windowNoTitle">true</item>

@@ -7,6 +7,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.view.ViewCompat;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -23,8 +24,9 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.android.apis.R;
+import com.example.android.apis.mydemo.util.StatusBarUtils;
 
-public class StatusBarTranslucentActivity4 extends Activity implements ObservableScrollView.OnObservableScrollListener {
+public class StatusBarTranslucentActivity4 extends AppCompatActivity implements ObservableScrollView.OnObservableScrollListener {
 
     private static final String TAG = "StatusBarActivity4";
 
@@ -36,7 +38,6 @@ public class StatusBarTranslucentActivity4 extends Activity implements Observabl
     private TextView mTvTitle;
     private static final int STATUS_BAR_COLOR = 0xFFCFF1FF;
     private int totalDy;
-    private View mStatusBarView;
     private int mHeight;
     private RelativeLayout statusBarView;
 
@@ -71,14 +72,16 @@ public class StatusBarTranslucentActivity4 extends Activity implements Observabl
      * 设置状态栏
      */
     private void setStatusBar() {
+       /* // 4.4以上设置状态栏
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             Window window = getWindow();
             window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
             window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
         }
-
+        // 5.0以上设置状态栏
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             Window window = getWindow();
+            // 清除4.4设置
             window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS
                     | WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
             window.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
@@ -86,31 +89,17 @@ public class StatusBarTranslucentActivity4 extends Activity implements Observabl
                     | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
             window.setStatusBarColor(Color.TRANSPARENT);
-//            window.setNavigationBarColor(Color.TRANSPARENT);
+            // 底部导航栏透明()
+            //window.setNavigationBarColor(Color.TRANSPARENT);
         }
 
+        // 6.0以上设置,避免状态栏看不清
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             getWindow().getDecorView().setSystemUiVisibility(
                     View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
-
-           /* //获取windowphone下的decorView
-            ViewGroup decorView = (ViewGroup) getWindow().getDecorView();
-            int count = decorView.getChildCount();
-            //判断是否已经添加了statusBarView
-            if (count > 0 && decorView.getChildAt(count - 1) instanceof TextView) {
-//                decorView.getChildAt(count - 1).setBackgroundColor(statusBarColor);
-            } else {
-                //新建一个和状态栏高宽的view
-//                statusView = createStatusBarView(activity, titleView, statusBarColor);
-                decorView.addView(statusView);
-            }
-            ViewGroup rootView = (ViewGroup) ((ViewGroup) findViewById(android.R.id.content)).getChildAt(0);
-            //rootview不会为状态栏留出状态栏空间
-            ViewCompat.setFitsSystemWindows(rootView, true);
-            rootView.setClipToPadding(true);*/
         }
 
-
+        // 下面操作是为了避免标题栏和状态栏重合
         //获取windowphone下的decorView
         ViewGroup decorView = (ViewGroup) getWindow().getDecorView();
         int count = decorView.getChildCount();
@@ -130,12 +119,15 @@ public class StatusBarTranslucentActivity4 extends Activity implements Observabl
         ViewGroup rootView = (ViewGroup) ((ViewGroup) findViewById(android.R.id.content)).getChildAt(0);
         //rootview不会为状态栏留出状态栏空间
         ViewCompat.setFitsSystemWindows(rootView, true);
-        rootView.setClipToPadding(true);
+        rootView.setClipToPadding(true);*/
+
+        StatusBarUtils.getInstance().enableTranslucentStatusBar(this, mHeight);
     }
 
 
     @Override
     public void onScrollChanged(int l, int t, int oldl, int oldt) {
+        Log.d(TAG, String.format("onScrollChanged, top=%s", t));
         if (t <= 0) {
             //顶部图处于最顶部，标题栏透明
             mRlTitleContainer.setBackgroundColor(Color.argb(0, 255, 255, 255));
