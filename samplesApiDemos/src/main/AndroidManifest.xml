@@ -4283,7 +4283,6 @@
 
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".mydemo.views.CustomerProgressBarActivity2"
@@ -4293,7 +4292,6 @@
 
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".mydemo.views.CustomerProgressBarActivity3"
@@ -4303,7 +4301,6 @@
 
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".mydemo.views.RefreshViewActivity"
@@ -4313,7 +4310,15 @@
 
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".mydemo.views.SettingItemViewActivity"
+            android:label="@string/mydemo_setting_item_view">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
         </activity>
     </application>
 

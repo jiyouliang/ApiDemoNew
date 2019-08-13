@@ -62,4 +62,10 @@
     <!--自定义属性-->
     <attr name="myapplication_mate_info" format="string"/>
     <attr name="mydemo_activity_mate_info" format="string"/>
+
+    <declare-styleable name="MySettingItemView">
+        <!--高度-->
+        <attr name="sivHeight" format="dimension|reference"/>
+        <attr name="sivTitle" format="string|reference"/>
+    </declare-styleable>
 </resources>

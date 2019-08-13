@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mydemo.views.SettingItemViewActivity">
+
+    <com.example.android.apis.mydemo.views.MySettingItemView
+        android:layout_width="match_parent"
+        android:background="#F4F4F4"
+        android:paddingLeft="10dp"
+        app:sivHeight="50dp"
+        app:sivTitle = "设置中心"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

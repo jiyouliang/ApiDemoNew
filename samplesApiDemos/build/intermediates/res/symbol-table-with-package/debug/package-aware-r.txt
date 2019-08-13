@@ -394,6 +394,8 @@ attr showDividers
 attr showText
 attr showTitle
 attr singleChoiceItemLayout
+attr sivHeight
+attr sivTitle
 attr spanCount
 attr spinBars
 attr spinnerDropDownItemStyle
@@ -1639,6 +1641,7 @@ id right_text_button
 id right_text_edit
 id rl_title_container
 id rl_top_view
+id root_view
 id rotate
 id rotatingButton
 id rotationX
@@ -2008,6 +2011,7 @@ layout activity_recreate
 layout activity_recycler_view_rebound
 layout activity_refresh_view
 layout activity_runtime_permission
+layout activity_setting_item_view
 layout activity_start_for_result
 layout activity_start_for_result_b
 layout activity_start_for_result_c
@@ -2282,6 +2286,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout send_result
 layout service_start_arguments_controller
+layout setting_item_vew_layout
 layout shadow_card_drag
 layout shadow_card_stack
 layout shape_drawable_1
@@ -3036,6 +3041,7 @@ string mydemo_path_measure_post_tan
 string mydemo_path_transform_edit
 string mydemo_property_animation
 string mydemo_refresh_view
+string mydemo_setting_item_view
 string mydemo_start_activities_for_result
 string mydemo_statusbar_translucent1
 string mydemo_statusbar_translucent2
@@ -4043,6 +4049,7 @@ styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerti
 styleable MenuGroup android_enabled android_id android_visible android_menuCategory android_orderInCategory android_checkableBehavior
 styleable MenuItem android_icon android_enabled android_id android_checked android_visible android_menuCategory android_orderInCategory android_title android_titleCondensed android_alphabeticShortcut android_numericShortcut android_checkable android_onClick actionLayout actionProviderClass actionViewClass alphabeticModifiers contentDescription iconTint iconTintMode numericModifiers showAsAction tooltipText
 styleable MenuView android_windowAnimationStyle android_itemTextAppearance android_horizontalDivider android_verticalDivider android_headerBackground android_itemBackground android_itemIconDisabledAlpha preserveIconSpacing subMenuArrow
+styleable MySettingItemView sivHeight sivTitle
 styleable NavigationView android_background android_fitsSystemWindows android_maxWidth elevation headerLayout itemBackground itemIconTint itemTextAppearance itemTextColor menu
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
