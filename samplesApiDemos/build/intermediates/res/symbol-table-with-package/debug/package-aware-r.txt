@@ -957,6 +957,7 @@ drawable npatch120dpi
 drawable npatch160dpi
 drawable npatch240dpi
 drawable pencil
+drawable phone_type_jd
 drawable photo1
 drawable photo2
 drawable photo3
@@ -1402,8 +1403,10 @@ id iv_arrow_left
 id iv_close
 id iv_gif
 id iv_loading
+id iv_logo
 id iv_rebound
 id iv_setting
+id iv_type
 id jellies
 id jump
 id jumpcut
@@ -1835,6 +1838,7 @@ id timePicker
 id title
 id titleDividerNoCustom
 id titleImage
+id title_container
 id title_template
 id titles
 id toggle
@@ -1864,7 +1868,10 @@ id tv
 id tv2
 id tv_content
 id tv_countdown
+id tv_desc
+id tv_info
 id tv_more
+id tv_price
 id tv_rebound
 id tv_title
 id two_buttons
@@ -1988,6 +1995,7 @@ layout activity_keyboard_input
 layout activity_keystore_sign_info
 layout activity_loading_dialog
 layout activity_location_provider
+layout activity_mvvm
 layout activity_my_demo_list
 layout activity_navigation_bar
 layout activity_nested_scroll_with_recycle_rebound
@@ -3047,6 +3055,7 @@ string mydemo_statusbar_translucent1
 string mydemo_statusbar_translucent2
 string mydemo_statusbar_translucent3
 string mydemo_statusbar_translucent4
+string mydemo_struct_mvvm
 string mydemo_thread_pool
 string mydemo_vector_drawable
 string mydemo_view_nested_scrolling

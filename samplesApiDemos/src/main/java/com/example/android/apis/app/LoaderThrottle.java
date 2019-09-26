@@ -438,7 +438,7 @@ public class LoaderThrottle extends Activity {
                                 if (isCancelled()) {
                                     break;
                                 }
-                                StringBuilder builder = new StringBuilder("Data ");
+                                StringBuilder builder = new StringBuilder("PhoneData ");
                                 builder.append(c);
                                 ContentValues values = new ContentValues();
                                 values.put(MainTable.COLUMN_NAME_DATA, builder.toString());

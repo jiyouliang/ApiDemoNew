@@ -1,23 +1,23 @@
 #Internal package file, do not edit.
-#Wed Aug 07 10:46:18 CST 2019
-2.base=/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/dex/debug/mergeDexDebug/out
-0.path=read_asset.txt
+#Thu Sep 26 09:33:49 CST 2019
+2.base=/Users/jiyouliang/workspace/GithubDemo/ApiDemoNew/samplesApiDemos/build/intermediates/dex/debug/mergeDexDebug/out
+0.path=fonts/samplefont.ttf
 2.baseType=DIRECTORY
-3.base=/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+3.base=/Users/jiyouliang/workspace/GithubDemo/ApiDemoNew/samplesApiDemos/build/intermediates/merged_assets/debug/mergeDebugAssets/out
 2.set=DEX
-1.path=HelloActivity.apk
-4.base=/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+1.path=fonts/samplefont.ttx
+4.base=/Users/jiyouliang/workspace/GithubDemo/ApiDemoNew/samplesApiDemos/build/intermediates/merged_assets/debug/mergeDebugAssets/out
 count=5
 2.path=classes.dex
 4.set=ASSET
-3.path=fonts/samplefont.ttf
+3.path=HelloActivity.apk
 3.baseType=DIRECTORY
 1.set=ASSET
-4.path=fonts/samplefont.ttx
+4.path=read_asset.txt
 1.baseType=DIRECTORY
-0.base=/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+0.base=/Users/jiyouliang/workspace/GithubDemo/ApiDemoNew/samplesApiDemos/build/intermediates/merged_assets/debug/mergeDebugAssets/out
 0.baseType=DIRECTORY
 3.set=ASSET
-1.base=/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+1.base=/Users/jiyouliang/workspace/GithubDemo/ApiDemoNew/samplesApiDemos/build/intermediates/merged_assets/debug/mergeDebugAssets/out
 4.baseType=DIRECTORY
 0.set=ASSET

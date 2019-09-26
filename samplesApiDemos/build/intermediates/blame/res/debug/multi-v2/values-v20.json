@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v20/values-v20.xml",
+            "outputFile": "/Users/jiyouliang/workspace/GithubDemo/ApiDemoNew/samplesApiDemos/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v20/values-v20.xml",
             "map": [
                 {
-                    "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/values-v20/bools.xml",
+                    "source": "/Users/jiyouliang/workspace/GithubDemo/ApiDemoNew/samplesApiDemos/src/main/res/values-v20/bools.xml",
                     "from": {
                         "startLines": "20",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/values-v20/styles.xml",
+                    "source": "/Users/jiyouliang/workspace/GithubDemo/ApiDemoNew/samplesApiDemos/src/main/res/values-v20/styles.xml",
                     "from": {
                         "startLines": "18,22,26",
                         "startColumns": "4,4,4",

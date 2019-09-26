@@ -1750,6 +1750,8 @@
     <string name="mydemo_statusbar_translucent2">新增Demo/statusbar(沉浸式状态栏)/02.状态栏沉浸(5.0以上系统实现方案)</string>
     <string name="mydemo_statusbar_translucent3">新增Demo/statusbar(沉浸式状态栏)/03.状态栏沉浸(5.0以上解决方案已抽取工具类)</string>
     <string name="mydemo_statusbar_translucent4">新增Demo/statusbar(沉浸式状态栏)/04.状态栏沉浸+滑动透明度渐变(ScrollView)</string>
+    <string name="mydemo_struct_mvvm">新增Demo/框架架构/01.MVVP框架</string>
+
 
     <!--test-->
 

@@ -55,7 +55,7 @@ public class PrintHtmlFromScreen extends Activity {
         mWebView.setWebViewClient(new WebViewClient() {
             @Override
             public void onPageFinished(WebView view, String url) {
-                // Data loaded, so now we want to show the print option.
+                // PhoneData loaded, so now we want to show the print option.
                 mDataLoaded = true;
                 invalidateOptionsMenu();
             }

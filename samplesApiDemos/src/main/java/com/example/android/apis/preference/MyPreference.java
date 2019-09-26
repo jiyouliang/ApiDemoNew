@@ -69,7 +69,7 @@ public class MyPreference extends Preference {
         // preference should be persistent, along with other useful checks)
         persistInt(mClickCounter);
 
-        // Data has changed, notify so UI can be refreshed!
+        // PhoneData has changed, notify so UI can be refreshed!
         notifyChanged();
     }
 

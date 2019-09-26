@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mdpi-v4/values-mdpi-v4.xml",
+            "outputFile": "/Users/jiyouliang/workspace/GithubDemo/ApiDemoNew/samplesApiDemos/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mdpi-v4/values-mdpi-v4.xml",
             "map": [
                 {
-                    "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/values-mdpi/strings.xml",
+                    "source": "/Users/jiyouliang/workspace/GithubDemo/ApiDemoNew/samplesApiDemos/src/main/res/values-mdpi/strings.xml",
                     "from": {
                         "startLines": "17",
                         "startColumns": "4",

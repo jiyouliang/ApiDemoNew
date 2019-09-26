@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+            "outputFile": "/Users/jiyouliang/workspace/GithubDemo/ApiDemoNew/samplesApiDemos/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
             "map": [
                 {
-                    "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/values-v14/bools.xml",
-                    "from": {
-                        "startLines": "18",
-                        "startColumns": "4",
-                        "startOffsets": "749",
-                        "endColumns": "52",
-                        "endOffsets": "797"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "52",
-                        "endOffsets": "103"
-                    }
-                },
-                {
-                    "source": "/home/jiyouliang/AndroidProjects/ApiDemosNew/samplesApiDemos/src/main/res/values-v14/styles.xml",
+                    "source": "/Users/jiyouliang/workspace/GithubDemo/ApiDemoNew/samplesApiDemos/src/main/res/values-v14/styles.xml",
                     "from": {
                         "startLines": "20",
                         "startColumns": "4",
@@ -35,6 +18,23 @@
                         "startOffsets": "108",
                         "endColumns": "76",
                         "endOffsets": "180"
+                    }
+                },
+                {
+                    "source": "/Users/jiyouliang/workspace/GithubDemo/ApiDemoNew/samplesApiDemos/src/main/res/values-v14/bools.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "749",
+                        "endColumns": "52",
+                        "endOffsets": "797"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "52",
+                        "endOffsets": "103"
                     }
                 }
             ]
