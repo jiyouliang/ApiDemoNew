@@ -300,7 +300,7 @@ public class AlertDialogSamples extends Activity {
                             public void onClick(DialogInterface dialog, int whichButton,
                                     boolean isChecked) {
                                 Toast.makeText(AlertDialogSamples.this,
-                                        "Readonly Demo Only - PhoneData will not be updated",
+                                        "Readonly Demo Only - Phone will not be updated",
                                         Toast.LENGTH_SHORT).show();
                             }
                         })

@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jiyouliang/workspace/GithubDemo/ApiDemoNew/samplesApiDemos/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
+                {
+                    "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/values-land/integers.xml",
+                    "from": {
+                        "startLines": "19",
+                        "startColumns": "2",
+                        "startOffsets": "837",
+                        "endColumns": "50",
+                        "endOffsets": "885"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endColumns": "52",
+                        "endOffsets": "376"
+                    }
+                },
                 {
                     "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/20fa6b73e7a7ba595d1c61238a1601a5/res/values-land/values-land.xml",
                     "from": {
@@ -30,23 +47,6 @@
                         "endLines": "10",
                         "endColumns": "12",
                         "endOffsets": "558"
-                    }
-                },
-                {
-                    "source": "/Users/jiyouliang/workspace/GithubDemo/ApiDemoNew/samplesApiDemos/src/main/res/values-land/integers.xml",
-                    "from": {
-                        "startLines": "19",
-                        "startColumns": "2",
-                        "startOffsets": "837",
-                        "endColumns": "50",
-                        "endOffsets": "885"
-                    },
-                    "to": {
-                        "startLines": "6",
-                        "startColumns": "4",
-                        "startOffsets": "328",
-                        "endColumns": "52",
-                        "endOffsets": "376"
                     }
                 }
             ]

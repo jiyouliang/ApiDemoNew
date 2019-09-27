@@ -1406,7 +1406,6 @@ id iv_loading
 id iv_logo
 id iv_rebound
 id iv_setting
-id iv_type
 id jellies
 id jump
 id jumpcut
@@ -1618,6 +1617,7 @@ id ratingbar1
 id ratingbar2
 id realtabcontent
 id recreate
+id recycleView
 id recycle_view
 id refresh
 id remove
@@ -1838,7 +1838,6 @@ id timePicker
 id title
 id titleDividerNoCustom
 id titleImage
-id title_container
 id title_template
 id titles
 id toggle
@@ -1868,10 +1867,7 @@ id tv
 id tv2
 id tv_content
 id tv_countdown
-id tv_desc
-id tv_info
 id tv_more
-id tv_price
 id tv_rebound
 id tv_title
 id two_buttons
@@ -2150,6 +2146,7 @@ layout install_apk_session_api
 layout intent_activity_flags
 layout intents
 layout isolated_service_controller
+layout item_phone
 layout job_work_service_activity
 layout keystore_usage
 layout labeled_text_edit

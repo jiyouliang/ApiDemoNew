@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jiyouliang/workspace/GithubDemo/ApiDemoNew/samplesApiDemos/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v19/values-v19.xml",
+            "outputFile": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v19/values-v19.xml",
             "map": [
                 {
-                    "source": "/Users/jiyouliang/workspace/GithubDemo/ApiDemoNew/samplesApiDemos/src/main/res/values-v19/bools.xml",
-                    "from": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "854",
-                        "endColumns": "42",
-                        "endOffsets": "892"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "42",
-                        "endOffsets": "93"
-                    }
-                },
-                {
-                    "source": "/Users/jiyouliang/workspace/GithubDemo/ApiDemoNew/samplesApiDemos/src/main/res/values-v19/styles.xml",
+                    "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/values-v19/styles.xml",
                     "from": {
                         "startLines": "18,22,26",
                         "startColumns": "4,4,4",
@@ -37,6 +20,23 @@
                         "endLines": "4,6,8",
                         "endColumns": "12,12,12",
                         "endOffsets": "170,260,374"
+                    }
+                },
+                {
+                    "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/values-v19/bools.xml",
+                    "from": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "854",
+                        "endColumns": "42",
+                        "endOffsets": "892"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "42",
+                        "endOffsets": "93"
                     }
                 }
             ]

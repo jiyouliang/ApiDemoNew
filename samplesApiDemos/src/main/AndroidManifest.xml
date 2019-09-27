@@ -4321,6 +4321,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".mydemo.mvvm.MVVMActivity"
+            android:theme="@style/Theme.AppCompat.Light"
             android:label="@string/mydemo_struct_mvvm">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

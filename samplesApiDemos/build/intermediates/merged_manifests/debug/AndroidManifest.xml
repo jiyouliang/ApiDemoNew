@@ -54,6 +54,7 @@
         android:icon="@drawable/app_sample_code"
         android:label="@string/activity_sample_code"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@android:style/Theme.Material.Light.DarkActionBar" >
         <meta-data
             android:name="myapplication_mate_info"
@@ -4324,7 +4325,8 @@
         </activity>
         <activity
             android:name="com.example.android.apis.mydemo.mvvm.MVVMActivity"
-            android:label="@string/mydemo_struct_mvvm" >
+            android:label="@string/mydemo_struct_mvvm"
+            android:theme="@style/Theme.AppCompat.Light" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

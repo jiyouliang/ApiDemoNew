@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4334:12
-INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4334:12
+ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4335:12
+INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4335:12
 MERGED from [com.android.databinding:adapters:3.3.2] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/adapters-3.3.2.aar/892b1b049c5a1d29d5ec7721571dfa30/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.databinding:library:3.3.2] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/library-3.3.2.aar/8351c971b54186de5ca85f4f2235bbf3/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:design:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/70c404a10856fe1ab60b08e6d65ddbcb/AndroidManifest.xml:17:1-22:12
@@ -25,7 +25,7 @@ MERGED from [android.arch.core:runtime:1.1.1] /Users/jiyouliang/.gradle/caches/t
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f0ab2370e1806b6cac7a89cfe39b4489/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/591e5646355f69d39ed99820060101ae/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/92bf0377dd4ae88e493bf3e7d0e9f20d/AndroidManifest.xml:2:1-11:12
-INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4334:12
+INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4335:12
 	package
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:5:5-39
 		INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml
@@ -149,7 +149,7 @@ ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/sr
 	android:name
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:43:9-55
 application
-ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:47:5-4332:19
+ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:47:5-4333:19
 MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/40d29ff881be0d9e2dcacc0c8c8ccb6b/AndroidManifest.xml:22:5-28:19
 MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/40d29ff881be0d9e2dcacc0c8c8ccb6b/AndroidManifest.xml:22:5-28:19
 MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/bbe01e55f79f0ab42dd32550ace9b06b/AndroidManifest.xml:10:5-20
@@ -3499,9 +3499,11 @@ ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/sr
 	android:name
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4315:13-65
 activity#com.example.android.apis.mydemo.mvvm.MVVMActivity
-ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4323:9-4331:20
+ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4323:9-4332:20
 	android:label
-		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4324:13-55
+		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4325:13-55
+	android:theme
+		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4324:13-57
 	android:name
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4323:19-59
 uses-sdk

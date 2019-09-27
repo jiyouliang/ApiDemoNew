@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jiyouliang/workspace/GithubDemo/ApiDemoNew/samplesApiDemos/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
+                {
+                    "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/values-sw600dp/layout.xml",
+                    "from": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "817",
+                        "endLines": "20",
+                        "endColumns": "60",
+                        "endOffsets": "932"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "1233",
+                        "endLines": "20",
+                        "endColumns": "60",
+                        "endOffsets": "1348"
+                    }
+                },
                 {
                     "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/20fa6b73e7a7ba595d1c61238a1601a5/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
@@ -30,25 +49,6 @@
                         "endLines": "10,11,12,13,14,15,16,17,18,24",
                         "endColumns": "59,69,70,71,57,57,105,63,62,12",
                         "endOffsets": "666,736,807,879,937,995,1101,1165,1228,1530"
-                    }
-                },
-                {
-                    "source": "/Users/jiyouliang/workspace/GithubDemo/ApiDemoNew/samplesApiDemos/src/main/res/values-sw600dp/layout.xml",
-                    "from": {
-                        "startLines": "19",
-                        "startColumns": "4",
-                        "startOffsets": "817",
-                        "endLines": "20",
-                        "endColumns": "60",
-                        "endOffsets": "932"
-                    },
-                    "to": {
-                        "startLines": "19",
-                        "startColumns": "4",
-                        "startOffsets": "1233",
-                        "endLines": "20",
-                        "endColumns": "60",
-                        "endOffsets": "1348"
                     }
                 }
             ]

@@ -110,7 +110,7 @@ public class PduPart {
      private Map<Integer, Object> mPartHeader = null;
 
      /**
-      * PhoneData uri.
+      * Phone uri.
       */
      private Uri mUri = null;
 
