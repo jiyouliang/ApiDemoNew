@@ -54,7 +54,6 @@
         android:icon="@drawable/app_sample_code"
         android:label="@string/activity_sample_code"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@android:style/Theme.Material.Light.DarkActionBar" >
         <meta-data
             android:name="myapplication_mate_info"
