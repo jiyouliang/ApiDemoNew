@@ -74,6 +74,11 @@ public class PhoneRepsitory {
                 String string = body.string();
                 Log.d(TAG, "onResponse,"+ string);
                 Log.d(TAG, string);
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 PhoneList phone = JSONObject.parseObject(string, PhoneList.class);
                 listener.onSuccess(phone);
             }

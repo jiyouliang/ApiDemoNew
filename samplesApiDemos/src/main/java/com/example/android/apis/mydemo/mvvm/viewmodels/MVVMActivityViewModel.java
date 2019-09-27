@@ -18,6 +18,7 @@ public class MVVMActivityViewModel extends ViewModel {
 
     public void init(){
         mPhoneList = new MutableLiveData<>();
+        mNetError = new MutableLiveData<>();
 
     }
 

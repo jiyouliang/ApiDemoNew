@@ -42,8 +42,8 @@ public class PhoneAdapter extends RecyclerView.Adapter<PhoneAdapter.ViewHolder> 
             return;
         }
         holder.tvTitle.setText(phone.getTitle());
-//        glide.load(phone.getImage()).into(holder.ivLogo);
-        Glide.with(mContext).load(phone.getImage().replace("jiyouliang.com", "47.106.182.74")).into(holder.ivLogo);
+        glide.load(phone.getImage()).into(holder.ivLogo);
+//        Glide.with(mContext).load(phone.getImage()).into(holder.ivLogo);
     }
 
     @Override

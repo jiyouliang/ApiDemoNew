@@ -1127,6 +1127,7 @@ id btn_hide
 id btn_loc_provider
 id btn_remove_all_tabs
 id btn_remove_tab
+id btn_send
 id btn_show
 id btn_speak
 id btn_start
@@ -1867,6 +1868,7 @@ id tv
 id tv2
 id tv_content
 id tv_countdown
+id tv_message
 id tv_more
 id tv_rebound
 id tv_title
@@ -1905,6 +1907,7 @@ id view2
 id view3
 id view4
 id view5
+id viewPager
 id view_offset_helper
 id violet
 id vis
@@ -2000,6 +2003,7 @@ layout activity_nested_scrolling
 layout activity_nested_scrolling2
 layout activity_number_keyboard
 layout activity_number_keyboard_view_container
+layout activity_observer_pattern
 layout activity_ok_http_async
 layout activity_ok_http_post
 layout activity_path_dots_loading
@@ -2109,6 +2113,8 @@ layout foreground_dispatch
 layout foreground_service_controller
 layout forward_target
 layout forwarding
+layout fragment1_observer
+layout fragment2_observer
 layout fragment_arguments
 layout fragment_arguments_fragment
 layout fragment_context_menu
@@ -3044,6 +3050,7 @@ string mydemo_path_dots_loading
 string mydemo_path_effect
 string mydemo_path_measure_post_tan
 string mydemo_path_transform_edit
+string mydemo_pattern_observer
 string mydemo_property_animation
 string mydemo_refresh_view
 string mydemo_setting_item_view

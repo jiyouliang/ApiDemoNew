@@ -4333,7 +4333,15 @@
 
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
->
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.pattern.observer.ObserverPatternActivity"
+            android:label="@string/mydemo_pattern_observer" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
         </activity>
 
         <provider

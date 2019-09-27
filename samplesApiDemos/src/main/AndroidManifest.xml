@@ -4320,15 +4320,24 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-        <activity android:name=".mydemo.mvvm.MVVMActivity"
-            android:theme="@style/Theme.AppCompat.Light"
-            android:label="@string/mydemo_struct_mvvm">
+        <activity
+            android:name=".mydemo.mvvm.MVVMActivity"
+            android:label="@string/mydemo_struct_mvvm"
+            android:theme="@style/Theme.AppCompat.Light">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mydemo.pattern.observer.ObserverPatternActivity"
+            android:label="@string/mydemo_pattern_observer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
         </activity>
     </application>
 

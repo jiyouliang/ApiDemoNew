@@ -10,10 +10,12 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import com.example.android.apis.R;
 import com.example.android.apis.mydemo.mvvm.adapters.PhoneAdapter;
@@ -49,7 +51,10 @@ public class MVVMActivity extends AppCompatActivity {
 
     private void initView() {
         mRecycleView = (RecyclerView) findViewById(R.id.recycleView);
-        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        DividerItemDecoration decoration = new DividerItemDecoration(this, layoutManager.getOrientation());
+        decoration.setDrawable(getResources().getDrawable(R.drawable.common_line));
+        mRecycleView.addItemDecoration(decoration);
         mRecycleView.setLayoutManager(layoutManager);
         mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
 
@@ -91,6 +96,14 @@ public class MVVMActivity extends AppCompatActivity {
                 mData.clear();
                 mData.addAll(phoneList.getData());
                 mAdapter.notifyDataSetChanged();
+            }
+        });
+
+        mViewModel.getException().observe(this, new Observer<Exception>() {
+            @Override
+            public void onChanged(@Nullable Exception e) {
+                hideProgressBar();
+                Toast.makeText(MVVMActivity.this, ""+e.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
 
