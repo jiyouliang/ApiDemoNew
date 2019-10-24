@@ -1875,6 +1875,7 @@ id tv_content
 id tv_countdown
 id tv_message
 id tv_more
+id tv_network
 id tv_rebound
 id tv_title
 id two_buttons
@@ -1985,6 +1986,7 @@ layout activity_bezier_add_cart
 layout activity_bezier_loading
 layout activity_bezier_wave
 layout activity_bottom_sheet
+layout activity_connect_manager
 layout activity_count_down
 layout activity_customer_drawable
 layout activity_customer_progress_bar
@@ -3051,6 +3053,8 @@ string mydemo_keystore_signature
 string mydemo_list_activity
 string mydemo_loation_provider
 string mydemo_navigation_bar
+string mydemo_netword_status
+string mydemo_netword_status_broadcast
 string mydemo_number_keyboard
 string mydemo_okhttp_async
 string mydemo_okhttp_post

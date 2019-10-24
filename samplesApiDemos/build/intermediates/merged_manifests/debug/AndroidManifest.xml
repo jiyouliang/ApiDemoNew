@@ -8,6 +8,7 @@
         android:minSdkVersion="19"
         android:targetSdkVersion="27" />
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.WRITE_CONTACTS" />
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -4354,6 +4355,15 @@
         <activity
             android:name="com.example.android.apis.mydemo.db.GreenDaoActivity"
             android:label="@string/mydemo_db_greendao" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.http.ConnectManagerActivity"
+            android:label="@string/mydemo_netword_status" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
