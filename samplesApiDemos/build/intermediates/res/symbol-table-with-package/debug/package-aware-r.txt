@@ -1296,6 +1296,7 @@ id entries_list_label
 id entry
 id entry_name
 id entry_name_label
+id et_number
 id excl_item
 id exclusive_checkable_group
 id exclusive_checkable_item_1
@@ -1990,6 +1991,7 @@ layout activity_device_id
 layout activity_finish_affinity
 layout activity_get_customer_manifest_attribute
 layout activity_glide_load_gif
+layout activity_green_dao
 layout activity_keyboard_input
 layout activity_keystore_sign_info
 layout activity_loading_dialog
@@ -2012,6 +2014,7 @@ layout activity_path_measure_post_tan
 layout activity_path_paint_board
 layout activity_path_tranform_bezier
 layout activity_path_trsnsform_edit_text
+layout activity_progress_bar
 layout activity_property_anim
 layout activity_rebound_view
 layout activity_rebound_view2
@@ -3035,6 +3038,7 @@ string mydemo_customer_progress_bar1
 string mydemo_customer_progress_bar2
 string mydemo_customer_progress_bar3
 string mydemo_customer_view_group
+string mydemo_db_greendao
 string mydemo_device_id
 string mydemo_dialog_loading
 string mydemo_glid_load_gif
@@ -3066,6 +3070,7 @@ string mydemo_view_nested_scrolling
 string mydemo_view_nested_scrolling2
 string mydemo_view_nested_scrolling3
 string mydemo_view_nested_scrolling4
+string mydemo_view_progressbar_anim
 string mydemo_view_rebound
 string mydemo_view_rebound2
 string mydemo_view_rebound3

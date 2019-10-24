@@ -1,31 +1,31 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4344:12
-INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4344:12
-MERGED from [com.android.databinding:adapters:3.3.2] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/adapters-3.3.2.aar/892b1b049c5a1d29d5ec7721571dfa30/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.databinding:library:3.3.2] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/library-3.3.2.aar/8351c971b54186de5ca85f4f2235bbf3/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:design:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/70c404a10856fe1ab60b08e6d65ddbcb/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/20fa6b73e7a7ba595d1c61238a1601a5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/c5e374f64fddc7202d9c257ba755a7d1/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/40d29ff881be0d9e2dcacc0c8c8ccb6b/AndroidManifest.xml:17:1-30:12
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/bbe01e55f79f0ab42dd32550ace9b06b/AndroidManifest.xml:2:1-12:12
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/d32b5962d573d1b209e6589467724651/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2685508dc7795e28829b6c1d0442626f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/28434814e5eef6d430880605a826933a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/29096514a4034659a26cc6c06fe4fef8/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/fb2426e09c89d1c525dd36d6878c1b7d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/3ec673a6a5ad53aa040b8ae7ba9f36b0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/d7efe4cf2ee173ac3bdd644795faa3b7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/701d7e96f3e9ade0051dab1a7ffabbc5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/4c9ca4d63fc211063ba6b05a7cb3b76c/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ac49e7b1987b47ba1e27116a223b45f8/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/971d66e7983713cae431963cb8adee7d/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/4b985a2306427f1b5d80914f1ae094a3/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/31e210a0bf96df111a36a22829aa8b67/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f0ab2370e1806b6cac7a89cfe39b4489/AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/591e5646355f69d39ed99820060101ae/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/92bf0377dd4ae88e493bf3e7d0e9f20d/AndroidManifest.xml:2:1-11:12
-INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4344:12
+ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4362:12
+INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4362:12
+MERGED from [com.android.databinding:adapters:3.3.2] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/adapters-3.3.2.aar/a1b9b229fb261a3379e744695dc325bf/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.databinding:library:3.3.2] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/library-3.3.2.aar/6408879ec58b18a72791d21d2b3b1cd4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/45d2928c81dabfb84874cdf67724efe2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/3a9798321f64ea503f8d185da15fa816/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a1affc9fe46721cfcaf7003a9a8d4c5e/AndroidManifest.xml:17:1-30:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/a8316cfe8f93c415a15b01a875050f09/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/62b118b45d90f61872eeb89c0fa0391a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/43f3106d756f39b5fda07345c8ca35af/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/89e2983d31d8111d7dc3619f349a50f8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/4b3bb085b5760af1399c1024fe574b8f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/8499ad637a0d4e5e45acc8371103d8b2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/317d6b6c6838144717ad99b246507eae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/fdea1ae8a0a715990bb68d0e0f519f68/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/82b23a129e948b6db86739cc11747128/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0f752daaa435b38f2dc99329b19b21ac/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d228b94e5a71de88b56ef843c15b5a2d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/9b0fd3bc6ada176e88c8ffe09b35eead/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/bd4e76676a2bbde9c636c3b0b027d03e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d50b698aa85f39db0455e87fd8795224/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6241ab1005e2cbf7427966f2c311b164/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/5f5d28257df9e794975557c71f1963ea/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1d88b008dcf4a60965991d89bff98170/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4362:12
 	package
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:5:5-39
 		INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml
@@ -149,15 +149,15 @@ ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/sr
 	android:name
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:43:9-55
 application
-ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:47:5-4342:19
-MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/40d29ff881be0d9e2dcacc0c8c8ccb6b/AndroidManifest.xml:22:5-28:19
-MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/40d29ff881be0d9e2dcacc0c8c8ccb6b/AndroidManifest.xml:22:5-28:19
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/bbe01e55f79f0ab42dd32550ace9b06b/AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/bbe01e55f79f0ab42dd32550ace9b06b/AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/591e5646355f69d39ed99820060101ae/AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/591e5646355f69d39ed99820060101ae/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/92bf0377dd4ae88e493bf3e7d0e9f20d/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/92bf0377dd4ae88e493bf3e7d0e9f20d/AndroidManifest.xml:9:5-20
+ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:47:5-4360:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a1affc9fe46721cfcaf7003a9a8d4c5e/AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a1affc9fe46721cfcaf7003a9a8d4c5e/AndroidManifest.xml:22:5-28:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/a8316cfe8f93c415a15b01a875050f09/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/a8316cfe8f93c415a15b01a875050f09/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/5f5d28257df9e794975557c71f1963ea/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/5f5d28257df9e794975557c71f1963ea/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1d88b008dcf4a60965991d89bff98170/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1d88b008dcf4a60965991d89bff98170/AndroidManifest.xml:9:5-20
 	android:supportsRtl
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:52:9-35
 	android:label
@@ -3512,56 +3512,68 @@ ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/sr
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4335:13-60
 	android:name
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4334:13-76
+activity#com.example.android.apis.mydemo.views.ProgressBarActivity
+ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4342:9-4350:20
+	android:label
+		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4344:13-65
+	android:name
+		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4343:13-61
+activity#com.example.android.apis.mydemo.db.GreenDaoActivity
+ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4351:9-4359:20
+	android:label
+		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4353:13-55
+	android:name
+		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4352:13-55
 uses-sdk
 INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml
 INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml
-MERGED from [com.android.databinding:adapters:3.3.2] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/adapters-3.3.2.aar/892b1b049c5a1d29d5ec7721571dfa30/AndroidManifest.xml:22:5-44
-MERGED from [com.android.databinding:adapters:3.3.2] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/adapters-3.3.2.aar/892b1b049c5a1d29d5ec7721571dfa30/AndroidManifest.xml:22:5-44
-MERGED from [com.android.databinding:library:3.3.2] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/library-3.3.2.aar/8351c971b54186de5ca85f4f2235bbf3/AndroidManifest.xml:22:5-44
-MERGED from [com.android.databinding:library:3.3.2] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/library-3.3.2.aar/8351c971b54186de5ca85f4f2235bbf3/AndroidManifest.xml:22:5-44
-MERGED from [com.android.support:design:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/70c404a10856fe1ab60b08e6d65ddbcb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/70c404a10856fe1ab60b08e6d65ddbcb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/20fa6b73e7a7ba595d1c61238a1601a5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/20fa6b73e7a7ba595d1c61238a1601a5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/c5e374f64fddc7202d9c257ba755a7d1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/c5e374f64fddc7202d9c257ba755a7d1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/40d29ff881be0d9e2dcacc0c8c8ccb6b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/40d29ff881be0d9e2dcacc0c8c8ccb6b/AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/bbe01e55f79f0ab42dd32550ace9b06b/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/bbe01e55f79f0ab42dd32550ace9b06b/AndroidManifest.xml:6:5-8:41
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/d32b5962d573d1b209e6589467724651/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/d32b5962d573d1b209e6589467724651/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2685508dc7795e28829b6c1d0442626f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2685508dc7795e28829b6c1d0442626f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/28434814e5eef6d430880605a826933a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/28434814e5eef6d430880605a826933a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/29096514a4034659a26cc6c06fe4fef8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/29096514a4034659a26cc6c06fe4fef8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/fb2426e09c89d1c525dd36d6878c1b7d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/fb2426e09c89d1c525dd36d6878c1b7d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/3ec673a6a5ad53aa040b8ae7ba9f36b0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/3ec673a6a5ad53aa040b8ae7ba9f36b0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/d7efe4cf2ee173ac3bdd644795faa3b7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/d7efe4cf2ee173ac3bdd644795faa3b7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/701d7e96f3e9ade0051dab1a7ffabbc5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/701d7e96f3e9ade0051dab1a7ffabbc5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/4c9ca4d63fc211063ba6b05a7cb3b76c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/4c9ca4d63fc211063ba6b05a7cb3b76c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ac49e7b1987b47ba1e27116a223b45f8/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ac49e7b1987b47ba1e27116a223b45f8/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/971d66e7983713cae431963cb8adee7d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/971d66e7983713cae431963cb8adee7d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/4b985a2306427f1b5d80914f1ae094a3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/4b985a2306427f1b5d80914f1ae094a3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/31e210a0bf96df111a36a22829aa8b67/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/31e210a0bf96df111a36a22829aa8b67/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f0ab2370e1806b6cac7a89cfe39b4489/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f0ab2370e1806b6cac7a89cfe39b4489/AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/591e5646355f69d39ed99820060101ae/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/591e5646355f69d39ed99820060101ae/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/92bf0377dd4ae88e493bf3e7d0e9f20d/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/92bf0377dd4ae88e493bf3e7d0e9f20d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.databinding:adapters:3.3.2] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/adapters-3.3.2.aar/a1b9b229fb261a3379e744695dc325bf/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:adapters:3.3.2] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/adapters-3.3.2.aar/a1b9b229fb261a3379e744695dc325bf/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.3.2] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/library-3.3.2.aar/6408879ec58b18a72791d21d2b3b1cd4/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.3.2] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/library-3.3.2.aar/6408879ec58b18a72791d21d2b3b1cd4/AndroidManifest.xml:22:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/45d2928c81dabfb84874cdf67724efe2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/45d2928c81dabfb84874cdf67724efe2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/3a9798321f64ea503f8d185da15fa816/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/3a9798321f64ea503f8d185da15fa816/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a1affc9fe46721cfcaf7003a9a8d4c5e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a1affc9fe46721cfcaf7003a9a8d4c5e/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/a8316cfe8f93c415a15b01a875050f09/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/a8316cfe8f93c415a15b01a875050f09/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/62b118b45d90f61872eeb89c0fa0391a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/62b118b45d90f61872eeb89c0fa0391a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/43f3106d756f39b5fda07345c8ca35af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/43f3106d756f39b5fda07345c8ca35af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/89e2983d31d8111d7dc3619f349a50f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/89e2983d31d8111d7dc3619f349a50f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/4b3bb085b5760af1399c1024fe574b8f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/4b3bb085b5760af1399c1024fe574b8f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/8499ad637a0d4e5e45acc8371103d8b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/8499ad637a0d4e5e45acc8371103d8b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/317d6b6c6838144717ad99b246507eae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/317d6b6c6838144717ad99b246507eae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/fdea1ae8a0a715990bb68d0e0f519f68/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/fdea1ae8a0a715990bb68d0e0f519f68/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/82b23a129e948b6db86739cc11747128/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/82b23a129e948b6db86739cc11747128/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0f752daaa435b38f2dc99329b19b21ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0f752daaa435b38f2dc99329b19b21ac/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d228b94e5a71de88b56ef843c15b5a2d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d228b94e5a71de88b56ef843c15b5a2d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/9b0fd3bc6ada176e88c8ffe09b35eead/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/9b0fd3bc6ada176e88c8ffe09b35eead/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/bd4e76676a2bbde9c636c3b0b027d03e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/bd4e76676a2bbde9c636c3b0b027d03e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d50b698aa85f39db0455e87fd8795224/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d50b698aa85f39db0455e87fd8795224/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6241ab1005e2cbf7427966f2c311b164/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6241ab1005e2cbf7427966f2c311b164/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/5f5d28257df9e794975557c71f1963ea/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/5f5d28257df9e794975557c71f1963ea/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1d88b008dcf4a60965991d89bff98170/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1d88b008dcf4a60965991d89bff98170/AndroidManifest.xml:5:5-7:41
 INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml
 INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -3573,12 +3585,12 @@ INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml
 		INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml
 provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
-ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/40d29ff881be0d9e2dcacc0c8c8ccb6b/AndroidManifest.xml:23:9-27:43
+ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a1affc9fe46721cfcaf7003a9a8d4c5e/AndroidManifest.xml:23:9-27:43
 	android:authorities
-		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/40d29ff881be0d9e2dcacc0c8c8ccb6b/AndroidManifest.xml:25:13-68
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a1affc9fe46721cfcaf7003a9a8d4c5e/AndroidManifest.xml:25:13-68
 	android:multiprocess
-		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/40d29ff881be0d9e2dcacc0c8c8ccb6b/AndroidManifest.xml:27:13-40
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a1affc9fe46721cfcaf7003a9a8d4c5e/AndroidManifest.xml:27:13-40
 	android:exported
-		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/40d29ff881be0d9e2dcacc0c8c8ccb6b/AndroidManifest.xml:26:13-37
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a1affc9fe46721cfcaf7003a9a8d4c5e/AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/40d29ff881be0d9e2dcacc0c8c8ccb6b/AndroidManifest.xml:24:13-83
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a1affc9fe46721cfcaf7003a9a8d4c5e/AndroidManifest.xml:24:13-83

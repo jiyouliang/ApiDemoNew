@@ -55,7 +55,6 @@
         android:icon="@drawable/app_sample_code"
         android:label="@string/activity_sample_code"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@android:style/Theme.Material.Light.DarkActionBar" >
         <meta-data
             android:name="myapplication_mate_info"
@@ -4337,6 +4336,24 @@
         <activity
             android:name="com.example.android.apis.mydemo.pattern.observer.ObserverPatternActivity"
             android:label="@string/mydemo_pattern_observer" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.views.ProgressBarActivity"
+            android:label="@string/mydemo_view_progressbar_anim" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.apis.mydemo.db.GreenDaoActivity"
+            android:label="@string/mydemo_db_greendao" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

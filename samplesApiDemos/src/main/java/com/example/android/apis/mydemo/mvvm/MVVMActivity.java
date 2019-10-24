@@ -58,17 +58,6 @@ public class MVVMActivity extends AppCompatActivity {
         mRecycleView.setLayoutManager(layoutManager);
         mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
 
-
-
-//        LiveData<Exception> exception = mViewModel.getException();
-//        if(exception != null){
-//            exception.observe(this, new Observer<Exception>() {
-//                @Override
-//                public void onChanged(@Nullable Exception e) {
-//                    hideProgressBar();
-//                }
-//            });
-//        }
     }
 
     private void showProgressBar() {

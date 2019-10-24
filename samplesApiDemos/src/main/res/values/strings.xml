@@ -1719,6 +1719,7 @@
     <string name="mydemo_customer_progress_bar3">新增Demo/Views/ProgressBar/03.淘宝ProgressBar</string>
 
     <string name="mydemo_refresh_view">新增Demo/Views/下拉刷新/01.NestedScrolling实现下拉刷新</string>
+    <string name="mydemo_view_progressbar_anim">新增Demo/Views/09.ProgressBar进度条动画</string>
 
     <!--drawable-->
     <string name="mydemo_customer_drawable">新增Demo/drawable/01.自定义drawable</string>
@@ -1752,6 +1753,8 @@
     <string name="mydemo_statusbar_translucent4">新增Demo/statusbar(沉浸式状态栏)/04.状态栏沉浸+滑动透明度渐变(ScrollView)</string>
     <string name="mydemo_struct_mvvm">新增Demo/框架架构/01.MVVP框架(没有Databind)</string>
     <string name="mydemo_pattern_observer">新增Demo/设计模式/01.观察者模式</string>
+
+    <string name="mydemo_db_greendao">新增Demo/数据库/1、GreenDao使用</string>
 
 
     <!--test-->
