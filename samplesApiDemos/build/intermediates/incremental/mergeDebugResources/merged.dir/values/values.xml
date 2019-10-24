@@ -1537,7 +1537,7 @@
     <string name="mydemo_loation_provider">新增Demo/App/03.LocationProvider(判定当前定位服务类型:网络、GSP)</string>
     <string name="mydemo_navigation_bar">新增Demo/App/04.虚拟键盘(适用全面屏-非全面屏)</string>
     <string name="mydemo_netword_status">新增Demo/网络/01.判断网络状态(通过ConnectivityManager)</string>
-    <string name="mydemo_netword_status_broadcast">新增Demo/网络/02.判断网络状态(通过广播监听)</string>
+    <string name="mydemo_netword_status_broadcast">新增Demo/网络/02.判断网络状态(通过广播监听,动态监听)</string>
     <string name="mydemo_number_keyboard">新增Demo/Views/04.自定义数字键盘</string>
     <string name="mydemo_okhttp_async">新增Demo/Thread/03.OkHttp异步请求</string>
     <string name="mydemo_okhttp_post">新增Demo/Thread/02.OkHttp post提交json数据</string>

@@ -1986,6 +1986,7 @@ layout activity_bezier_add_cart
 layout activity_bezier_loading
 layout activity_bezier_wave
 layout activity_bottom_sheet
+layout activity_broadcast_observe_network
 layout activity_connect_manager
 layout activity_count_down
 layout activity_customer_drawable

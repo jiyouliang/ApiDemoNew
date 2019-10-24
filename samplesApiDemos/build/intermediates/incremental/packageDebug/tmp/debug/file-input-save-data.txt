@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Oct 24 17:20:11 CST 2019
+#Thu Oct 24 17:58:17 CST 2019
 2.base=/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/dex/debug/mergeDexDebug/out
 0.path=HelloActivity.apk
 2.baseType=DIRECTORY
