@@ -1124,9 +1124,11 @@ id btn4
 id btn5
 id btn_add_tab
 id btn_hide
+id btn_insert
 id btn_loc_provider
 id btn_remove_all_tabs
 id btn_remove_tab
+id btn_search
 id btn_send
 id btn_show
 id btn_speak
@@ -1296,6 +1298,8 @@ id entries_list_label
 id entry
 id entry_name
 id entry_name_label
+id et_gender
+id et_name
 id et_number
 id excl_item
 id exclusive_checkable_group

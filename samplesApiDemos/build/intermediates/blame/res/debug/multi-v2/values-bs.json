@@ -4,7 +4,7 @@
             "outputFile": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml",
             "map": [
                 {
-                    "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/20fa6b73e7a7ba595d1c61238a1601a5/res/values-bs/values-bs.xml",
+                    "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/values-bs/values-bs.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/4c9ca4d63fc211063ba6b05a7cb3b76c/res/values-bs/values-bs.xml",
+                    "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0f752daaa435b38f2dc99329b19b21ac/res/values-bs/values-bs.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

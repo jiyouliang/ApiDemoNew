@@ -4,7 +4,7 @@
             "outputFile": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/20fa6b73e7a7ba595d1c61238a1601a5/res/values-port/values-port.xml",
+                    "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
