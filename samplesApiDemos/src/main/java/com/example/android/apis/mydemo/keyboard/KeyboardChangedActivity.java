@@ -26,7 +26,7 @@ import net.yslibrary.android.keyboardvisibilityevent.Unregistrar;
 public class KeyboardChangedActivity extends Activity implements View.OnClickListener, View.OnFocusChangeListener {
 
     private EditText mEtContent;
-    private Button mBtnSend;
+    private View mBtnSend;
     private ImageView mIvMore;
     private boolean fistEnter = true;
     private static final String TAG = KeyboardChangedActivity.class.getSimpleName();
@@ -42,7 +42,7 @@ public class KeyboardChangedActivity extends Activity implements View.OnClickLis
 
     private void initView() {
         mEtContent = (EditText) findViewById(R.id.et_content);
-        mBtnSend = (Button) findViewById(R.id.btn_send);
+        mBtnSend = findViewById(R.id.btn_send);
         mIvMore = (ImageView) findViewById(R.id.iv_more);
 
         mBtnSend.setOnClickListener(this);
