@@ -887,6 +887,9 @@ drawable btn_default_normal
 drawable btn_normal
 drawable btn_pressed
 drawable btn_selector
+drawable btn_send_bg_normal
+drawable btn_send_bg_pressed
+drawable btn_send_selector
 drawable button
 drawable card_background
 drawable circle_rect_white_bg
@@ -918,6 +921,7 @@ drawable green
 drawable hover_background
 drawable hover_background_active
 drawable hover_background_inactive
+drawable ic_bottom_more
 drawable ic_compare_arrows_black_24dp
 drawable ic_contact_picture
 drawable ic_launcher_settings
@@ -928,6 +932,7 @@ drawable ic_settings_display
 drawable ic_universe
 drawable icon48x48_1
 drawable icon48x48_2
+drawable input_layout_edit_bg
 drawable jellies
 drawable line
 drawable logo120dpi
@@ -1298,6 +1303,7 @@ id entries_list_label
 id entry
 id entry_name
 id entry_name_label
+id et_content
 id et_gender
 id et_name
 id et_number
@@ -1410,6 +1416,7 @@ id iv_close
 id iv_gif
 id iv_loading
 id iv_logo
+id iv_more
 id iv_rebound
 id iv_setting
 id jellies
@@ -1999,6 +2006,7 @@ layout activity_finish_affinity
 layout activity_get_customer_manifest_attribute
 layout activity_glide_load_gif
 layout activity_green_dao
+layout activity_keyboard_changed
 layout activity_keyboard_input
 layout activity_keystore_sign_info
 layout activity_loading_dialog
@@ -3049,6 +3057,7 @@ string mydemo_db_greendao
 string mydemo_device_id
 string mydemo_dialog_loading
 string mydemo_glid_load_gif
+string mydemo_keyboard_state_changed
 string mydemo_keyboard_view_container
 string mydemo_keystore_signature
 string mydemo_list_activity

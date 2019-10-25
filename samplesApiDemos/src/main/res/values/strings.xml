@@ -1757,6 +1757,7 @@
     <string name="mydemo_db_greendao">新增Demo/数据库/1、GreenDao使用</string>
     <string name="mydemo_netword_status">新增Demo/网络/01.判断网络状态(通过ConnectivityManager)</string>
     <string name="mydemo_netword_status_broadcast">新增Demo/网络/02.判断网络状态(通过广播监听,动态监听)</string>
+    <string name="mydemo_keyboard_state_changed">新增Demo/软键盘相关/1.监听软键盘状态改变</string>
 
 
     <!--test-->

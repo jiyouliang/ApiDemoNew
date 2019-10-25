@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4379:12
-INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4379:12
+ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4391:12
+INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4391:12
 MERGED from [com.android.databinding:adapters:3.3.2] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/adapters-3.3.2.aar/a1b9b229fb261a3379e744695dc325bf/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.databinding:library:3.3.2] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/library-3.3.2.aar/6408879ec58b18a72791d21d2b3b1cd4/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:design:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/45d2928c81dabfb84874cdf67724efe2/AndroidManifest.xml:17:1-22:12
@@ -25,7 +25,8 @@ MERGED from [android.arch.core:runtime:1.1.1] /Users/jiyouliang/.gradle/caches/t
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6241ab1005e2cbf7427966f2c311b164/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/5f5d28257df9e794975557c71f1963ea/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1d88b008dcf4a60965991d89bff98170/AndroidManifest.xml:2:1-11:12
-INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4379:12
+MERGED from [net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.3.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/keyboardvisibilityevent-2.3.0.aar/e34eeae7388ce36e2ec404770df094f6/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4391:12
 	package
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:5:5-39
 		INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml
@@ -153,7 +154,7 @@ ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/sr
 	android:name
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:44:9-55
 application
-ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:48:5-4377:19
+ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:48:5-4389:19
 MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a1affc9fe46721cfcaf7003a9a8d4c5e/AndroidManifest.xml:22:5-28:19
 MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a1affc9fe46721cfcaf7003a9a8d4c5e/AndroidManifest.xml:22:5-28:19
 MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/a8316cfe8f93c415a15b01a875050f09/AndroidManifest.xml:10:5-20
@@ -3535,11 +3536,19 @@ ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/sr
 	android:name
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4362:13-63
 activity#com.example.android.apis.mydemo.http.BroadcastObserveNetworkActivity
-ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4370:9-4376:40
+ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4370:9-4378:20
 	android:label
-		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4371:13-68
+		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4372:13-68
 	android:name
-		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4370:19-78
+		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4371:13-72
+activity#com.example.android.apis.mydemo.keyboard.KeyboardChangedActivity
+ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4379:9-4388:20
+	android:label
+		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4382:13-66
+	android:windowSoftInputMode
+		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4381:13-55
+	android:name
+		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4380:13-68
 uses-sdk
 INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml
@@ -3590,6 +3599,8 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jiyouliang/.grad
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/5f5d28257df9e794975557c71f1963ea/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1d88b008dcf4a60965991d89bff98170/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1d88b008dcf4a60965991d89bff98170/AndroidManifest.xml:5:5-7:41
+MERGED from [net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.3.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/keyboardvisibilityevent-2.3.0.aar/e34eeae7388ce36e2ec404770df094f6/AndroidManifest.xml:7:5-9:41
+MERGED from [net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.3.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/keyboardvisibilityevent-2.3.0.aar/e34eeae7388ce36e2ec404770df094f6/AndroidManifest.xml:7:5-9:41
 INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml
 INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml
 	android:targetSdkVersion

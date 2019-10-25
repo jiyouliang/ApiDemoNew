@@ -4367,13 +4367,25 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-        <activity android:name=".mydemo.http.BroadcastObserveNetworkActivity"
+        <activity
+            android:name=".mydemo.http.BroadcastObserveNetworkActivity"
             android:label="@string/mydemo_netword_status_broadcast">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter></activity>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mydemo.keyboard.KeyboardChangedActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:label="@string/mydemo_keyboard_state_changed">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
