@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0.aar/2e6b0004dfd611f6d8b405356fb80a14/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,163,255,306,357,410,465,519,579,633,684,735,792,846,902,956,1012",
+                        "endColumns": "107,91,50,50,52,54,53,59,53,50,50,56,53,55,53,55,60",
+                        "endOffsets": "158,250,301,352,405,460,514,574,628,679,730,787,841,897,951,1007,1068"
+                    }
+                }
+            ]
+        }
+    ]
+}

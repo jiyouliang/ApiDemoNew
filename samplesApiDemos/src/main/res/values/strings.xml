@@ -1720,9 +1720,11 @@
 
     <string name="mydemo_refresh_view">新增Demo/Views/下拉刷新/01.NestedScrolling实现下拉刷新</string>
     <string name="mydemo_view_progressbar_anim">新增Demo/Views/09.ProgressBar进度条动画</string>
+    <string name="mydemo_view_smart_pull_refresh">新增Demo/Views/10.SmartPullRefreshsh下拉刷新</string>
 
     <!--drawable-->
     <string name="mydemo_customer_drawable">新增Demo/drawable/01.自定义drawable</string>
+    <string name="mydemo_drawable_draw_bitmap">新增Demo/drawable/02.Canvas绘制bitmap</string>
 
     <!--App-->
     <string name="mydemo_device_id">新增Demo/App/01.获取设备id：DeviceId</string>
@@ -1758,6 +1760,7 @@
     <string name="mydemo_netword_status">新增Demo/网络/01.判断网络状态(通过ConnectivityManager)</string>
     <string name="mydemo_netword_status_broadcast">新增Demo/网络/02.判断网络状态(通过广播监听,动态监听)</string>
     <string name="mydemo_keyboard_state_changed">新增Demo/软键盘相关/1.监听软键盘状态改变</string>
+    <string name="content">内容</string>
 
 
     <!--test-->

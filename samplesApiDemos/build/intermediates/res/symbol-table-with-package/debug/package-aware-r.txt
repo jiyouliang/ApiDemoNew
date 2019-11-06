@@ -157,6 +157,10 @@ attr buttonTintMode
 attr chainUseRtl
 attr checkboxStyle
 attr checkedTextViewStyle
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
 attr closeIcon
 attr closeItemLayout
 attr collapseContentDescription
@@ -327,6 +331,8 @@ attr layout_optimizationLevel
 attr layout_position
 attr layout_scrollFlags
 attr layout_scrollInterpolator
+attr layout_srlBackgroundColor
+attr layout_srlSpinnerStyle
 attr legend
 attr listChoiceBackgroundIndicator
 attr listDividerAlertDialog
@@ -402,6 +408,71 @@ attr spinnerDropDownItemStyle
 attr spinnerStyle
 attr splitTrack
 attr srcCompat
+attr srlAccentColor
+attr srlAnimatingColor
+attr srlClassicsSpinnerStyle
+attr srlDisableContentWhenLoading
+attr srlDisableContentWhenRefresh
+attr srlDragRate
+attr srlDrawableArrow
+attr srlDrawableArrowSize
+attr srlDrawableMarginRight
+attr srlDrawableProgress
+attr srlDrawableProgressSize
+attr srlDrawableSize
+attr srlEnableAutoLoadMore
+attr srlEnableClipFooterWhenFixedBehind
+attr srlEnableClipHeaderWhenFixedBehind
+attr srlEnableFooterFollowWhenLoadFinished
+attr srlEnableFooterFollowWhenNoMoreData
+attr srlEnableFooterTranslationContent
+attr srlEnableHeaderTranslationContent
+attr srlEnableHorizontalDrag
+attr srlEnableLastTime
+attr srlEnableLoadMore
+attr srlEnableLoadMoreWhenContentNotFull
+attr srlEnableNestedScrolling
+attr srlEnableOverScrollBounce
+attr srlEnableOverScrollDrag
+attr srlEnablePreviewInEditMode
+attr srlEnablePullToCloseTwoLevel
+attr srlEnablePureScrollMode
+attr srlEnableRefresh
+attr srlEnableScrollContentWhenLoaded
+attr srlEnableScrollContentWhenRefreshed
+attr srlEnableTwoLevel
+attr srlFinishDuration
+attr srlFixedFooterViewId
+attr srlFixedHeaderViewId
+attr srlFloorDuration
+attr srlFloorRage
+attr srlFooterHeight
+attr srlFooterInsetStart
+attr srlFooterMaxDragRate
+attr srlFooterTranslationViewId
+attr srlFooterTriggerRate
+attr srlHeaderHeight
+attr srlHeaderInsetStart
+attr srlHeaderMaxDragRate
+attr srlHeaderTranslationViewId
+attr srlHeaderTriggerRate
+attr srlMaxRage
+attr srlNormalColor
+attr srlPrimaryColor
+attr srlReboundDuration
+attr srlRefreshRage
+attr srlTextFailed
+attr srlTextFinish
+attr srlTextLoading
+attr srlTextNothing
+attr srlTextPulling
+attr srlTextRefreshing
+attr srlTextRelease
+attr srlTextSecondary
+attr srlTextSizeTime
+attr srlTextSizeTitle
+attr srlTextTimeMarginTop
+attr srlTextUpdate
 attr stackFromEnd
 attr state_above_anchor
 attr state_collapsed
@@ -868,6 +939,7 @@ drawable arrow_vector
 drawable avd_hide_password
 drawable avd_show_password
 drawable ball
+drawable balloon
 drawable balloons
 drawable beach
 drawable black_box
@@ -932,6 +1004,7 @@ drawable ic_settings_display
 drawable ic_universe
 drawable icon48x48_1
 drawable icon48x48_2
+drawable image_avatar_1
 drawable input_layout_edit_bg
 drawable jellies
 drawable line
@@ -1009,6 +1082,8 @@ drawable shape_2
 drawable shape_3
 drawable shape_4
 drawable shape_5
+drawable skin_messages_left_bubble
+drawable skin_messages_right_bubble
 drawable smile
 drawable smlnpatch120dpi
 drawable smlnpatch160dpi
@@ -1040,10 +1115,15 @@ drawable yellow
 id ALT
 id CTRL
 id FUNCTION
+id FixedBehind
+id FixedFront
 id LinearLayout1
 id META
+id MatchLayout
 id SHIFT
 id SYM
+id Scale
+id Translate
 id a
 id a_item
 id action0
@@ -1330,6 +1410,7 @@ id flag_activity_clear_task
 id flag_activity_clear_task_pi
 id flipper
 id focus_state
+id footer
 id forever
 id forward
 id fourth_item
@@ -1394,6 +1475,8 @@ id id_info
 id ifRoom
 id image
 id imageview
+id img1
+id img2
 id increase
 id increase_secondary
 id indicator_ratingbar
@@ -1412,6 +1495,7 @@ id italic
 id item_touch_helper_previous_elevation
 id iv
 id iv_arrow_left
+id iv_circle
 id iv_close
 id iv_gif
 id iv_loading
@@ -1633,6 +1717,7 @@ id recreate
 id recycleView
 id recycle_view
 id refresh
+id refreshLayout
 id remove
 id reorder_launch_four
 id reorder_launch_three
@@ -1777,6 +1862,11 @@ id spread_inside
 id src_atop
 id src_in
 id src_over
+id srl_classics_arrow
+id srl_classics_center
+id srl_classics_progress
+id srl_classics_title
+id srl_classics_update
 id stable_layout
 id stable_layout_group
 id standard
@@ -1882,6 +1972,7 @@ id tv_content
 id tv_countdown
 id tv_message
 id tv_more
+id tv_msg
 id tv_network
 id tv_rebound
 id tv_title
@@ -1994,6 +2085,7 @@ layout activity_bezier_loading
 layout activity_bezier_wave
 layout activity_bottom_sheet
 layout activity_broadcast_observe_network
+layout activity_canvas_draw_bitmap
 layout activity_connect_manager
 layout activity_count_down
 layout activity_customer_drawable
@@ -2038,6 +2130,7 @@ layout activity_recycler_view_rebound
 layout activity_refresh_view
 layout activity_runtime_permission
 layout activity_setting_item_view
+layout activity_smart_pull_refresh
 layout activity_start_for_result
 layout activity_start_for_result_b
 layout activity_start_for_result_c
@@ -2171,6 +2264,7 @@ layout intent_activity_flags
 layout intents
 layout isolated_service_controller
 layout item_phone
+layout item_smart_pull_refresh_layout
 layout job_work_service_activity
 layout keystore_usage
 layout labeled_text_edit
@@ -2325,6 +2419,8 @@ layout sms_demo
 layout soft_input_modes
 layout spinner_1
 layout split_touch_view
+layout srl_classics_footer
+layout srl_classics_header
 layout status_bar_balloon
 layout status_bar_notifications
 layout styled_text
@@ -2692,6 +2788,7 @@ string clip_type_prompt
 string close_menu
 string close_search
 string contacts_filter
+string content
 string controls_1_checkbox_1
 string controls_1_checkbox_2
 string controls_1_radiobutton_1
@@ -3056,6 +3153,7 @@ string mydemo_customer_view_group
 string mydemo_db_greendao
 string mydemo_device_id
 string mydemo_dialog_loading
+string mydemo_drawable_draw_bitmap
 string mydemo_glid_load_gif
 string mydemo_keyboard_state_changed
 string mydemo_keyboard_view_container
@@ -3092,6 +3190,7 @@ string mydemo_view_progressbar_anim
 string mydemo_view_rebound
 string mydemo_view_rebound2
 string mydemo_view_rebound3
+string mydemo_view_smart_pull_refresh
 string mydemo_viewgroup_round_corner
 string new_fragment
 string new_text
@@ -3385,6 +3484,23 @@ string spinner_1_planet
 string spinner_1_planet_prompt
 string split_touch_view_cheese_toast
 string split_touch_view_description
+string srl_component_falsify
+string srl_content_empty
+string srl_footer_failed
+string srl_footer_finish
+string srl_footer_loading
+string srl_footer_nothing
+string srl_footer_pulling
+string srl_footer_refreshing
+string srl_footer_release
+string srl_header_failed
+string srl_header_finish
+string srl_header_loading
+string srl_header_pulling
+string srl_header_refreshing
+string srl_header_release
+string srl_header_secondary
+string srl_header_update
 string start1_service
 string start2_service
 string start3_service
@@ -4055,9 +4171,14 @@ styleable AppCompatSeekBar android_thumb tickMark tickMarkTint tickMarkTintMode
 styleable AppCompatTextHelper android_textAppearance android_drawableTop android_drawableBottom android_drawableLeft android_drawableRight android_drawableStart android_drawableEnd
 styleable AppCompatTextView android_textAppearance autoSizeMaxTextSize autoSizeMinTextSize autoSizePresetSizes autoSizeStepGranularity autoSizeTextType fontFamily textAllCaps
 styleable AppCompatTheme android_windowIsFloating android_windowAnimationStyle actionBarDivider actionBarItemBackground actionBarPopupTheme actionBarSize actionBarSplitStyle actionBarStyle actionBarTabBarStyle actionBarTabStyle actionBarTabTextStyle actionBarTheme actionBarWidgetTheme actionButtonStyle actionDropDownStyle actionMenuTextAppearance actionMenuTextColor actionModeBackground actionModeCloseButtonStyle actionModeCloseDrawable actionModeCopyDrawable actionModeCutDrawable actionModeFindDrawable actionModePasteDrawable actionModePopupWindowStyle actionModeSelectAllDrawable actionModeShareDrawable actionModeSplitBackground actionModeStyle actionModeWebSearchDrawable actionOverflowButtonStyle actionOverflowMenuStyle activityChooserViewStyle alertDialogButtonGroupStyle alertDialogCenterButtons alertDialogStyle alertDialogTheme autoCompleteTextViewStyle borderlessButtonStyle buttonBarButtonStyle buttonBarNegativeButtonStyle buttonBarNeutralButtonStyle buttonBarPositiveButtonStyle buttonBarStyle buttonStyle buttonStyleSmall checkboxStyle checkedTextViewStyle colorAccent colorBackgroundFloating colorButtonNormal colorControlActivated colorControlHighlight colorControlNormal colorError colorPrimary colorPrimaryDark colorSwitchThumbNormal controlBackground dialogPreferredPadding dialogTheme dividerHorizontal dividerVertical dropDownListViewStyle dropdownListPreferredItemHeight editTextBackground editTextColor editTextStyle homeAsUpIndicator imageButtonStyle listChoiceBackgroundIndicator listDividerAlertDialog listMenuViewStyle listPopupWindowStyle listPreferredItemHeight listPreferredItemHeightLarge listPreferredItemHeightSmall listPreferredItemPaddingLeft listPreferredItemPaddingRight panelBackground panelMenuListTheme panelMenuListWidth popupMenuStyle popupWindowStyle radioButtonStyle ratingBarStyle ratingBarStyleIndicator ratingBarStyleSmall searchViewStyle seekBarStyle selectableItemBackground selectableItemBackgroundBorderless spinnerDropDownItemStyle spinnerStyle switchStyle textAppearanceLargePopupMenu textAppearanceListItem textAppearanceListItemSecondary textAppearanceListItemSmall textAppearancePopupMenuHeader textAppearanceSearchResultSubtitle textAppearanceSearchResultTitle textAppearanceSmallPopupMenu textColorAlertDialogListItem textColorSearchUrl toolbarNavigationButtonStyle toolbarStyle tooltipForegroundColor tooltipFrameBackground viewInflaterClass windowActionBar windowActionBarOverlay windowActionModeOverlay windowFixedHeightMajor windowFixedHeightMinor windowFixedWidthMajor windowFixedWidthMinor windowMinWidthMajor windowMinWidthMinor windowNoTitle
+styleable BallPulseFooter srlAnimatingColor srlClassicsSpinnerStyle srlNormalColor
+styleable BezierRadarHeader srlAccentColor srlEnableHorizontalDrag srlPrimaryColor
 styleable BottomNavigationView elevation itemBackground itemIconTint itemTextColor menu
 styleable BottomSheetBehavior_Layout behavior_hideable behavior_peekHeight behavior_skipCollapsed
 styleable ButtonBarLayout allowStacking
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
+styleable ClassicsFooter srlAccentColor srlClassicsSpinnerStyle srlDrawableArrow srlDrawableArrowSize srlDrawableMarginRight srlDrawableProgress srlDrawableProgressSize srlDrawableSize srlFinishDuration srlPrimaryColor srlTextFailed srlTextFinish srlTextLoading srlTextNothing srlTextPulling srlTextRefreshing srlTextRelease srlTextSizeTitle
+styleable ClassicsHeader srlAccentColor srlClassicsSpinnerStyle srlDrawableArrow srlDrawableArrowSize srlDrawableMarginRight srlDrawableProgress srlDrawableProgressSize srlDrawableSize srlEnableLastTime srlFinishDuration srlPrimaryColor srlTextFailed srlTextFinish srlTextLoading srlTextPulling srlTextRefreshing srlTextRelease srlTextSecondary srlTextSizeTime srlTextSizeTitle srlTextTimeMarginTop srlTextUpdate
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
 styleable ColorStateListItem android_color android_alpha alpha
@@ -4094,6 +4215,8 @@ styleable RecyclerView android_orientation android_descendantFocusability fastSc
 styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
+styleable SmartRefreshLayout android_clipChildren android_clipToPadding srlAccentColor srlDisableContentWhenLoading srlDisableContentWhenRefresh srlDragRate srlEnableAutoLoadMore srlEnableClipFooterWhenFixedBehind srlEnableClipHeaderWhenFixedBehind srlEnableFooterFollowWhenLoadFinished srlEnableFooterFollowWhenNoMoreData srlEnableFooterTranslationContent srlEnableHeaderTranslationContent srlEnableLoadMore srlEnableLoadMoreWhenContentNotFull srlEnableNestedScrolling srlEnableOverScrollBounce srlEnableOverScrollDrag srlEnablePreviewInEditMode srlEnablePureScrollMode srlEnableRefresh srlEnableScrollContentWhenLoaded srlEnableScrollContentWhenRefreshed srlFixedFooterViewId srlFixedHeaderViewId srlFooterHeight srlFooterInsetStart srlFooterMaxDragRate srlFooterTranslationViewId srlFooterTriggerRate srlHeaderHeight srlHeaderInsetStart srlHeaderMaxDragRate srlHeaderTranslationViewId srlHeaderTriggerRate srlPrimaryColor srlReboundDuration
+styleable SmartRefreshLayout_Layout layout_srlBackgroundColor layout_srlSpinnerStyle
 styleable SnackbarLayout android_maxWidth elevation maxActionInlineWidth
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
@@ -4103,6 +4226,7 @@ styleable TextAppearance android_textSize android_typeface android_textStyle and
 styleable TextInputLayout android_textColorHint android_hint counterEnabled counterMaxLength counterOverflowTextAppearance counterTextAppearance errorEnabled errorTextAppearance hintAnimationEnabled hintEnabled hintTextAppearance passwordToggleContentDescription passwordToggleDrawable passwordToggleEnabled passwordToggleTint passwordToggleTintMode
 styleable TogglePrefAttrs android_preferenceLayoutChild
 styleable Toolbar android_gravity android_minHeight buttonGravity collapseContentDescription collapseIcon contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation logo logoDescription maxButtonHeight navigationContentDescription navigationIcon popupTheme subtitle subtitleTextAppearance subtitleTextColor title titleMargin titleMarginBottom titleMarginEnd titleMarginStart titleMarginTop titleMargins titleTextAppearance titleTextColor
+styleable TwoLevelHeader srlEnablePullToCloseTwoLevel srlEnableTwoLevel srlFloorDuration srlFloorRage srlMaxRage srlRefreshRage
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId

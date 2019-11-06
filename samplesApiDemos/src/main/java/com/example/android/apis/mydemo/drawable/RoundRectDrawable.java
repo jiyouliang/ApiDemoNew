@@ -6,8 +6,10 @@ import android.graphics.ColorFilter;
 import android.graphics.Paint;
 import android.graphics.PixelFormat;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.annotation.RequiresApi;
 
 /**
  * @author YouLiang.Ji
@@ -35,6 +37,7 @@ public class RoundRectDrawable extends Drawable {
      * 绘制
      * @param canvas
      */
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     public void draw(@NonNull Canvas canvas) {
         canvas.save();

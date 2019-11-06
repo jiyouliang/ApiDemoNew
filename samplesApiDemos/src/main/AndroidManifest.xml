@@ -4378,14 +4378,32 @@
         </activity>
         <activity
             android:name=".mydemo.keyboard.KeyboardChangedActivity"
-            android:windowSoftInputMode="adjustResize"
-            android:label="@string/mydemo_keyboard_state_changed">
+            android:label="@string/mydemo_keyboard_state_changed"
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".mydemo.drawable.CanvasDrawBitmapActivity"
+            android:label="@string/mydemo_drawable_draw_bitmap"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mydemo.views.SmartPullRefreshActivity"
+            android:label="@string/mydemo_view_smart_pull_refresh"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter></activity>
     </application>
 
 </manifest>

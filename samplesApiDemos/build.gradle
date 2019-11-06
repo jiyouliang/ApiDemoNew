@@ -43,4 +43,7 @@ dependencies {
     implementation 'org.greenrobot:greendao:3.2.2'
     /*软键盘状态监控*/
     implementation 'net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.3.0'
+    /*下拉刷新*/
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0'
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
 }

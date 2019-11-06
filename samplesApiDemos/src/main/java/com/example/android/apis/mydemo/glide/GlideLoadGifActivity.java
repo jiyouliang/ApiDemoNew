@@ -1,6 +1,7 @@
 package com.example.android.apis.mydemo.glide;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.widget.ImageView;
 
@@ -20,6 +21,7 @@ public class GlideLoadGifActivity extends Activity {
 
     private void initView() {
         mIvGif = (ImageView) findViewById(R.id.iv_gif);
-        Glide.with(this).load(R.drawable.amap_loading).into(mIvGif);
+        Context context = this;
+        Glide.with(context).load(R.drawable.amap_loading).into(mIvGif);
     }
 }
