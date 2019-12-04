@@ -1207,6 +1207,7 @@ id btn2
 id btn3
 id btn4
 id btn5
+id btnDownload
 id btn_add_tab
 id btn_hide
 id btn_insert
@@ -1970,6 +1971,7 @@ id tv
 id tv2
 id tv_content
 id tv_countdown
+id tv_info
 id tv_message
 id tv_more
 id tv_msg
@@ -2096,6 +2098,7 @@ layout activity_customer_view_group
 layout activity_device_id
 layout activity_finish_affinity
 layout activity_get_customer_manifest_attribute
+layout activity_get_net_info
 layout activity_glide_load_gif
 layout activity_green_dao
 layout activity_keyboard_changed
@@ -3161,8 +3164,9 @@ string mydemo_keystore_signature
 string mydemo_list_activity
 string mydemo_loation_provider
 string mydemo_navigation_bar
-string mydemo_netword_status
-string mydemo_netword_status_broadcast
+string mydemo_network_speed
+string mydemo_network_status
+string mydemo_network_status_broadcast
 string mydemo_number_keyboard
 string mydemo_okhttp_async
 string mydemo_okhttp_post

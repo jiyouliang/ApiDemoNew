@@ -1272,6 +1272,10 @@
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/resources_smallest_width_row.xml"
     },
     {
+        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_activity_get_net_info.xml.flat",
+        "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/activity_get_net_info.xml"
+    },
+    {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_voice_recognition.xml.flat",
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/voice_recognition.xml"
     },

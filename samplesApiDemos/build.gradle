@@ -46,4 +46,5 @@ dependencies {
     /*下拉刷新*/
     implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0'
     implementation 'de.hdodenhof:circleimageview:3.0.1'
+    implementation 'com.liulishuo.okdownload:okdownload:1.0.6'
 }

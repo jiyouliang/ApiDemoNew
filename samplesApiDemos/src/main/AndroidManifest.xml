@@ -6,6 +6,7 @@
     android:installLocation="auto">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.WRITE_CONTACTS" />
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -4360,7 +4361,7 @@
         </activity>
         <activity
             android:name=".mydemo.http.ConnectManagerActivity"
-            android:label="@string/mydemo_netword_status">
+            android:label="@string/mydemo_network_status">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -4369,7 +4370,7 @@
         </activity>
         <activity
             android:name=".mydemo.http.BroadcastObserveNetworkActivity"
-            android:label="@string/mydemo_netword_status_broadcast">
+            android:label="@string/mydemo_network_status_broadcast">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -4396,14 +4397,26 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-        <activity android:name=".mydemo.views.SmartPullRefreshActivity"
+        <activity
+            android:name=".mydemo.views.SmartPullRefreshActivity"
             android:label="@string/mydemo_view_smart_pull_refresh"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter></activity>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mydemo.http.GetNetSpeedInfoActivity"
+            android:label="@string/mydemo_network_speed"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
