@@ -1760,6 +1760,7 @@
     <string name="mydemo_network_status">新增Demo/网络/01.判断网络状态(通过ConnectivityManager)</string>
     <string name="mydemo_network_status_broadcast">新增Demo/网络/02.判断网络状态(通过广播监听,动态监听)</string>
     <string name="mydemo_network_speed">新增Demo/网络/03.获取网络速度</string>
+    <string name="mydemo_okhtt_get_content_length">新增Demo/网络/04.OKHttp获取content-length</string>
     <string name="mydemo_keyboard_state_changed">新增Demo/软键盘相关/1.监听软键盘状态改变</string>
     <string name="content">内容</string>
 

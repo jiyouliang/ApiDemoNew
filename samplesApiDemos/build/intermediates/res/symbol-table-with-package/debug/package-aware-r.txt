@@ -1208,6 +1208,7 @@ id btn3
 id btn4
 id btn5
 id btnDownload
+id btnGetLength
 id btn_add_tab
 id btn_hide
 id btn_insert
@@ -1972,6 +1973,7 @@ id tv2
 id tv_content
 id tv_countdown
 id tv_info
+id tv_length
 id tv_message
 id tv_more
 id tv_msg
@@ -2118,6 +2120,7 @@ layout activity_number_keyboard_view_container
 layout activity_observer_pattern
 layout activity_ok_http_async
 layout activity_ok_http_post
+layout activity_okhttp_get_content_length
 layout activity_path_dots_loading
 layout activity_path_effect
 layout activity_path_measure_post_tan
@@ -3168,6 +3171,7 @@ string mydemo_network_speed
 string mydemo_network_status
 string mydemo_network_status_broadcast
 string mydemo_number_keyboard
+string mydemo_okhtt_get_content_length
 string mydemo_okhttp_async
 string mydemo_okhttp_post
 string mydemo_path_dots_loading
