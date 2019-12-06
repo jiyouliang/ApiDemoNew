@@ -7,6 +7,13 @@
     android:layout_height="match_parent"
     android:gravity="center_vertical"
     tools:context=".mydemo.http.OkHttpGetContentLength">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#FF0000"
+        android:text="经过手机端测试:okhttp获取contentLength消耗流量只有几百kb甚至几kb，并不会消耗整个文件大小流量，仅仅通过请求头获取文件长度"
+        android:layout_height="wrap_content"/>
+    
 
     <Button
         android:layout_width="match_parent"

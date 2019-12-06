@@ -1209,6 +1209,7 @@ id btn4
 id btn5
 id btnDownload
 id btnGetLength
+id btnReadContact
 id btn_add_tab
 id btn_hide
 id btn_insert
@@ -2091,6 +2092,7 @@ layout activity_bottom_sheet
 layout activity_broadcast_observe_network
 layout activity_canvas_draw_bitmap
 layout activity_connect_manager
+layout activity_contact_provider
 layout activity_count_down
 layout activity_customer_drawable
 layout activity_customer_progress_bar
@@ -3180,6 +3182,7 @@ string mydemo_path_measure_post_tan
 string mydemo_path_transform_edit
 string mydemo_pattern_observer
 string mydemo_property_animation
+string mydemo_provider_contact
 string mydemo_refresh_view
 string mydemo_setting_item_view
 string mydemo_start_activities_for_result

@@ -1763,6 +1763,7 @@
     <string name="mydemo_okhtt_get_content_length">新增Demo/网络/04.OKHttp获取content-length</string>
     <string name="mydemo_keyboard_state_changed">新增Demo/软键盘相关/1.监听软键盘状态改变</string>
     <string name="content">内容</string>
+    <string name="mydemo_provider_contact">新增Demo/内容提供者/01.读取联系人</string>
 
 
     <!--test-->
