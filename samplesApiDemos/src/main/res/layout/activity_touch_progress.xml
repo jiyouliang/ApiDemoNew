@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".mydemo.views.TouchProgressActivity">
 
-    <com.example.android.apis.mydemo.views.TouchProgressView
+    <com.example.android.apis.mydemo.views.TouchProgressParentView
         android:layout_width="match_parent"
         android:layout_height="200dp"/>
 

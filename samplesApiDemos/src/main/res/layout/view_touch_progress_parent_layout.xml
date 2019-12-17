@@ -15,11 +15,18 @@
         android:visibility="visible">
 
         <ImageView
-            android:visibility="gone"
             android:id="@+id/iv_brightness"
-            android:background="@drawable/ic_light_max"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_light_max"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_volume_max"
+            android:visibility="gone" />
 
 
         <TextView
