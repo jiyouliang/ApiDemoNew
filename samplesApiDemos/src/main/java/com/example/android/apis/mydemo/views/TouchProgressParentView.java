@@ -29,7 +29,7 @@ public class TouchProgressParentView extends LinearLayout {
     /**
      * 视频总时长:秒
      */
-    private final static int TOTAL_TIME = 40 * 60;
+    private final static int TOTAL_TIME = 4 * 60;
 
     /**
      * 当前播放到
