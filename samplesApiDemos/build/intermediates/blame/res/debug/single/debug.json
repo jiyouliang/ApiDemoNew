@@ -68,24 +68,24 @@
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/drawable-nodpi/frantic.jpg"
     },
     {
-        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-hdpi_ic_popup_reminder.png.flat",
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/drawable-hdpi/ic_popup_reminder.png"
+    },
+    {
+        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/color_abc_tint_seek_thumb.xml.flat",
         "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/color/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable_abc_btn_borderless_material.xml.flat",
-        "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/drawable/abc_btn_borderless_material.xml"
-    },
-    {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/menu_list_select_menu.xml.flat",
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/menu/list_select_menu.xml"
+    },
+    {
+        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable_abc_btn_borderless_material.xml.flat",
+        "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/drawable/abc_btn_borderless_material.xml"
     },
     {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable_sample_thumb_7.jpg.flat",
@@ -188,12 +188,12 @@
         "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_video_player.xml.flat",
-        "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/video_player.xml"
-    },
-    {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_video_player.xml.flat",
+        "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/video_player.xml"
     },
     {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -220,12 +220,12 @@
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/drawable/gallery_photo_5.jpg"
     },
     {
-        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png"
-    },
-    {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_activity_animation.xml.flat",
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/activity_animation.xml"
+    },
+    {
+        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/anim_abc_slide_in_bottom.xml.flat",
@@ -276,12 +276,12 @@
         "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/layout-v26/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable_btn_selector.xml.flat",
-        "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/drawable/btn_selector.xml"
-    },
-    {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0f752daaa435b38f2dc99329b19b21ac/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable_btn_selector.xml.flat",
+        "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/drawable/btn_selector.xml"
     },
     {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-v21_design_password_eye.xml.flat",
@@ -328,12 +328,12 @@
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/preference_widget_mypreference.xml"
     },
     {
-        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/transition_transitions_mgr.xml.flat",
-        "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/transition/transitions_mgr.xml"
-    },
-    {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/menu_popup.xml.flat",
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/menu/popup.xml"
+    },
+    {
+        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/transition_transitions_mgr.xml.flat",
+        "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/transition/transitions_mgr.xml"
     },
     {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_notifying_controller.xml.flat",
@@ -428,12 +428,12 @@
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/drawable-hdpi/star_big_on.png"
     },
     {
-        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/color_abc_tint_edittext.xml.flat",
-        "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/color/abc_tint_edittext.xml"
-    },
-    {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/animator_square_animator.xml.flat",
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/animator/square_animator.xml"
+    },
+    {
+        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/color_abc_tint_edittext.xml.flat",
+        "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/color/abc_tint_edittext.xml"
     },
     {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_activity_keyboard_input.xml.flat",
@@ -444,12 +444,12 @@
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/fragment_menu.xml"
     },
     {
-        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable_abc_edit_text_material.xml.flat",
-        "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/drawable/abc_edit_text_material.xml"
-    },
-    {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
         "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable_abc_edit_text_material.xml.flat",
+        "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/drawable/abc_edit_text_material.xml"
     },
     {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-hdpi_reslogo240dpi.png.flat",
@@ -568,10 +568,6 @@
         "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_view_touch_progress_layout.xml.flat",
-        "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/view_touch_progress_layout.xml"
-    },
-    {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_activity_customer_progress_bar2.xml.flat",
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/activity_customer_progress_bar2.xml"
     },
@@ -656,24 +652,24 @@
         "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/45d2928c81dabfb84874cdf67724efe2/res/layout/design_menu_item_action_area.xml"
     },
     {
-        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_text_to_speech.xml.flat",
-        "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/text_to_speech.xml"
-    },
-    {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-mdpi_arrow_down_float.png.flat",
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/drawable-mdpi/arrow_down_float.png"
     },
     {
-        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_layout_animation_3.xml.flat",
-        "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/layout_animation_3.xml"
+        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_text_to_speech.xml.flat",
+        "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/text_to_speech.xml"
+    },
+    {
+        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_activity_canvas_draw_bitmap.xml.flat",
+        "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/activity_canvas_draw_bitmap.xml"
     },
     {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-xxhdpi_star_vector.png.flat",
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/generated/res/pngs/debug/drawable-xxhdpi/star_vector.png"
     },
     {
-        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_activity_canvas_draw_bitmap.xml.flat",
-        "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/activity_canvas_draw_bitmap.xml"
+        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_layout_animation_3.xml.flat",
+        "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/layout_animation_3.xml"
     },
     {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1238,6 +1234,10 @@
     {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_custom_title.xml.flat",
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/custom_title.xml"
+    },
+    {
+        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_video_gesture_view_layout.xml.flat",
+        "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/video_gesture_view_layout.xml"
     },
     {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable_gallery_photo_8.jpg.flat",
@@ -4358,6 +4358,10 @@
     {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-v21_abc_action_bar_item_background_material.xml.flat",
         "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_view_touch_progress_parent_layout.xml.flat",
+        "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/view_touch_progress_parent_layout.xml"
     },
     {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_status_bar_notifications.xml.flat",

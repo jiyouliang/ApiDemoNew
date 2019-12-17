@@ -12,8 +12,6 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.android.apis.R;
@@ -22,14 +20,10 @@ import com.jiyouliang.log.Logger;
 public class TouchProgressParentView extends LinearLayout {
     private static final String TAG = "TouchProgressView";
 
-    private TextView mTvTime;
-    private ProgressBar mProgressBar;
-    private LinearLayout mProgressContainer;
     private GestureDetector mGestureDetector;
     private int mVideoWidth;
     private int mVideoProgress;
     private int mDownProgress;
-    private ImageView mIvBrightness;
     private int mScrollMode = ScrollMode.NONE;
     private float brightness = -1;
     /**
@@ -49,7 +43,8 @@ public class TouchProgressParentView extends LinearLayout {
     private int mMaxVolume;
     private int mOldVolume = 0;
     private int mVideoHeight;
-    private ImageView mIvVolume;
+    private VideoGestureStateView mVideoStateView;
+    private int volume;
 
     public TouchProgressParentView(Context context) {
         this(context, null, 0);
@@ -75,13 +70,9 @@ public class TouchProgressParentView extends LinearLayout {
         mAudioManager = (AudioManager) context.getSystemService(Service.AUDIO_SERVICE);
         mMaxVolume = mAudioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
         LayoutInflater.from(context).inflate(R.layout.view_touch_progress_parent_layout, this, true);
-        mProgressContainer = findViewById(R.id.progress_container);
-        mProgressBar = findViewById(R.id.progressBar);
-        mTvTime = findViewById(R.id.tv_time);
-        mIvVolume = findViewById(R.id.iv_volume);
-        // 亮度图标
-        mIvBrightness = findViewById(R.id.iv_brightness);
-        mProgressBar.setMax(TOTAL_TIME);
+        mVideoStateView = findViewById(R.id.videoStateView);
+        mVideoStateView.setVideoMaxProgress(TOTAL_TIME);
+        mVideoStateView.setVisibility(View.GONE);
 
         // 手势监听
         mGestureDetector = new GestureDetector(getContext(), new GestureDetector.SimpleOnGestureListener() {
@@ -107,6 +98,7 @@ public class TouchProgressParentView extends LinearLayout {
                     return false;
                 }
                 Logger.d(TAG, "onScroll:mScrollMode=" + mScrollMode);
+
                 switch (mScrollMode) {
                     case ScrollMode.NONE:
                         // 估计滑动位置、距离判断滑动模式
@@ -126,64 +118,10 @@ public class TouchProgressParentView extends LinearLayout {
                         setVideoProgress(downEvent, moveEvent);
                         break;
                     case ScrollMode.VOLUME:
-                        int value = TouchProgressParentView.this.getHeight() / mMaxVolume;
-                        int newVolume = (int) ((downEvent.getY() - moveEvent.getY()) / value / 2 + mOldVolume);
-                        if (newVolume < 0 || newVolume > mMaxVolume) {
-                            break;
-                        }
-                        mAudioManager.setStreamVolume(AudioManager.STREAM_MUSIC, newVolume, AudioManager.FLAG_PLAY_SOUND);
-                        float volumeProgress = newVolume / Float.valueOf(mMaxVolume) * 100;
-                        if (mProgressContainer.getVisibility() != View.VISIBLE) {
-                            mProgressContainer.setVisibility(View.VISIBLE);
-                        }
-                        if (mIvBrightness.getVisibility() != View.GONE) {
-                            mIvBrightness.setVisibility(View.GONE);
-                        }
-                        if (mProgressBar.getVisibility() != View.GONE) {
-                            mProgressBar.setVisibility(View.GONE);
-                        }
-                        if (mIvVolume.getVisibility() != View.VISIBLE) {
-                            mIvVolume.setVisibility(View.VISIBLE);
-                        }
-
-                        mTvTime.setText(String.format("%s%s", (int) volumeProgress, "%"));
+                        setVolume(downEvent, moveEvent);
                         break;
                     case ScrollMode.BRIGHTNESS:
-                        float deltaY = downEvent.getY() - moveEvent.getY();
-                        float percent = deltaY / mVideoHeight;
-
-                        Activity activity = getActivity();
-                        if (activity == null)
-                            break;
-                        if (brightness < 0) {
-                            brightness = activity.getWindow().getAttributes().screenBrightness;
-                            if (brightness <= 0.00f) {
-                                brightness = 0.50f;
-                            } else if (brightness < 0.01f) {
-                                brightness = 0.01f;
-                            }
-                        }
-                        if (mProgressContainer.getVisibility() != View.VISIBLE) {
-                            mProgressContainer.setVisibility(View.VISIBLE);
-                        }
-                        if (mIvBrightness.getVisibility() != View.VISIBLE) {
-                            mIvBrightness.setVisibility(View.VISIBLE);
-                        }
-                        if (mProgressBar.getVisibility() != View.GONE) {
-                            mProgressBar.setVisibility(View.GONE);
-                        }
-                        if (mIvVolume.getVisibility() != View.GONE) {
-                            mIvVolume.setVisibility(View.GONE);
-                        }
-                        WindowManager.LayoutParams lpa = activity.getWindow().getAttributes();
-                        lpa.screenBrightness = brightness + percent;
-                        if (lpa.screenBrightness > 1.0f) {
-                            lpa.screenBrightness = 1.0f;
-                        } else if (lpa.screenBrightness < 0.01f) {
-                            lpa.screenBrightness = 0.01f;
-                        }
-                        mTvTime.setText(String.format("%s%s", (int) (lpa.screenBrightness * 100), "%"));
-                        activity.getWindow().setAttributes(lpa);
+                        setBrightness(downEvent, moveEvent);
                         break;
                 }
 
@@ -193,11 +131,72 @@ public class TouchProgressParentView extends LinearLayout {
             @Override
             public boolean onDown(MotionEvent e) {
                 // 重置状态
-                resetState(TouchProgressParentView.this.getWidth(), mProgressBar.getProgress());
+                resetState(TouchProgressParentView.this.getWidth(), mVideoStateView.getVideoProgress());
+                volume = getVolume();
                 return true;
             }
         });
         mGestureDetector.setIsLongpressEnabled(false);
+    }
+
+    /**
+     * 设置音量
+     * @param downEvent
+     * @param moveEvent
+     */
+    private void setVolume(MotionEvent downEvent, MotionEvent moveEvent) {
+        float deltaY = downEvent.getY() - moveEvent.getY();
+        float percent = deltaY / mVideoHeight;
+        int index = (int) (percent * mMaxVolume) + volume;
+        if (index > mMaxVolume) {
+            index = mMaxVolume;
+        } else if (index < 0) {
+            index = 0;
+        }
+        // 变更声音
+        mAudioManager.setStreamVolume(AudioManager.STREAM_MUSIC, index, AudioManager.FLAG_PLAY_SOUND);
+        // 变更进度条
+        int volumePercent = (int) (index * 1.0 / mMaxVolume * 100);
+        // 显示
+        mVideoStateView.setVolume(volumePercent);
+    }
+
+    /**
+     * 设置亮度
+     * @param downEvent
+     * @param moveEvent
+     */
+    private void setBrightness(MotionEvent downEvent, MotionEvent moveEvent) {
+        Activity activity = getActivity();
+        if (activity == null)
+            return;
+        float deltaY = downEvent.getY() - moveEvent.getY();
+        WindowManager.LayoutParams lpa = activity.getWindow().getAttributes();
+        float percent = deltaY / mVideoHeight;
+        Logger.d(TAG, "setBrightness:deltaY="+deltaY+",percent="+percent+",brightness="+brightness);
+        if (brightness < 0) {
+            brightness = activity.getWindow().getAttributes().screenBrightness;
+            if (brightness <= 0.00f){
+                brightness = 0.50f;
+            }else if (brightness < 0.01f){
+                brightness = 0.01f;
+            }
+        }
+        lpa.screenBrightness = brightness + percent;
+        if (lpa.screenBrightness > 1.0f){
+            lpa.screenBrightness = 1.0f;
+        }else if (lpa.screenBrightness < 0.01f){
+            lpa.screenBrightness = 0.01f;
+        }
+        mVideoStateView.setBrightness((int) (lpa.screenBrightness * 100));
+        activity.getWindow().setAttributes(lpa);
+    }
+
+    private int getVolume() {
+        volume = mAudioManager.getStreamVolume(AudioManager.STREAM_MUSIC);
+        if (volume < 0)
+            volume = 0;
+        return volume;
     }
 
     /**
@@ -207,18 +206,6 @@ public class TouchProgressParentView extends LinearLayout {
      * @param moveEvent
      */
     private void setVideoProgress(MotionEvent downEvent, MotionEvent moveEvent) {
-        if (mProgressContainer.getVisibility() != View.VISIBLE) {
-            mProgressContainer.setVisibility(View.VISIBLE);
-        }
-        if (mIvBrightness.getVisibility() != View.GONE) {
-            mIvBrightness.setVisibility(View.GONE);
-        }
-        if (mProgressBar.getVisibility() != View.VISIBLE) {
-            mProgressBar.setVisibility(View.VISIBLE);
-        }
-        if (mIvVolume.getVisibility() != View.GONE) {
-            mIvVolume.setVisibility(View.GONE);
-        }
         //修改进度
         float dis = moveEvent.getX() - downEvent.getX();
         float percent = dis / mVideoWidth;
@@ -226,16 +213,16 @@ public class TouchProgressParentView extends LinearLayout {
 
 
         //设置快进/快退时间
-        if (mVideoProgress > mProgressBar.getMax()) {
-            mVideoProgress = mProgressBar.getMax();
+        if (mVideoProgress > mVideoStateView.getVideoMaxProgress()) {
+            mVideoProgress = mVideoStateView.getVideoMaxProgress();
         }
         if (mVideoProgress < 0) {
             mVideoProgress = 0;
         }
-        mProgressBar.setProgress(mVideoProgress);
-        float percentage = ((float) mVideoProgress) / mProgressBar.getMax();
+        mVideoStateView.setVideoProgress(mVideoProgress);
+        float percentage = ((float) mVideoProgress) / mVideoStateView.getVideoMaxProgress();
         float currentTime = (TOTAL_TIME * percentage);
-        mTvTime.setText(String.format("%s/%s", formattedTime((long) currentTime), formattedTime(TOTAL_TIME)));
+        mVideoStateView.setTimeText(formattedTime((long) currentTime), formattedTime(TOTAL_TIME));
     }
 
     private void resetState(int videoWidth, int downProgress) {
@@ -255,7 +242,15 @@ public class TouchProgressParentView extends LinearLayout {
         }
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
+                brightness = -1;
                 removeCallbacks(mHideAction);
+                if (mVideoStateView.getVisibility() != View.VISIBLE) {
+                    mVideoStateView.setVisibility(View.VISIBLE);
+                    mVideoStateView.hideProgressBar();
+                    mVideoStateView.hideBrightnessView();
+                    mVideoStateView.hideVolumeView();
+                }
+
                 break;
             /*case MotionEvent.ACTION_MOVE:
                 break;*/
@@ -269,7 +264,7 @@ public class TouchProgressParentView extends LinearLayout {
     private final Runnable mHideAction = new Runnable() {
         @Override
         public void run() {
-            mProgressContainer.setVisibility(View.GONE);
+            mVideoStateView.setVisibility(View.GONE);
         }
     };
 

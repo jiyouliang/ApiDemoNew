@@ -909,9 +909,9 @@ public final class R {
         public static final int transition_transform = 0x7f090359;
         public static final int uniform = 0x7f09037a;
         public static final int up = 0x7f09037e;
-        public static final int view_offset_helper = 0x7f09038d;
-        public static final int visible = 0x7f090390;
-        public static final int wrap_content = 0x7f09039d;
+        public static final int view_offset_helper = 0x7f09038e;
+        public static final int visible = 0x7f090391;
+        public static final int wrap_content = 0x7f09039e;
     }
     public static final class integer {
         private integer() {}

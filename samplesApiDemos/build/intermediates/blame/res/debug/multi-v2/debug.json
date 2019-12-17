@@ -334,6 +334,21 @@
             ]
         },
         {
+            "outputFile": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/values-zh_values-zh.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0.aar/2e6b0004dfd611f6d8b405356fb80a14/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,163,255,306,357,410,465,519,579,633,684,735,792,846,902,956,1012",
+                        "endColumns": "107,91,50,50,52,54,53,59,53,50,50,56,53,55,53,55,60",
+                        "endOffsets": "158,250,301,352,405,460,514,574,628,679,730,787,841,897,951,1007,1068"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/values-ro_values-ro.arsc.flat",
             "map": [
                 {
@@ -361,21 +376,6 @@
                         "startOffsets": "2013",
                         "endColumns": "100",
                         "endOffsets": "2109"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/values-zh_values-zh.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0.aar/2e6b0004dfd611f6d8b405356fb80a14/res/values-zh/values-zh.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,163,255,306,357,410,465,519,579,633,684,735,792,846,902,956,1012",
-                        "endColumns": "107,91,50,50,52,54,53,59,53,50,50,56,53,55,53,55,60",
-                        "endOffsets": "158,250,301,352,405,460,514,574,628,679,730,787,841,897,951,1007,1068"
                     }
                 }
             ]
@@ -773,40 +773,33 @@
             ]
         },
         {
-            "outputFile": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/values-v14_values-v14.arsc.flat",
+            "outputFile": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/values-mr_values-mr.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/values-v14/styles.xml",
+                    "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0f752daaa435b38f2dc99329b19b21ac/res/values-mr/values-mr.xml",
                     "from": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "790",
-                        "endColumns": "77",
-                        "endOffsets": "863"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "108",
-                        "endColumns": "76",
-                        "endOffsets": "180"
-                    }
-                },
-                {
-                    "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/values-v14/bools.xml",
-                    "from": {
-                        "startLines": "18",
-                        "startColumns": "4",
-                        "startOffsets": "749",
-                        "endColumns": "52",
-                        "endOffsets": "797"
-                    },
-                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "52",
-                        "endOffsets": "103"
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1947",
+                        "endColumns": "100",
+                        "endOffsets": "2043"
+                    }
+                },
+                {
+                    "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/values-mr/values-mr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,216,322,429,519,620,735,812,890,970,1082,1184,1280,1389,1490,1605,1762,1867",
+                        "endColumns": "110,105,106,89,100,114,76,77,79,111,101,95,108,100,114,156,104,79",
+                        "endOffsets": "211,317,424,514,615,730,807,885,965,1077,1179,1275,1384,1485,1600,1757,1862,1942"
                     }
                 }
             ]
@@ -844,33 +837,40 @@
             ]
         },
         {
-            "outputFile": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/values-mr_values-mr.arsc.flat",
+            "outputFile": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/values-v14_values-v14.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0f752daaa435b38f2dc99329b19b21ac/res/values-mr/values-mr.xml",
+                    "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/values-v14/styles.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
                         "startLines": "20",
                         "startColumns": "4",
-                        "startOffsets": "1947",
-                        "endColumns": "100",
-                        "endOffsets": "2043"
+                        "startOffsets": "790",
+                        "endColumns": "77",
+                        "endOffsets": "863"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "108",
+                        "endColumns": "76",
+                        "endOffsets": "180"
                     }
                 },
                 {
-                    "source": "/Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/95b9056e2041cb277b73d72730541e4f/res/values-mr/values-mr.xml",
+                    "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/values-v14/bools.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,216,322,429,519,620,735,812,890,970,1082,1184,1280,1389,1490,1605,1762,1867",
-                        "endColumns": "110,105,106,89,100,114,76,77,79,111,101,95,108,100,114,156,104,79",
-                        "endOffsets": "211,317,424,514,615,730,807,885,965,1077,1179,1275,1384,1485,1600,1757,1862,1942"
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "749",
+                        "endColumns": "52",
+                        "endOffsets": "797"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "52",
+                        "endOffsets": "103"
                     }
                 }
             ]

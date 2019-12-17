@@ -2022,6 +2022,7 @@ id username_label
 id username_view
 id verify_button
 id victim
+id videoStateView
 id view1
 id view2
 id view3
@@ -2478,10 +2479,11 @@ layout transition_scene3
 layout translucent_background
 layout translucent_bars
 layout trigger_sensors
+layout video_gesture_view_layout
 layout video_player
 layout videoview
 layout view_text_layout
-layout view_touch_progress_layout
+layout view_touch_progress_parent_layout
 layout visibility_1
 layout voice_recognition
 layout wallpaper_2
