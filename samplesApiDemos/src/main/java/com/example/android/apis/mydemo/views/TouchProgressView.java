@@ -6,6 +6,7 @@ import android.view.GestureDetector;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -24,6 +25,8 @@ public class TouchProgressView extends LinearLayout {
     private int mVideoWidth;
     private int mVideoProgress;
     private int mDownProgress;
+    private ImageView mIvBrightness;
+    private int mScrollMode = ScrollMode.NONE;
     /**
      * 视频总时长:秒
      */
@@ -56,6 +59,8 @@ public class TouchProgressView extends LinearLayout {
         mProgressContainer = findViewById(R.id.progress_container);
         mProgressBar = findViewById(R.id.progressBar);
         mTvTime = findViewById(R.id.tv_time);
+        // 亮度图标
+        mIvBrightness = findViewById(R.id.iv_brightness);
         mProgressBar.setMax(TOTAL_TIME);
 
         // 手势监听
@@ -78,32 +83,26 @@ public class TouchProgressView extends LinearLayout {
 
             @Override
             public boolean onScroll(MotionEvent downEvent, MotionEvent moveEvent, float distanceX, float distanceY) {
-                if(downEvent == null || moveEvent == null){
+                if (downEvent == null || moveEvent == null) {
                     return false;
                 }
-                if (Math.abs(downEvent.getX() - moveEvent.getX()) <= offsetX) {
-                    return false;
+                switch (mScrollMode) {
+                    case ScrollMode.NONE:
+                        if (Math.abs(downEvent.getX() - moveEvent.getX()) <= offsetX) {
+                            // 水平滑动距离小于阻尼值
+                        } else {
+                            mScrollMode = ScrollMode.VIDEO_PROGRESS;
+                        }
+                        break;
+                    case ScrollMode.VIDEO_PROGRESS:
+                        setVideoProgress(downEvent, moveEvent);
+                        break;
+                    case ScrollMode.VOLUME:
+                        break;
+                    case ScrollMode.BRIGHTNESS:
+                        break;
                 }
-                if(mProgressContainer.getVisibility() != View.VISIBLE){
-                    mProgressContainer.setVisibility(View.VISIBLE);
-                }
-                //修改进度
-                float dis = moveEvent.getX() - downEvent.getX();
-                float percent = dis /mVideoWidth;
-                mVideoProgress = (int) (mDownProgress + percent * 100);
 
-
-                //设置快进/快退时间
-                if (mVideoProgress > mProgressBar.getMax()) {
-                    mVideoProgress = mProgressBar.getMax();
-                }
-                if (mVideoProgress < 0) {
-                    mVideoProgress = 0;
-                }
-                mProgressBar.setProgress(mVideoProgress);
-                float percentage = ((float) mVideoProgress) / mProgressBar.getMax();
-                float currentTime = (TOTAL_TIME * percentage);
-                mTvTime.setText(formattedTime((long) currentTime) + "/" + formattedTime(TOTAL_TIME));
                 return true;
             }
 
@@ -117,8 +116,36 @@ public class TouchProgressView extends LinearLayout {
         mGestureDetector.setIsLongpressEnabled(false);
     }
 
+    /**
+     * 设置视频进度
+     * @param downEvent
+     * @param moveEvent
+     */
+    private void setVideoProgress(MotionEvent downEvent, MotionEvent moveEvent) {
+        if (mProgressContainer.getVisibility() != View.VISIBLE) {
+            mProgressContainer.setVisibility(View.VISIBLE);
+        }
+        //修改进度
+        float dis = moveEvent.getX() - downEvent.getX();
+        float percent = dis / mVideoWidth;
+        mVideoProgress = (int) (mDownProgress + percent * 100);
+
+
+        //设置快进/快退时间
+        if (mVideoProgress > mProgressBar.getMax()) {
+            mVideoProgress = mProgressBar.getMax();
+        }
+        if (mVideoProgress < 0) {
+            mVideoProgress = 0;
+        }
+        mProgressBar.setProgress(mVideoProgress);
+        float percentage = ((float) mVideoProgress) / mProgressBar.getMax();
+        float currentTime = (TOTAL_TIME * percentage);
+        mTvTime.setText(String.format("%s/%s", formattedTime((long) currentTime), formattedTime(TOTAL_TIME)));
+    }
+
     private void resetState(int videoWidth, int downProgress) {
-        showLog("resetState:videoWidth="+videoWidth+",downProgress="+downProgress);
+        showLog("resetState:videoWidth=" + videoWidth + ",downProgress=" + downProgress);
         mVideoWidth = videoWidth;
         mVideoProgress = 0;
         mDownProgress = downProgress;
@@ -127,7 +154,7 @@ public class TouchProgressView extends LinearLayout {
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         Logger.d(TAG, "onTouchEvent:event=" + event);
-        if(mGestureDetector != null){
+        if (mGestureDetector != null) {
             mGestureDetector.onTouchEvent(event);
         }
         switch (event.getAction()) {
@@ -150,16 +177,17 @@ public class TouchProgressView extends LinearLayout {
         }
     };
 
-    private void showToast(String msg){
+    private void showToast(String msg) {
         Toast.makeText(getContext(), msg, Toast.LENGTH_SHORT).show();
     }
 
-    private void showLog(String log){
+    private void showLog(String log) {
         Logger.d(TAG, log);
     }
 
     /**
      * 格式化时间
+     *
      * @param second 秒钟
      * @return
      */
@@ -188,10 +216,30 @@ public class TouchProgressView extends LinearLayout {
             ss = "" + s;
         }
         if (h > 0) {
-            formatTime =  hs + ":" + ms + ":" + ss;
+            formatTime = hs + ":" + ms + ":" + ss;
         } else {
-            formatTime =  ms + ":" + ss;
+            formatTime = ms + ":" + ss;
         }
         return formatTime;
+    }
+
+    /**
+     * 滚动模式
+     */
+    static class ScrollMode {
+        public static final int NONE = 0;
+        /**
+         * 视频进度
+         */
+        public static final int VIDEO_PROGRESS = 1;
+        /**
+         * 亮度
+         */
+        public static final int BRIGHTNESS = 2;
+        /**
+         * 音量
+         */
+        public static final int VOLUME = 3;
+
     }
 }

@@ -88,11 +88,11 @@ public final class R {
         public static final int MatchLayout = 0x7f090007;
         public static final int Scale = 0x7f09000a;
         public static final int Translate = 0x7f09000b;
-        public static final int srl_classics_arrow = 0x7f0902f2;
-        public static final int srl_classics_center = 0x7f0902f3;
-        public static final int srl_classics_progress = 0x7f0902f4;
-        public static final int srl_classics_title = 0x7f0902f5;
-        public static final int srl_classics_update = 0x7f0902f6;
+        public static final int srl_classics_arrow = 0x7f0902f3;
+        public static final int srl_classics_center = 0x7f0902f4;
+        public static final int srl_classics_progress = 0x7f0902f5;
+        public static final int srl_classics_title = 0x7f0902f6;
+        public static final int srl_classics_update = 0x7f0902f7;
     }
     public static final class layout {
         private layout() {}
