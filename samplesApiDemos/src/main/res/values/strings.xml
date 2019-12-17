@@ -1721,6 +1721,7 @@
     <string name="mydemo_refresh_view">新增Demo/Views/下拉刷新/01.NestedScrolling实现下拉刷新</string>
     <string name="mydemo_view_progressbar_anim">新增Demo/Views/09.ProgressBar进度条动画</string>
     <string name="mydemo_view_smart_pull_refresh">新增Demo/Views/10.SmartPullRefreshsh下拉刷新</string>
+    <string name="mydemo_view_touch_progress">新增Demo/Views/11.Touch显示进度(视频播放滑动快进、快退功能)</string>
 
     <!--drawable-->
     <string name="mydemo_customer_drawable">新增Demo/drawable/01.自定义drawable</string>

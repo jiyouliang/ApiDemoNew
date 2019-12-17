@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4441:12
-INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4441:12
+ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4450:12
+INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4450:12
 MERGED from [com.android.databinding:adapters:3.3.2] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/adapters-3.3.2.aar/a1b9b229fb261a3379e744695dc325bf/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.databinding:library:3.3.2] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/library-3.3.2.aar/6408879ec58b18a72791d21d2b3b1cd4/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:design:27.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/45d2928c81dabfb84874cdf67724efe2/AndroidManifest.xml:17:1-22:12
@@ -29,7 +29,8 @@ MERGED from [net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.3.0
 MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0.aar/2e6b0004dfd611f6d8b405356fb80a14/AndroidManifest.xml:2:1-17:12
 MERGED from [de.hdodenhof:circleimageview:3.0.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/circleimageview-3.0.1.aar/8c1af3e0702a7e212a16de655e67ff2e/AndroidManifest.xml:2:1-11:12
 MERGED from [com.liulishuo.okdownload:okdownload:1.0.6] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/okdownload-1.0.6.aar/5d653ec78b61fd5b9ba8f2e117d93c4a/AndroidManifest.xml:2:1-15:12
-INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4441:12
+MERGED from [com.jiyouliang.log:logger-lib:0.9.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/logger-lib-0.9.1.aar/67eb40d01a334bb085d5ae021f82bf68/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:2:1-4450:12
 	package
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:5:5-39
 		INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml
@@ -161,7 +162,7 @@ ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/sr
 	android:name
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:45:9-55
 application
-ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:49:5-4439:19
+ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:49:5-4448:19
 MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a1affc9fe46721cfcaf7003a9a8d4c5e/AndroidManifest.xml:22:5-28:19
 MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a1affc9fe46721cfcaf7003a9a8d4c5e/AndroidManifest.xml:22:5-28:19
 MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/a8316cfe8f93c415a15b01a875050f09/AndroidManifest.xml:10:5-20
@@ -3600,6 +3601,12 @@ ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/sr
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4432:13-60
 	android:name
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4431:13-68
+activity#com.example.android.apis.mydemo.views.TouchProgressActivity
+ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4439:9-4447:20
+	android:label
+		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4441:13-63
+	android:name
+		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4440:13-63
 uses-sdk
 INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml
@@ -3658,6 +3665,8 @@ MERGED from [de.hdodenhof:circleimageview:3.0.1] /Users/jiyouliang/.gradle/cache
 MERGED from [de.hdodenhof:circleimageview:3.0.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/circleimageview-3.0.1.aar/8c1af3e0702a7e212a16de655e67ff2e/AndroidManifest.xml:5:5-7:41
 MERGED from [com.liulishuo.okdownload:okdownload:1.0.6] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/okdownload-1.0.6.aar/5d653ec78b61fd5b9ba8f2e117d93c4a/AndroidManifest.xml:6:5-44
 MERGED from [com.liulishuo.okdownload:okdownload:1.0.6] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/okdownload-1.0.6.aar/5d653ec78b61fd5b9ba8f2e117d93c4a/AndroidManifest.xml:6:5-44
+MERGED from [com.jiyouliang.log:logger-lib:0.9.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/logger-lib-0.9.1.aar/67eb40d01a334bb085d5ae021f82bf68/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jiyouliang.log:logger-lib:0.9.1] /Users/jiyouliang/.gradle/caches/transforms-1/files-1.1/logger-lib-0.9.1.aar/67eb40d01a334bb085d5ae021f82bf68/AndroidManifest.xml:7:5-9:41
 INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml
 INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml
 	android:targetSdkVersion

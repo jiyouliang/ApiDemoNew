@@ -5,19 +5,10 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".mydemo.provider.ContactProviderActivity">
+    tools:context=".mydemo.views.TouchProgressActivity">
 
-    <Button
-        android:id="@+id/btnReadContact"
-        android:text="读取联系人"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-    <ListView
+    <com.example.android.apis.mydemo.views.TouchProgressView
         android:layout_width="match_parent"
-        android:id="@+id/listView"
-        android:layout_height="match_parent"/>
-
-
+        android:layout_height="240dp"/>
 
 </LinearLayout>

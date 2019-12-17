@@ -18,6 +18,7 @@
 <resources>
 
     <drawable name="red">#7f00</drawable>
+    <color name="red">#7f00</color>
     <drawable name="blue">#770000ff</drawable>
     <drawable name="green">#7700ff00</drawable>
     <drawable name="yellow">#77ffff00</drawable>
@@ -40,5 +41,7 @@
     <color name="btn_disable_normal">#B3CFFF</color>
     <color name="btn_enable_normal">#DD4C6BFF</color>
     <color name="btn_enable_pressed">#DD3D53FF</color>
+
+    <drawable name="white">#FFFFFF</drawable>
 
 </resources>

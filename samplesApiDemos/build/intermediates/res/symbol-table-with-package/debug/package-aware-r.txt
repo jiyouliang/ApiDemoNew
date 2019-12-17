@@ -663,6 +663,7 @@ color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color purply
+color red
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -942,6 +943,9 @@ drawable ball
 drawable balloon
 drawable balloons
 drawable beach
+drawable bg_progress_horizontal
+drawable bg_progress_red
+drawable bg_progress_white
 drawable black_box
 drawable black_opaque_box
 drawable block
@@ -1110,6 +1114,7 @@ drawable transparent_background
 drawable user_detail_header_bg
 drawable user_detail_veritical_line_bg
 drawable user_login_header_bg
+drawable white
 drawable woot
 drawable yellow
 id ALT
@@ -1699,6 +1704,7 @@ id progress
 id progressBar
 id progress_button
 id progress_circular
+id progress_container
 id progress_horizontal
 id progress_large
 id progress_small
@@ -1980,6 +1986,7 @@ id tv_more
 id tv_msg
 id tv_network
 id tv_rebound
+id tv_time
 id tv_title
 id two_buttons
 id two_buttons2
@@ -2147,6 +2154,7 @@ layout activity_status_bar_translucent2
 layout activity_status_bar_translucent3
 layout activity_status_bar_translucent4
 layout activity_thread_pool
+layout activity_touch_progress
 layout activity_vector
 layout activity_viewgroup_round_corner
 layout alarm_controller
@@ -2469,6 +2477,7 @@ layout trigger_sensors
 layout video_player
 layout videoview
 layout view_text_layout
+layout view_touch_progress_layout
 layout visibility_1
 layout voice_recognition
 layout wallpaper_2
@@ -2706,6 +2715,7 @@ string animation_2_text_2
 string animation_2_text_3
 string animation_2_text_4
 string animation_3_text
+string app_name
 string app_update_received
 string appbar_scrolling_view_behavior
 string apply
@@ -3202,6 +3212,7 @@ string mydemo_view_rebound
 string mydemo_view_rebound2
 string mydemo_view_rebound3
 string mydemo_view_smart_pull_refresh
+string mydemo_view_touch_progress
 string mydemo_viewgroup_round_corner
 string new_fragment
 string new_text
