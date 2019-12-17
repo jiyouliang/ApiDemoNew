@@ -9,12 +9,15 @@
 
 ![](/screenshot/7.gif)
 
-![](/screenshot/1.gif)  ![](/screenshot/5.gif)
+![](/screenshot/5.gif)
+![](/screenshot/1.gif)
 
 
-![](/screenshot/2.gif)  ![](/screenshot/3.gif)
+![](/screenshot/2.gif)
+![](screenshot/3.gif)
 
-![](/screenshot/4.gif)  ![](/screenshot/6.gif)
+![](/screenshot/4.gif)
+![](/screenshot/6.gif)
 
 
 
