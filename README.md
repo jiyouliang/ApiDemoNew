@@ -7,6 +7,8 @@
 ### 一、截图(部分)
 
 
+![](/screenshot/7.gif)
+
 ![](/screenshot/1.gif)  ![](/screenshot/5.gif)
 
 
