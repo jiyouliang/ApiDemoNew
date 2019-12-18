@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.Toast;
@@ -46,6 +47,7 @@ public class TouchProgressParentView extends LinearLayout {
     private VideoGestureStateView mVideoStateView;
     private int volume;
     private SeekBar mSeekBar;
+    private ImageView mIvPlay;
 
     public TouchProgressParentView(Context context) {
         this(context, null, 0);
@@ -73,6 +75,7 @@ public class TouchProgressParentView extends LinearLayout {
         LayoutInflater.from(context).inflate(R.layout.view_touch_progress_parent_layout, this, true);
         mVideoStateView = findViewById(R.id.videoStateView);
         mSeekBar = findViewById(R.id.seekBar);
+        mIvPlay = findViewById(R.id.iv_play);
         mVideoStateView.setVideoMaxProgress(100);
         mVideoStateView.setVisibility(View.GONE);
 
@@ -91,6 +94,7 @@ public class TouchProgressParentView extends LinearLayout {
             @Override
             public boolean onSingleTapConfirmed(MotionEvent e) {
                 showToast("显示/隐藏播放控制控件(底部进度条、顶部标题等)");
+                mVideoStateView.setVisibility(View.GONE);
                 return true;
             }
 
@@ -100,6 +104,7 @@ public class TouchProgressParentView extends LinearLayout {
                     return false;
                 }
                 Logger.d(TAG, "onScroll:mScrollMode=" + mScrollMode);
+                mVideoStateView.setVisibility(View.VISIBLE);
 
                 switch (mScrollMode) {
                     case ScrollMode.NONE:
@@ -144,7 +149,7 @@ public class TouchProgressParentView extends LinearLayout {
         mSeekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                if(!fromUser){
+                if (!fromUser) {
                     return;
                 }
                 mVideoStateView.setVisibility(View.VISIBLE);
@@ -163,6 +168,14 @@ public class TouchProgressParentView extends LinearLayout {
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
 
+            }
+        });
+
+        mIvPlay.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getContext(), "播放/暂停", Toast.LENGTH_SHORT).show();
+                mIvPlay.setActivated(!mIvPlay.isActivated());
             }
         });
     }
@@ -287,7 +300,6 @@ public class TouchProgressParentView extends LinearLayout {
                 brightness = -1;
                 removeCallbacks(mHideAction);
                 if (mVideoStateView.getVisibility() != View.VISIBLE) {
-                    mVideoStateView.setVisibility(View.VISIBLE);
                     mVideoStateView.hideProgressBar();
                     mVideoStateView.hideBrightnessView();
                     mVideoStateView.hideVolumeView();

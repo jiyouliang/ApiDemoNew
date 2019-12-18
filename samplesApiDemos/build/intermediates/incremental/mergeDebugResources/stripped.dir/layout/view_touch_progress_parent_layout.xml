@@ -6,8 +6,8 @@
 
 
     <com.example.android.apis.mydemo.views.VideoGestureStateView
-        android:layout_width="wrap_content"
         android:id="@+id/videoStateView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:visibility="visible" />
@@ -15,21 +15,31 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="36dp"
         android:layout_alignParentBottom="true"
-        android:background="#99FFFFFF"
-        android:layout_height="30dp">
+        android:background="#99FFFFFF">
+
+        <ImageView
+            android:id="@+id/iv_play"
+            android:layout_width="24dp"
+            android:layout_centerVertical="true"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_video_play_state" />
 
         <SeekBar
             android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_width="match_parent"
-            android:thumb="@drawable/seekbar_circle"
-            android:layout_centerInParent="true"
-            android:thumbOffset="2dp"
-            android:progressDrawable="@drawable/video_gesture_view_progress_horizontal"
+            android:layout_toRightOf="@id/iv_play"
             android:maxHeight="2dp"
-            android:layout_height="wrap_content"/>
+            android:progressDrawable="@drawable/video_gesture_view_progress_horizontal"
+            android:thumb="@drawable/seekbar_circle"
+            android:thumbOffset="2dp" />
 
 
     </RelativeLayout>
