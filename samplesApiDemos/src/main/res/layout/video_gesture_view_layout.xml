@@ -35,6 +35,6 @@
         android:layout_height="2dp"
         android:layout_marginTop="10dp"
         android:max="100"
-        android:progressDrawable="@drawable/bg_progress_horizontal" />
+        android:progressDrawable="@drawable/video_gesture_view_progress_horizontal" />
 
 </LinearLayout>

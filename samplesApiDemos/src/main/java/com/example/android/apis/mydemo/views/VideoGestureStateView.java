@@ -77,8 +77,6 @@ public class VideoGestureStateView extends RelativeLayout {
         if(progress < 0){
             return;
         }
-        hideBrightnessView();
-        hideVolumeView();
         showProgressBar();
         if (mProgressBar.getVisibility() != View.VISIBLE) {
             mProgressBar.setVisibility(View.VISIBLE);
@@ -94,8 +92,6 @@ public class VideoGestureStateView extends RelativeLayout {
         if(brightness < 0){
             return;
         }
-        hideVolumeView();
-        hideProgressBar();
         showBrightnessView();
         mTvTime.setText(String.format("%s%s", brightness, "%"));
     }
@@ -108,8 +104,6 @@ public class VideoGestureStateView extends RelativeLayout {
         if(volume < 0){
             return;
         }
-        hideProgressBar();
-        hideBrightnessView();
         showVolumeView();
         mTvTime.setText(String.format("%s%s", volume, "%"));
     }

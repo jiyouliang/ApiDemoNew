@@ -10,8 +10,8 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.SeekBar;
 import android.widget.Toast;
 
 import com.example.android.apis.R;
@@ -45,6 +45,7 @@ public class TouchProgressParentView extends LinearLayout {
     private int mVideoHeight;
     private VideoGestureStateView mVideoStateView;
     private int volume;
+    private SeekBar mSeekBar;
 
     public TouchProgressParentView(Context context) {
         this(context, null, 0);
@@ -71,7 +72,8 @@ public class TouchProgressParentView extends LinearLayout {
         mMaxVolume = mAudioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
         LayoutInflater.from(context).inflate(R.layout.view_touch_progress_parent_layout, this, true);
         mVideoStateView = findViewById(R.id.videoStateView);
-        mVideoStateView.setVideoMaxProgress(TOTAL_TIME);
+        mSeekBar = findViewById(R.id.seekBar);
+        mVideoStateView.setVideoMaxProgress(100);
         mVideoStateView.setVisibility(View.GONE);
 
         // 手势监听
@@ -137,10 +139,37 @@ public class TouchProgressParentView extends LinearLayout {
             }
         });
         mGestureDetector.setIsLongpressEnabled(false);
+
+
+        mSeekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+                if(!fromUser){
+                    return;
+                }
+                mVideoStateView.setVisibility(View.VISIBLE);
+                mVideoStateView.hideVolumeView();
+                mVideoStateView.hideBrightnessView();
+                mVideoStateView.showProgressBar();
+                mVideoStateView.setVideoProgress(seekBar.getProgress());
+                mVideoStateView.setTextPercent(seekBar.getProgress());
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+
+            }
+        });
     }
 
     /**
      * 设置音量
+     *
      * @param downEvent
      * @param moveEvent
      */
@@ -159,10 +188,15 @@ public class TouchProgressParentView extends LinearLayout {
         int volumePercent = (int) (index * 1.0 / mMaxVolume * 100);
         // 显示
         mVideoStateView.setVolume(volumePercent);
+        mVideoStateView.showVolumeView();
+        mVideoStateView.hideBrightnessView();
+        mVideoStateView.hideProgressBar();
+        mVideoStateView.setTextPercent(volumePercent);
     }
 
     /**
      * 设置亮度
+     *
      * @param downEvent
      * @param moveEvent
      */
@@ -173,22 +207,23 @@ public class TouchProgressParentView extends LinearLayout {
         float deltaY = downEvent.getY() - moveEvent.getY();
         WindowManager.LayoutParams lpa = activity.getWindow().getAttributes();
         float percent = deltaY / mVideoHeight;
-        Logger.d(TAG, "setBrightness:deltaY="+deltaY+",percent="+percent+",brightness="+brightness);
+        Logger.d(TAG, "setBrightness:deltaY=" + deltaY + ",percent=" + percent + ",brightness=" + brightness);
         if (brightness < 0) {
             brightness = activity.getWindow().getAttributes().screenBrightness;
-            if (brightness <= 0.00f){
+            if (brightness <= 0.00f) {
                 brightness = 0.50f;
-            }else if (brightness < 0.01f){
+            } else if (brightness < 0.01f) {
                 brightness = 0.01f;
             }
         }
         lpa.screenBrightness = brightness + percent;
-        if (lpa.screenBrightness > 1.0f){
+        if (lpa.screenBrightness > 1.0f) {
             lpa.screenBrightness = 1.0f;
-        }else if (lpa.screenBrightness < 0.01f){
+        } else if (lpa.screenBrightness < 0.01f) {
             lpa.screenBrightness = 0.01f;
         }
         mVideoStateView.setBrightness((int) (lpa.screenBrightness * 100));
+        mVideoStateView.hideVolumeView();
         activity.getWindow().setAttributes(lpa);
     }
 
@@ -223,6 +258,13 @@ public class TouchProgressParentView extends LinearLayout {
         float percentage = ((float) mVideoProgress) / mVideoStateView.getVideoMaxProgress();
         float currentTime = (TOTAL_TIME * percentage);
         mVideoStateView.setTimeText(formattedTime((long) currentTime), formattedTime(TOTAL_TIME));
+
+        //设置seekbar
+        mSeekBar.setMax(100);
+        mSeekBar.setProgress(mVideoProgress);
+        mVideoStateView.hideBrightnessView();
+        mVideoStateView.hideVolumeView();
+        mVideoStateView.setTextPercent(mVideoProgress);
     }
 
     private void resetState(int videoWidth, int downProgress) {

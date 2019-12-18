@@ -943,9 +943,6 @@ drawable ball
 drawable balloon
 drawable balloons
 drawable beach
-drawable bg_progress_horizontal
-drawable bg_progress_red
-drawable bg_progress_white
 drawable black_box
 drawable black_opaque_box
 drawable block
@@ -1081,6 +1078,7 @@ drawable scrollbar_vertical_thumb
 drawable scrollbar_vertical_track
 drawable search_bar_animated_vector
 drawable search_vector
+drawable seekbar_circle
 drawable setting_black
 drawable setting_light
 drawable shape_1
@@ -1116,6 +1114,9 @@ drawable transparent_background
 drawable user_detail_header_bg
 drawable user_detail_veritical_line_bg
 drawable user_login_header_bg
+drawable video_gesture_progress_red
+drawable video_gesture_progress_white
+drawable video_gesture_view_progress_horizontal
 drawable white
 drawable woot
 drawable yellow
