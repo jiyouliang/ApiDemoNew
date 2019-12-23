@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mydemo.views.CircleProgressBarActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="测试圆形进度条"
+        android:textColor="#FF0000"
+        android:textSize="17sp" />
+
+    <com.example.android.apis.mydemo.views.CircleProgressBar
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        app:cpbMax="3600"
+        app:cpbProgress="50"
+        app:cpbBackground="#AAAAAA"
+        app:cpbProgressColor="#FF0000"
+        app:cpbRadius="20dp"
+        app:cpbStrokeWidth="4dp" />
+
+
+    <com.example.android.apis.mydemo.views.CircleProgressBar
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        app:cpbMax="3600"
+        app:cpbProgress="1800"
+        app:cpbBackground="#AAAAAA"
+        app:cpbProgressColor="#CDDC39"
+        app:cpbRadius="50dp"
+        app:cpbStrokeWidth="3dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:background="@drawable/ic_play"
+            android:layout_centerInParent="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+
+        <com.example.android.apis.mydemo.views.CircleProgressBar
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/circleProgressBar"
+            android:layout_centerInParent="true"
+            app:cpbBackground="#A5A5A5"
+            app:cpbProgressColor="#F70000"
+            app:cpbRadius="20dp"
+            app:cpbMax="100"
+            app:cpbStrokeWidth="2dp" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

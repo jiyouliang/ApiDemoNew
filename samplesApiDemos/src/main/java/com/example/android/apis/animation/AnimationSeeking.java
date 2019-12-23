@@ -153,7 +153,7 @@ public class AnimationSeeking extends Activity {
         public void onAnimationUpdate(ValueAnimator animation) {
             invalidate();
             long playtime = bounceAnim.getCurrentPlayTime();
-            //mSeekBar.setProgress((int)playtime);
+            //mSeekBar.drawProgress((int)playtime);
         }
 
         public void onAnimationCancel(Animator animation) {

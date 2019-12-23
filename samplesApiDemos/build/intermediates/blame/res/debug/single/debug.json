@@ -2332,6 +2332,10 @@
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/drawable/sample_thumb_3.jpg"
     },
     {
+        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_play.png.flat",
+        "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/drawable-xxhdpi/ic_play.png"
+    },
+    {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_compare_arrows_black_24dp.png.flat",
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_compare_arrows_black_24dp.png"
     },
@@ -3896,6 +3900,10 @@
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/xml/device_admin_lock_wipe.xml"
     },
     {
+        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/drawable_circle_progress_bar.xml.flat",
+        "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/drawable/circle_progress_bar.xml"
+    },
+    {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_secure_surface_view_activity.xml.flat",
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/secure_surface_view_activity.xml"
     },
@@ -4390,6 +4398,10 @@
     {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_activity_setting_item_view.xml.flat",
         "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/activity_setting_item_view.xml"
+    },
+    {
+        "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_activity_circle_progress_bar.xml.flat",
+        "source": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/res/layout/activity_circle_progress_bar.xml"
     },
     {
         "merged": "/Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/build/intermediates/res/merged/debug/layout_linear_layout_9.xml.flat",

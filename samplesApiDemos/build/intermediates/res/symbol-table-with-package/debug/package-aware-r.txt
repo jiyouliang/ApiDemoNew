@@ -196,6 +196,12 @@ attr counterEnabled
 attr counterMaxLength
 attr counterOverflowTextAppearance
 attr counterTextAppearance
+attr cpbBackground
+attr cpbMax
+attr cpbProgress
+attr cpbProgressColor
+attr cpbRadius
+attr cpbStrokeWidth
 attr customNavigationLayout
 attr defaultQueryHint
 attr dialogPreferredPadding
@@ -965,6 +971,7 @@ drawable btn_send_bg_pressed
 drawable btn_send_selector
 drawable button
 drawable card_background
+drawable circle_progress_bar
 drawable circle_rect_white_bg
 drawable circular_progress
 drawable common_line
@@ -1000,6 +1007,7 @@ drawable ic_contact_picture
 drawable ic_launcher_settings
 drawable ic_launcher_test
 drawable ic_light_max
+drawable ic_play
 drawable ic_popup_reminder
 drawable ic_settings_applications
 drawable ic_settings_display
@@ -1286,6 +1294,7 @@ id choice
 id chronometer
 id ciphertext
 id ciphertext_label
+id circleProgressBar
 id clear
 id clear_format
 id clip_horizontal
@@ -2108,6 +2117,7 @@ layout activity_bezier_wave
 layout activity_bottom_sheet
 layout activity_broadcast_observe_network
 layout activity_canvas_draw_bitmap
+layout activity_circle_progress_bar
 layout activity_connect_manager
 layout activity_contact_provider
 layout activity_count_down
@@ -3214,6 +3224,7 @@ string mydemo_statusbar_translucent4
 string mydemo_struct_mvvm
 string mydemo_thread_pool
 string mydemo_vector_drawable
+string mydemo_view_circle_progress
 string mydemo_view_nested_scrolling
 string mydemo_view_nested_scrolling2
 string mydemo_view_nested_scrolling3
@@ -4210,6 +4221,7 @@ styleable BottomNavigationView elevation itemBackground itemIconTint itemTextCol
 styleable BottomSheetBehavior_Layout behavior_hideable behavior_peekHeight behavior_skipCollapsed
 styleable ButtonBarLayout allowStacking
 styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
+styleable CircleProgressBar cpbBackground cpbMax cpbProgress cpbProgressColor cpbRadius cpbStrokeWidth
 styleable ClassicsFooter srlAccentColor srlClassicsSpinnerStyle srlDrawableArrow srlDrawableArrowSize srlDrawableMarginRight srlDrawableProgress srlDrawableProgressSize srlDrawableSize srlFinishDuration srlPrimaryColor srlTextFailed srlTextFinish srlTextLoading srlTextNothing srlTextPulling srlTextRefreshing srlTextRelease srlTextSizeTitle
 styleable ClassicsHeader srlAccentColor srlClassicsSpinnerStyle srlDrawableArrow srlDrawableArrowSize srlDrawableMarginRight srlDrawableProgress srlDrawableProgressSize srlDrawableSize srlEnableLastTime srlFinishDuration srlPrimaryColor srlTextFailed srlTextFinish srlTextLoading srlTextPulling srlTextRefreshing srlTextRelease srlTextSecondary srlTextSizeTime srlTextSizeTitle srlTextTimeMarginTop srlTextUpdate
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId

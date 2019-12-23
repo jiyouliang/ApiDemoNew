@@ -68,4 +68,19 @@
         <attr name="sivHeight" format="dimension|reference"/>
         <attr name="sivTitle" format="string|reference"/>
     </declare-styleable>
+
+    <declare-styleable name="CircleProgressBar">
+        <!--半径-->
+        <attr name="cpbRadius" format="dimension|reference" />
+        <!--最大进度-->
+        <attr name="cpbMax" format="integer" />
+        <!--进度-->
+        <attr name="cpbProgress" format="integer" />
+        <!--圆环背景色-->
+        <attr name="cpbBackground" format="color|reference" />
+        <!--进度条颜色-->
+        <attr name="cpbProgressColor" format="color|reference" />
+        <!--线条宽度-->
+        <attr name="cpbStrokeWidth" format="dimension|reference" />
+    </declare-styleable>
 </resources>

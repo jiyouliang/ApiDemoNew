@@ -1717,6 +1717,7 @@
     <string name="mydemo_customer_progress_bar1">新增Demo/Views/ProgressBar/01.ProgressBar默认样式</string>
     <string name="mydemo_customer_progress_bar2">新增Demo/Views/ProgressBar/02.自定义ProgressBar背景</string>
     <string name="mydemo_customer_progress_bar3">新增Demo/Views/ProgressBar/03.淘宝ProgressBar</string>
+    <string name="mydemo_view_circle_progress">新增Demo/Views/ProgressBar/04.圆环进度条</string>
 
     <string name="mydemo_refresh_view">新增Demo/Views/下拉刷新/01.NestedScrolling实现下拉刷新</string>
     <string name="mydemo_view_progressbar_anim">新增Demo/Views/09.ProgressBar进度条动画</string>
