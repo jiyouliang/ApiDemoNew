@@ -1767,6 +1767,7 @@
     <string name="mydemo_keyboard_state_changed">新增Demo/软键盘相关/1.监听软键盘状态改变</string>
     <string name="content">内容</string>
     <string name="mydemo_provider_contact">新增Demo/内容提供者/01.读取联系人</string>
+    <string name="mydemo_recycler_view_smooth">新增Demo/01.Views/13.RecyclerView平滑移动</string>
 
 
     <!--test-->

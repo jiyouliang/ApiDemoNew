@@ -1068,6 +1068,7 @@ drawable progress_circular_background
 drawable progress_particle
 drawable progress_refresh_indeterminate
 drawable rectangle_bg
+drawable recycler_item_smooth_bg
 drawable red
 drawable reslogo120dpi
 drawable reslogo160dpi
@@ -1235,6 +1236,7 @@ id btn4
 id btn5
 id btnDownload
 id btnGetLength
+id btnNextStep
 id btnReadContact
 id btn_add_tab
 id btn_hide
@@ -1759,6 +1761,7 @@ id realtabcontent
 id recreate
 id recycleView
 id recycle_view
+id recycler_View
 id refresh
 id refreshLayout
 id remove
@@ -2183,6 +2186,7 @@ layout activity_rebound_view
 layout activity_rebound_view2
 layout activity_recreate
 layout activity_recycler_view_rebound
+layout activity_recycler_view_smooth
 layout activity_refresh_view
 layout activity_runtime_permission
 layout activity_setting_item_view
@@ -2322,6 +2326,7 @@ layout intent_activity_flags
 layout intents
 layout isolated_service_controller
 layout item_phone
+layout item_recycler_smooth
 layout item_smart_pull_refresh_layout
 layout job_work_service_activity
 layout keystore_usage
@@ -2421,6 +2426,7 @@ layout rebound_recycle_item_tv
 layout receive_result
 layout recycle_item_comment
 layout recycle_item_webview
+layout recycler_view_item_smooth
 layout redirect_enter
 layout redirect_getter
 layout redirect_main
@@ -3240,6 +3246,7 @@ string mydemo_path_transform_edit
 string mydemo_pattern_observer
 string mydemo_property_animation
 string mydemo_provider_contact
+string mydemo_recycler_view_smooth
 string mydemo_refresh_view
 string mydemo_setting_item_view
 string mydemo_start_activities_for_result

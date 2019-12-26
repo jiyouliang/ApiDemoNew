@@ -4457,8 +4457,18 @@
         </activity>
         <activity
             android:name=".mydemo.web.WebViewCommentActivity"
-            android:theme="@style/NoTitleBar"
-            android:label="@string/mydemo_webview_native_comment">
+            android:label="@string/mydemo_webview_native_comment"
+            android:theme="@style/NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mydemo.web.RecyclerViewSmoothActivity"
+            android:label="@string/mydemo_recycler_view_smooth"
+            android:theme="@style/NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
