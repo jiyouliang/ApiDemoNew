@@ -974,6 +974,7 @@ drawable card_background
 drawable circle_progress_bar
 drawable circle_rect_white_bg
 drawable circular_progress
+drawable comment_input_bg
 drawable common_line
 drawable commute_tips_close2
 drawable custom_pointer_icon
@@ -1412,6 +1413,7 @@ id entries_list_label
 id entry
 id entry_name
 id entry_name_label
+id et_comment
 id et_content
 id et_gender
 id et_name

@@ -5,8 +5,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.example.android.apis.R;
+
+import java.util.List;
 
 /**
  * RecyclerView 新闻item adapter
@@ -23,9 +26,11 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
      */
     private static final int TYPE_COMMENT = 1;
     private final MyWebView.OnPageChangeListener mListener;
+    private final List<CommentUserModel> mData;
 
-    public NewsAdapter(MyWebView.OnPageChangeListener listener) {
+    public NewsAdapter(List<CommentUserModel> data, MyWebView.OnPageChangeListener listener) {
         this.mListener = listener;
+        this.mData = data;
     }
 
     @NonNull
@@ -52,13 +57,16 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
         if(viewType == TYPE_WEB_VIEW){
             holder.mWebView.loadUrl("http://jiyouliang.com/demo/toutiao/index.html");
         }else{
-
+            CommentUserModel data = mData.get(position - 1);
+            holder.mTvUserName.setText(data.getUserName());
+            holder.mTvComment.setText(data.getComment());
         }
     }
 
+
     @Override
     public int getItemCount() {
-        return 20;
+        return mData != null ? mData.size() + 1 : 1;
     }
 
     @Override
@@ -70,8 +78,19 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
         }
     }
 
+    /**
+     * 更新单条数据
+     * @param model
+     */
+    public void notifyItem(CommentUserModel model){
+        mData.add(model);
+        notifyItemInserted(mData.size());
+    }
+
     static class ViewHolder extends RecyclerView.ViewHolder{
         MyWebView mWebView;
+        TextView mTvUserName;
+        TextView mTvComment;
 
         public ViewHolder(View itemView, int viewType, MyWebView.OnPageChangeListener listener) {
             super(itemView);
@@ -81,7 +100,8 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
                 mWebView.setOnPageChangeListener(listener);
 
             }else if(viewType == TYPE_COMMENT){
-
+                mTvComment = itemView.findViewById(R.id.tv_comment_content);
+                mTvUserName = itemView.findViewById(R.id.tv_username);
             }
 
         }

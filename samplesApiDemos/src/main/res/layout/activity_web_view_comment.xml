@@ -1,21 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
-    
-    <com.example.android.apis.mydemo.loading.LoadingFlashView
-        android:layout_width="wrap_content"
-        android:id="@+id/loadingView"
-        android:layout_centerInParent="true"
-        android:visibility="visible"
-        android:layout_height="wrap_content"/>
+    android:background="#FFFFFF"
+    android:orientation="vertical">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycleView"
-        android:visibility="invisible"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_weight="100"
+        android:layout_height="match_parent">
 
-</RelativeLayout>
+        <com.example.android.apis.mydemo.loading.LoadingFlashView
+            android:id="@+id/loadingView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycleView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="100"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/et_comment"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:textSize="16sp"
+        android:paddingLeft="10dp"
+        android:hint="输入评论内容"
+        android:inputType="text"
+        android:imeOptions="actionSend"
+        android:gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/comment_input_bg" />
+
+
+</LinearLayout>
