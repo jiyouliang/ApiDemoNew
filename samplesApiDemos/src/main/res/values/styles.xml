@@ -161,5 +161,8 @@
         <item name="android:maxHeight">48dip</item>
         <item name="android:mirrorForRtl">false</item>
     </style>
+    <style name="NoTitleBar" parent="@style/CustomTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
 
 </resources>

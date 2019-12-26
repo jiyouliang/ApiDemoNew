@@ -53,6 +53,7 @@
         android:label="@string/activity_sample_code"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Material.Light.DarkActionBar"
+        tools:ignore="GoogleAppIndexingWarning"
         tools:targetApi="lollipop">
 
 
@@ -4448,6 +4449,16 @@
         <activity
             android:name=".mydemo.views.CircleProgressBarActivity"
             android:label="@string/mydemo_view_circle_progress">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mydemo.web.WebViewCommentActivity"
+            android:theme="@style/NoTitleBar"
+            android:label="@string/mydemo_webview_native_comment">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

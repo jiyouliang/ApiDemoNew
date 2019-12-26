@@ -1004,6 +1004,7 @@ drawable hover_background_inactive
 drawable ic_bottom_more
 drawable ic_compare_arrows_black_24dp
 drawable ic_contact_picture
+drawable ic_girl
 drawable ic_launcher_settings
 drawable ic_launcher_test
 drawable ic_light_max
@@ -1022,6 +1023,10 @@ drawable image_avatar_1
 drawable input_layout_edit_bg
 drawable jellies
 drawable line
+drawable load_text_1
+drawable load_text_2
+drawable load_text_3
+drawable load_text_4
 drawable logo120dpi
 drawable logo160dpi
 drawable logo240dpi
@@ -1057,6 +1062,7 @@ drawable photo4
 drawable photo5
 drawable photo6
 drawable picture_frame
+drawable praise
 drawable progress_circular_background
 drawable progress_particle
 drawable progress_refresh_indeterminate
@@ -1492,6 +1498,7 @@ id hideme2
 id home
 id homeAsUp
 id html_text
+id ic_user
 id icon
 id icon_group
 id id_info
@@ -1516,8 +1523,10 @@ id invisible
 id invisible_item
 id italic
 id item_touch_helper_previous_elevation
+id item_webView
 id iv
 id iv_arrow_left
+id iv_audio_album
 id iv_brightness
 id iv_circle
 id iv_close
@@ -1567,6 +1576,11 @@ id list_fr
 id list_item
 id list_view
 id ll_container
+id load1
+id load2
+id load3
+id load4
+id loadingView
 id loading_view
 id localaudio
 id localvideo
@@ -1995,6 +2009,8 @@ id translationX
 id translationY
 id tv
 id tv2
+id tv_comment_content
+id tv_comment_count
 id tv_content
 id tv_countdown
 id tv_info
@@ -2004,8 +2020,10 @@ id tv_more
 id tv_msg
 id tv_network
 id tv_rebound
+id tv_replay_time
 id tv_time
 id tv_title
+id tv_username
 id two_buttons
 id two_buttons2
 id two_buttons2ultra
@@ -2030,6 +2048,7 @@ id unknown_source
 id up
 id useLogo
 id userText
+id user_container
 id username
 id username_edit
 id username_label
@@ -2177,6 +2196,7 @@ layout activity_thread_pool
 layout activity_touch_progress
 layout activity_vector
 layout activity_viewgroup_round_corner
+layout activity_web_view_comment
 layout alarm_controller
 layout alarm_service
 layout alert_dialog
@@ -2334,6 +2354,7 @@ layout list_8
 layout list_item_checkbox
 layout list_item_icon_text
 layout list_position
+layout loading_flash_view
 layout local_sample
 layout local_service_binding
 layout local_service_controller
@@ -2396,6 +2417,8 @@ layout read_asset
 layout rebound_recycle_item_image
 layout rebound_recycle_item_tv
 layout receive_result
+layout recycle_item_comment
+layout recycle_item_webview
 layout redirect_enter
 layout redirect_getter
 layout redirect_main
@@ -2497,6 +2520,7 @@ layout trigger_sensors
 layout video_gesture_view_layout
 layout video_player
 layout videoview
+layout view_audio_play_floating
 layout view_text_layout
 layout view_touch_progress_parent_layout
 layout visibility_1
@@ -3236,6 +3260,7 @@ string mydemo_view_rebound3
 string mydemo_view_smart_pull_refresh
 string mydemo_view_touch_progress
 string mydemo_viewgroup_round_corner
+string mydemo_webview_native_comment
 string new_fragment
 string new_text
 string no_saves_state
@@ -3975,6 +4000,7 @@ style ImageView240dpi
 style MyDialogTheme
 style MyProgressBar
 style MyTranslucentTheme
+style NoTitleBar
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_ThemeOverlay_AppCompat

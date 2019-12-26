@@ -1686,43 +1686,44 @@
 
     <!--MyDemo-->
     <!--Views-->
-    <string name="mydemo_bottom_sheet">新增Demo/Views/01.BottomSheet(底部操作控件)</string>
+    <string name="mydemo_bottom_sheet">新增Demo/01.Views/01.BottomSheet(底部操作控件)</string>
 
-    <string name="mydemo_vector_drawable">新增Demo/Views/贝塞尔虚线/01.VectorDrawable矢量图动画</string>
-    <string name="mydemo_bezier">新增Demo/Views/贝塞尔虚线/02.贝塞尔曲线(二阶、三阶)</string>
-    <string name="mydemo_bezier_path_transform">新增Demo/Views/贝塞尔虚线/03.贝塞尔曲线实现路径变换</string>
-    <string name="mydemo_bezier_paint_board">新增Demo/Views/贝塞尔虚线/04.贝塞尔曲线实现绘画板(平滑路径)</string>
-    <string name="mydemo_bezier_wave">新增Demo/Views/贝塞尔虚线/05.贝塞尔曲线实现波浪效果</string>
-    <string name="mydemo_bezier_add_cart">新增Demo/Views/贝塞尔虚线/06.贝塞尔曲线实现添加购物车效果</string>
-    <string name="mydemo_viewgroup_round_corner">新增Demo/Views/07.ViewGroup绘制圆角矩形</string>
+    <string name="mydemo_vector_drawable">新增Demo/01.Views/贝塞尔虚线/01.VectorDrawable矢量图动画</string>
+    <string name="mydemo_bezier">新增Demo/01.Views/贝塞尔虚线/02.贝塞尔曲线(二阶、三阶)</string>
+    <string name="mydemo_bezier_path_transform">新增Demo/01.Views/贝塞尔虚线/03.贝塞尔曲线实现路径变换</string>
+    <string name="mydemo_bezier_paint_board">新增Demo/01.Views/贝塞尔虚线/04.贝塞尔曲线实现绘画板(平滑路径)</string>
+    <string name="mydemo_bezier_wave">新增Demo/01.Views/贝塞尔虚线/05.贝塞尔曲线实现波浪效果</string>
+    <string name="mydemo_bezier_add_cart">新增Demo/01.Views/贝塞尔虚线/06.贝塞尔曲线实现添加购物车效果</string>
+    <string name="mydemo_viewgroup_round_corner">新增Demo/01.Views/07.ViewGroup绘制圆角矩形</string>
 
-    <string name="mydemo_bezier_loading">新增Demo/Views/Path绘制/01.Path实现加载loading效果</string>
-    <string name="mydemo_path_effect">新增Demo/Views/Path绘制/02.PathEffect实现轨迹动画</string>
-    <string name="mydemo_path_measure_post_tan">新增Demo/Views/Path绘制/03.PathMeasure.getPostTan绘制切线</string>
-    <string name="mydemo_path_transform_edit">新增Demo/Views/Path绘制/04.仿高德地图EditText下划线渐变效果</string>
-    <string name="mydemo_path_dots_loading">新增Demo/Views/Path绘制/05.仿高德地图Button加载动画</string>
-    <string name="mydemo_customer_view_group">新增Demo/Views/02.自定义控件继承ViewGroup</string>
-    <string name="mydemo_customer_keyboard_input">新增Demo/Views/03.数字键盘输入框View部分</string>
-    <string name="mydemo_number_keyboard">新增Demo/Views/04.自定义数字键盘</string>
-    <string name="mydemo_keyboard_view_container">新增Demo/Views/05.自定义数字键盘容器(开发中使用)</string>
-    <string name="mydemo_count_down">新增Demo/Views/06.自定义倒计时效果</string>
-    <string name="mydemo_setting_item_view">新增Demo/Views/08.自定义SettingItemView(自适应高度)</string>
-    <string name="mydemo_view_rebound">新增Demo/Views/阻尼回弹效果/01.View.onTouchEvent失效阻尼回弹</string>
-    <string name="mydemo_view_rebound2">新增Demo/Views/阻尼回弹效果/02.ViewHelper实现阻尼回弹效果</string>
-    <string name="mydemo_view_rebound3">新增Demo/Views/阻尼回弹效果/03.RecyclerView实现阻尼回弹效果</string>
-    <string name="mydemo_view_nested_scrolling">新增Demo/Views/NestedScrolling(嵌套滑动机制)/01.简单Demo</string>
-    <string name="mydemo_view_nested_scrolling2">新增Demo/Views/NestedScrolling(嵌套滑动机制)/02.简单Demo</string>
-    <string name="mydemo_view_nested_scrolling3">新增Demo/Views/NestedScrolling(嵌套滑动机制)/03.NestedScrolling+RecycleView实现阻尼效果</string>
-    <string name="mydemo_view_nested_scrolling4">新增Demo/Views/NestedScrolling(嵌套滑动机制)/04.NestedScrolling+RecycleView实现阻尼效果</string>
-    <string name="mydemo_customer_progress_bar1">新增Demo/Views/ProgressBar/01.ProgressBar默认样式</string>
-    <string name="mydemo_customer_progress_bar2">新增Demo/Views/ProgressBar/02.自定义ProgressBar背景</string>
-    <string name="mydemo_customer_progress_bar3">新增Demo/Views/ProgressBar/03.淘宝ProgressBar</string>
-    <string name="mydemo_view_circle_progress">新增Demo/Views/ProgressBar/04.圆环进度条</string>
+    <string name="mydemo_bezier_loading">新增Demo/01.Views/Path绘制/01.Path实现加载loading效果</string>
+    <string name="mydemo_path_effect">新增Demo/01.Views/Path绘制/02.PathEffect实现轨迹动画</string>
+    <string name="mydemo_path_measure_post_tan">新增Demo/01.Views/Path绘制/03.PathMeasure.getPostTan绘制切线</string>
+    <string name="mydemo_path_transform_edit">新增Demo/01.Views/Path绘制/04.仿高德地图EditText下划线渐变效果</string>
+    <string name="mydemo_path_dots_loading">新增Demo/01.Views/Path绘制/05.仿高德地图Button加载动画</string>
+    <string name="mydemo_customer_view_group">新增Demo/01.Views/02.自定义控件继承ViewGroup</string>
+    <string name="mydemo_customer_keyboard_input">新增Demo/01.Views/03.数字键盘输入框View部分</string>
+    <string name="mydemo_number_keyboard">新增Demo/01.Views/04.自定义数字键盘</string>
+    <string name="mydemo_keyboard_view_container">新增Demo/01.Views/05.自定义数字键盘容器(开发中使用)</string>
+    <string name="mydemo_count_down">新增Demo/01.Views/06.自定义倒计时效果</string>
+    <string name="mydemo_setting_item_view">新增Demo/01.Views/08.自定义SettingItemView(自适应高度)</string>
+    <string name="mydemo_view_rebound">新增Demo/01.Views/阻尼回弹效果/01.View.onTouchEvent失效阻尼回弹</string>
+    <string name="mydemo_view_rebound2">新增Demo/01.Views/阻尼回弹效果/02.ViewHelper实现阻尼回弹效果</string>
+    <string name="mydemo_view_rebound3">新增Demo/01.Views/阻尼回弹效果/03.RecyclerView实现阻尼回弹效果</string>
+    <string name="mydemo_view_nested_scrolling">新增Demo/01.Views/NestedScrolling(嵌套滑动机制)/01.简单Demo</string>
+    <string name="mydemo_view_nested_scrolling2">新增Demo/01.Views/NestedScrolling(嵌套滑动机制)/02.简单Demo</string>
+    <string name="mydemo_view_nested_scrolling3">新增Demo/01.Views/NestedScrolling(嵌套滑动机制)/03.NestedScrolling+RecycleView实现阻尼效果</string>
+    <string name="mydemo_view_nested_scrolling4">新增Demo/01.Views/NestedScrolling(嵌套滑动机制)/04.NestedScrolling+RecycleView实现阻尼效果</string>
+    <string name="mydemo_customer_progress_bar1">新增Demo/01.Views/ProgressBar/01.ProgressBar默认样式</string>
+    <string name="mydemo_customer_progress_bar2">新增Demo/01.Views/ProgressBar/02.自定义ProgressBar背景</string>
+    <string name="mydemo_customer_progress_bar3">新增Demo/01.Views/ProgressBar/03.淘宝ProgressBar</string>
+    <string name="mydemo_view_circle_progress">新增Demo/01.Views/ProgressBar/04.圆环进度条</string>
 
-    <string name="mydemo_refresh_view">新增Demo/Views/下拉刷新/01.NestedScrolling实现下拉刷新</string>
-    <string name="mydemo_view_progressbar_anim">新增Demo/Views/09.ProgressBar进度条动画</string>
-    <string name="mydemo_view_smart_pull_refresh">新增Demo/Views/10.SmartPullRefreshsh下拉刷新</string>
-    <string name="mydemo_view_touch_progress">新增Demo/Views/11.Touch显示进度(视频播放滑动快进、快退功能)</string>
+    <string name="mydemo_refresh_view">新增Demo/01.Views/下拉刷新/01.NestedScrolling实现下拉刷新</string>
+    <string name="mydemo_view_progressbar_anim">新增Demo/01.Views/09.ProgressBar进度条动画</string>
+    <string name="mydemo_view_smart_pull_refresh">新增Demo/01.Views/10.SmartPullRefreshsh下拉刷新</string>
+    <string name="mydemo_view_touch_progress">新增Demo/01.Views/11.Touch显示进度(视频播放滑动快进、快退功能)</string>
+    <string name="mydemo_webview_native_comment">新增Demo/01.Views/12.WebView+Native(评论模块)</string>
 
     <!--drawable-->
     <string name="mydemo_customer_drawable">新增Demo/drawable/01.自定义drawable</string>
