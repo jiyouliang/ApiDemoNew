@@ -2,30 +2,32 @@ package com.example.android.apis.mydemo.web;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
+import android.widget.RadioGroup;
 
 import com.example.android.apis.R;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 
 
 /**
  * RecyclerView平滑移动
  */
-public class RecyclerViewSmoothActivity extends Activity implements View.OnClickListener {
+public class RecyclerViewSmoothActivity extends Activity implements View.OnClickListener, RadioGroup.OnCheckedChangeListener {
 
     private RecyclerView mRecyclerView;
     private Button mBtnNextStep;
-    private MyAdapter mAdapter;
+    private SmoothAdapter mAdapter;
     private List<SmoothModel> mData = new ArrayList<>();
+    private RadioGroup mRadioGroup;
+    private static final int TYPE_NORMAL = 0;
+    private static final int TYPE_GIF = 1;
+    private static final int TYPE_OTHER = 2;
+    private int mType = TYPE_NORMAL;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,8 +40,22 @@ public class RecyclerViewSmoothActivity extends Activity implements View.OnClick
     private void initView() {
         mRecyclerView = (RecyclerView) findViewById(R.id.recycler_View);
         mBtnNextStep = (Button) findViewById(R.id.btnNextStep);
-
         mBtnNextStep.setOnClickListener(this);
+        mRadioGroup = (RadioGroup) findViewById(R.id.radioGroup);
+
+        mRadioGroup.setOnCheckedChangeListener(this);
+
+        mRecyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+                super.onScrollStateChanged(recyclerView, newState);
+            }
+
+            @Override
+            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+            }
+        });
     }
 
     private void iniData() {
@@ -47,9 +63,11 @@ public class RecyclerViewSmoothActivity extends Activity implements View.OnClick
         mRecyclerView.setLayoutManager(layoutManager);
         mData.clear();
         for (int i = 0; i < 10; i++) {
-            mData.add(new SmoothModel("在学完整个Python基础语法课程后，你将会真正迈入Python的大门，掌握利用Python解决问题的方法和思维"));
+            SmoothModel data = new SmoothModel("在学完整个Python基础语法课程后，你将会真正迈入Python的大门，掌握利用Python解决问题的方法和思维");
+            data.setType(TYPE_NORMAL);
+            mData.add(data);
         }
-        mAdapter = new MyAdapter(mData);
+        mAdapter = new SmoothAdapter(mData);
         mRecyclerView.setAdapter(mAdapter);
         mRecyclerView.smoothScrollToPosition(mAdapter.getItemCount() - 1);
     }
@@ -64,50 +82,36 @@ public class RecyclerViewSmoothActivity extends Activity implements View.OnClick
     }
 
     private void nextStep() {
-        SmoothModel data = new SmoothModel("这是内容内容这是内容内容" + System.currentTimeMillis());
+        SmoothModel data = new SmoothModel();
+        data.setType(mType);
+        switch (mType){
+            case TYPE_NORMAL:
+                data.setContent("这是内容内容这是内容内容" + System.currentTimeMillis());
+                break;
+            case TYPE_GIF:
+                data.setUrl("https://audio-temp.oss-cn-shenzhen.aliyuncs.com/tenor.gif");
+                break;
+            case TYPE_OTHER:
+                break;
+        }
         mAdapter.notifyItem(data);
         mRecyclerView.smoothScrollToPosition(mAdapter.getItemCount());
     }
 
-    static class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
-
-        private final List<SmoothModel> mData;
-
-        MyAdapter(List<SmoothModel> data) {
-            this.mData = data;
-        }
-
-        @NonNull
-        @Override
-        public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-            View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_recycler_smooth, parent, false);
-            return new ViewHolder(view);
-        }
-
-        @Override
-        public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-            SmoothModel data = mData.get(position);
-            holder.mTvContent.setText(data.getContent());
-        }
-
-        void notifyItem(SmoothModel model) {
-            this.mData.add(model);
-            notifyItemInserted(mData.size());
-
-        }
-
-        @Override
-        public int getItemCount() {
-            return mData != null ? mData.size() : 0;
-        }
-
-        static class ViewHolder extends RecyclerView.ViewHolder {
-            TextView mTvContent;
-
-            ViewHolder(View itemView) {
-                super(itemView);
-                mTvContent = itemView.findViewById(R.id.tv_content);
-            }
+    // RadioGroup item选中回调
+    @Override
+    public void onCheckedChanged(RadioGroup group, int checkedId) {
+        switch (checkedId) {
+            case R.id.rb_normal:
+                this.mType = TYPE_NORMAL;
+                break;
+            case R.id.rb_img:
+                this.mType = TYPE_GIF;
+                break;
+            case R.id.rb_other:
+                this.mType = TYPE_OTHER;
+                break;
         }
     }
+
 }

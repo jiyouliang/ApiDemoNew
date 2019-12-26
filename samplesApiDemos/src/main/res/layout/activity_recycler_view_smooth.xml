@@ -9,16 +9,57 @@
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_View"
-        android:background="#E4E4E4"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="100" />
+        android:layout_weight="100"
+        android:background="#E4E4E4" />
 
-    <Button
-        android:id="@+id/btnNextStep"
-        android:layout_width="wrap_content"
-        android:text="下一步"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center_horizontal" />
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnNextStep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下一步" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="常规"
+                android:checked="true"
+                android:layout_weight="1"
+                android:id="@+id/rb_normal"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:text="图片"
+                android:id="@+id/rb_img"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:text="其他"
+                android:id="@+id/rb_other"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
 
 </LinearLayout>

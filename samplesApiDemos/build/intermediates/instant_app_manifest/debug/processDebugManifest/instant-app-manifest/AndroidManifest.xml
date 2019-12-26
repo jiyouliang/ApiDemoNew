@@ -69,15 +69,31 @@
         <uses-library
             android:name="com.example.will.never.exist"
             android:required="false" />
-
-        <activity android:name="com.example.android.apis.ApiDemos" >
+        <!-- 首页Activity -->
+        <!--
+        <activity android:name=".ApiDemos">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- ************************************* -->
+        </activity>
+        -->
+        <!-- 临时替换首页 -->
+        <activity
+            android:name="com.example.android.apis.mydemo.web.RecyclerViewSmoothActivity"
+            android:theme="@style/NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- ************************************* -->
+
+
         <!-- APPLICATION PACKAGE SAMPLES -->
         <!-- ************************************* -->
         <!-- Activity Samples -->
@@ -4468,17 +4484,18 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        <!--
         <activity
-            android:name="com.example.android.apis.mydemo.web.RecyclerViewSmoothActivity"
+            android:name=".mydemo.web.RecyclerViewSmoothActivity"
             android:label="@string/mydemo_recycler_view_smooth"
-            android:theme="@style/NoTitleBar" >
+            android:theme="@style/NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-
+        -->
         <provider
             android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
             android:authorities="com.example.android.apis.lifecycle-trojan"

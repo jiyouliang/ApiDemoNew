@@ -1111,6 +1111,7 @@ drawable smile
 drawable smlnpatch120dpi
 drawable smlnpatch160dpi
 drawable smlnpatch240dpi
+drawable smooth_item_bg
 drawable square_animated_vector
 drawable square_vector
 drawable star_animated_vector
@@ -1314,6 +1315,7 @@ id clip_vertical
 id collapseActionView
 id constructor
 id container
+id container1
 id content
 id contentPanel
 id coordinator
@@ -1541,6 +1543,7 @@ id iv_more
 id iv_play
 id iv_rebound
 id iv_setting
+id iv_smooth
 id iv_volume
 id jellies
 id jump
@@ -1752,11 +1755,15 @@ id pw
 id radio
 id radio1
 id radio2
+id radioGroup
 id radio_button
 id randomize
 id rating
 id ratingbar1
 id ratingbar2
+id rb_img
+id rb_normal
+id rb_other
 id realtabcontent
 id recreate
 id recycleView
@@ -2326,7 +2333,9 @@ layout intent_activity_flags
 layout intents
 layout isolated_service_controller
 layout item_phone
-layout item_recycler_smooth
+layout item_recycler_smooth_gif
+layout item_recycler_smooth_normal
+layout item_recycler_smooth_other
 layout item_smart_pull_refresh_layout
 layout job_work_service_activity
 layout keystore_usage
