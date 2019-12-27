@@ -28,6 +28,7 @@ public class RecyclerViewSmoothActivity extends Activity implements View.OnClick
     private static final int TYPE_GIF = 1;
     private static final int TYPE_OTHER = 2;
     private int mType = TYPE_NORMAL;
+    private MySmoothLinearLayoutManager mLayoutManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,8 +60,8 @@ public class RecyclerViewSmoothActivity extends Activity implements View.OnClick
     }
 
     private void iniData() {
-        MySmoothLinearLayoutManager layoutManager = new MySmoothLinearLayoutManager(this);
-        mRecyclerView.setLayoutManager(layoutManager);
+        mLayoutManager = new MySmoothLinearLayoutManager(this);
+        mRecyclerView.setLayoutManager(mLayoutManager);
         mData.clear();
         for (int i = 0; i < 10; i++) {
             SmoothModel data = new SmoothModel("在学完整个Python基础语法课程后，你将会真正迈入Python的大门，掌握利用Python解决问题的方法和思维");
@@ -94,6 +95,7 @@ public class RecyclerViewSmoothActivity extends Activity implements View.OnClick
             case TYPE_OTHER:
                 break;
         }
+        mLayoutManager.setSmoothType(MySmoothLinearLayoutManager.TYPE_SMOOTH);
         mAdapter.notifyItem(data);
         mRecyclerView.smoothScrollToPosition(mAdapter.getItemCount());
     }

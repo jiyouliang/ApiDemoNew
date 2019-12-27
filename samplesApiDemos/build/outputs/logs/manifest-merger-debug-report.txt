@@ -205,26 +205,24 @@ ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/sr
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:69:13-37
 	android:name
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:68:13-56
-activity#com.example.android.apis.mydemo.web.RecyclerViewSmoothActivity
-ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:80:9-89:20
-	android:theme
-		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:81:13-46
+activity#com.example.android.apis.ApiDemos
+ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:71:9-78:20
 	android:name
-		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:80:19-72
+		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:71:19-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:83:13-88:29
+ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:72:13-77:29
 action#android.intent.action.MAIN
-ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:84:17-69
+ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:73:17-69
 	android:name
-		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:84:25-66
+		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:73:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:86:17-76
+ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:75:17-76
 	android:name
-		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:86:27-73
+		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:75:27-73
 category#android.intent.category.LAUNCHER
-ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:87:17-77
+ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:76:17-77
 	android:name
-		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:87:27-74
+		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:76:27-74
 activity#com.example.android.apis.app.HelloWorld
 ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:95:9-103:20
 	android:label
@@ -3625,6 +3623,14 @@ ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/sr
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4474:13-46
 	android:name
 		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4472:13-62
+activity#com.example.android.apis.mydemo.web.RecyclerViewSmoothActivity
+ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4481:9-4490:20
+	android:label
+		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4483:13-64
+	android:theme
+		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4484:13-46
+	android:name
+		ADDED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml:4482:13-66
 uses-sdk
 INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/jiyouliang/workspace/AndroidCode/ApiDemoNew/samplesApiDemos/src/main/AndroidManifest.xml
